@@ -1,0 +1,12 @@
+{
+    "dataConstantes": [
+        {
+            "key": "COCKTAILS_PRICE",
+            "value": "10"
+        },
+        {
+            "key": "HAPPY_HOURR_COCKTAILS_PRICE",
+            "value": "8"
+        }
+    ]
+}

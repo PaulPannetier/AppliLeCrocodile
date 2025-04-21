@@ -1,0 +1,85 @@
+{
+    "language": "Français",
+    "datas": [
+        {
+            "key": "BAR_NAME",
+            "value": "Le Crocodile"
+        },
+        {
+            "key": "BAR_DESCRIPTION",
+            "value": "LE bar à Cocktails du Quartier Latin depuis plus de 40 ans"
+        },
+        {
+            "key": "BAR_OPENING_DAYS",
+            "value": "Ouverture du mardi au samedi"
+        },
+        {
+            "key": "BAR_OPENING_HOURS",
+            "value": "de 18h à 2h"
+        },
+        {
+            "key": "BAR_CLOSE_DAYS",
+            "value": "Fermé dimanche et lundi soir"
+        },
+        {
+            "key": "HAPPY_HOUR",
+            "value": "Happy hour"
+        },
+        {
+            "key": "HAPPY_HOURS_DAYS",
+            "value": "du mardi au jeudi"
+        },
+        {
+            "key": "HAPPY_HOURS_HOURS",
+            "value": "de 18h à 23h"
+        },
+        {
+            "key": "HAPPY_HOURS_COCKTAILS_PRICE",
+            "value": "tous les cocktails à <HAPPY_HOURR_COCKTAILS_PRICE>€"
+        },
+        {
+            "key": "SUMMARY_COCKTAILS_PRICE_WEEK",
+            "value": "et après 23h à <COCKTAILS_PRICE>€"
+        },
+        {
+            "key": "SUMMARY_AND",
+            "value": "et"
+        },
+        {
+            "key": "SUMMARY_WEEKEND",
+            "value": "les vendredis et samedis"
+        },
+        {
+            "key": "WEEKEND_HAPPY_HOURS_HOURS",
+            "value": "de 18h à 22h"
+        },
+        {
+            "key": "WEEKEND_HAPPY_HOURS_HOURS_PRICE",
+            "value": "tous les cocktails à <HAPPY_HOURR_COCKTAILS_PRICE>€"
+        },
+        {
+            "key": "WEEKEND_HAPPY_PRICE",
+            "value": "et après 22h à <COCKTAILS_PRICE>€"
+        },
+        {
+            "key": "SUMMARY_FACEBOOK",
+            "value": "Plus d'infos sur facebook << le crocodile >>"
+        },
+        {
+            "key": "BAR_ADRESSE",
+            "value": "6 rue Royer Collard Paris 5e"
+        },
+        {
+            "key": "ABBAYE",
+            "value": "Abbaye"
+        },
+        {
+            "key": "ACAPULCO",
+            "value": "Acapulco"
+        },
+        {
+            "key": "GIN",
+            "value": "gin"
+        }
+    ]
+}

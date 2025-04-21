@@ -1,0 +1,17 @@
+{
+    "language": "Français",
+    "datas": [
+        {
+            "key": "baleys_name",
+            "value": "Baleys"
+        },
+        {
+            "key": "baleys_description",
+            "value": "Le Baleys est un alcool trop cool"
+        },
+        {
+            "key": "baleys_image_path",
+            "value": "Ingredients/baleys.png"
+        }
+    ]
+}
