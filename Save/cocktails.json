@@ -642,8 +642,8 @@
             ]
         },
         {
-            "nameID": "CHAUDRON_DU_DIABLE_BAILEYS,_PIPPERMINT_DOUX_ET",
-            "imagePath": "Cocktails/chaudron_du_diable_baileys,_pippermint_doux_et.png",
+            "nameID": "CHAUDRON_DU_DIABLE",
+            "imagePath": "Cocktails/chaudron_du_diable.png",
             "ingredientsNameID": [
                 "BAILEYS",
                 "PIPPERMINT_DOUX",
@@ -2218,10 +2218,10 @@
             ]
         },
         {
-            "nameID": "PIM'S",
+            "nameID": "PIMS",
             "imagePath": "Cocktails/pim's.png",
             "ingredientsNameID": [
-                "PIM'S",
+                "PIMS",
                 "CHERRY",
                 "TONIC"
             ]
