@@ -41,6 +41,7 @@
             ApplicationManager.Initialize();
             ApplicationManager.Instance.application = this;
             NavigationPage rootPage = new NavigationPage(ApplicationManager.Instance.GetRootPage());
+            NavigationPage.SetHasNavigationBar(rootPage.CurrentPage, false);
             return new Window(rootPage);
         }
 

@@ -14,6 +14,8 @@ namespace AppliLeCrocodile
         public LinkContentPage()
         {
             swipeThreshold = 100d;
+            NavigationPage.SetHasNavigationBar(this, false);
+            NavigationPage.SetHasBackButton(this, false);
         }
 
         public virtual void Initialize(LinkContentPage? previousPage, LinkContentPage? nextPage)
@@ -39,8 +41,7 @@ namespace AppliLeCrocodile
         private async Task LoadPreviousPage()
         {
             LinkContentPage previousClone = previousPage.Clone();
-            previousClone.nextPage = this;
-            previousClone.previousPage = previousPage.previousPage;
+            previousClone.Initialize(previousPage.previousPage, this);
             previousClone.Start();
             Console.WriteLine($"Loading previous page {previousClone.Title}");
             await Application.Current.MainPage.Navigation.PushAsync(previousClone);
@@ -49,8 +50,7 @@ namespace AppliLeCrocodile
         private async Task LoadNextPage()
         {
             LinkContentPage nextClone = nextPage.Clone();
-            nextClone.previousPage = this;
-            nextClone.nextPage = nextPage.nextPage;
+            nextClone.Initialize(this, nextPage.nextPage);
             nextClone.Start();
             Console.WriteLine($"Loading next page {nextClone.Title}");
             await Application.Current.MainPage.Navigation.PushAsync(nextClone);

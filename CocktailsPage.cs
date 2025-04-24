@@ -1,6 +1,4 @@
-﻿
-
-using System.Text;
+﻿using System.Text;
 
 namespace AppliLeCrocodile
 {
@@ -9,7 +7,7 @@ namespace AppliLeCrocodile
         private Cocktail[] cocktails;
         private Grid grid;
 
-        public CocktailsPage(Cocktail[] cocktails)
+        public CocktailsPage(Cocktail[] cocktails) : base()
         {
             this.cocktails = cocktails;
             Title = "CocktailsPage";
