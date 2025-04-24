@@ -16,7 +16,7 @@ namespace AppliLeCrocodile
         private LinkContentPage[] pages;
 
         public const int nbColumns = 2;
-        public const int nbRows = 12;
+        public const int nbRows = 11;
 
         public const string applicationName = "AppliLeCrocodile";
         public const string relativeSaveDirectory = "Save";
@@ -50,6 +50,11 @@ namespace AppliLeCrocodile
             LanguageManager.Instance.Start();
             SettingsManager.Instance.Start();
             CocktailManager.Instance.Start();
+
+            foreach(LinkContentPage page in pages)
+            {
+                page.Start();
+            }
         }
 
         private void CreatePages(CocktailFilter? filter)
@@ -73,19 +78,17 @@ namespace AppliLeCrocodile
                 cocktailIndex = endIndexCocktail;
             }
 
-
-            pages[0].nextPage = pages[1];
-            pages[pages.Length - 1].previousPage = pages[pages.Length - 2];
+            pages[0].Initialize(null, pages[1]);
+            pages[pages.Length - 1].Initialize(pages[pages.Length - 2], null);
             for (int i = 1; i < pages.Length - 2; i++)
             {
-                pages[i].previousPage = pages[i - 1];
-                pages[i].nextPage = pages[i + 1];
+                pages[i].Initialize(pages[i - 1], pages[i + 1]);
             }
         }
 
         public Page GetRootPage()
         {
-            return pages[2];
+            return pages[0];
         }
 
         private void OnSleep()

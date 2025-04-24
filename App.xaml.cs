@@ -40,7 +40,7 @@
         {
             ApplicationManager.Initialize();
             ApplicationManager.Instance.application = this;
-            Page rootPage = ApplicationManager.Instance.GetRootPage();
+            NavigationPage rootPage = new NavigationPage(ApplicationManager.Instance.GetRootPage());
             return new Window(rootPage);
         }
 

@@ -246,7 +246,7 @@
             "imagePath": "Cocktails/bandit_d'honneur.png",
             "ingredientsNameID": [
                 "COGNAC",
-                "LIGUEUR_DE_CAFE",
+                "LIQUEUR_DE_CAFE",
                 "CREME_DE_CACAO",
                 "CREME"
             ]
@@ -272,7 +272,7 @@
             "imagePath": "Cocktails/baskaria.png",
             "ingredientsNameID": [
                 "GIN",
-                "LIQUEUR_D'ABRICOT",
+                "LIQUEUR_DABRICOT",
                 "ABRICOT"
             ]
         },
@@ -397,7 +397,7 @@
                 "VODKA",
                 "FRAISE",
                 "MANGUE",
-                "SIROP_D'ORGEAT"
+                "SIROP_DORGEAT"
             ]
         },
         {
@@ -514,7 +514,7 @@
             "nameID": "CANULAR",
             "imagePath": "Cocktails/canular.png",
             "ingredientsNameID": [
-                "LIQUEUR_D'ANANAS",
+                "LIQUEUR_DANANAS",
                 "CREME_DE_CACAO",
                 "COCO"
             ]
@@ -524,7 +524,7 @@
             "imagePath": "Cocktails/capharnaum.png",
             "ingredientsNameID": [
                 "VODKA",
-                "LIQUEUR_D'ANANAS",
+                "LIQUEUR_DANANAS",
                 "FRAISE",
                 "MARACUJA"
             ]
@@ -581,7 +581,7 @@
             "nameID": "CHARABIA",
             "imagePath": "Cocktails/charabia.png",
             "ingredientsNameID": [
-                "LIQUEUR_D'ABRICOT",
+                "LIQUEUR_DABRICOT",
                 "NOYAU_DE_POISSY",
                 "CHAMPAGNE"
             ]
@@ -628,7 +628,7 @@
             "imagePath": "Cocktails/charles_henry.png",
             "ingredientsNameID": [
                 "VODKA",
-                "TRIOKE_SEC",
+                "TRIPLE_SEC",
                 "CREME_DE_CACAO"
             ]
         },
@@ -647,7 +647,7 @@
             "ingredientsNameID": [
                 "BAILEYS",
                 "PIPPERMINT_DOUX",
-                "PAPERMINT_FORT"
+                "PIPPERMINT_FORT"
             ]
         },
         {
@@ -749,7 +749,7 @@
             "ingredientsNameID": [
                 "VODKA",
                 "LIQUEUR_DE_POMME_VERTE",
-                "LIQUEUR_D'ABRICOT",
+                "LIQUEUR_DABRICOT",
                 "ABRICOT"
             ]
         },
@@ -918,7 +918,7 @@
             "imagePath": "Cocktails/doux_reveur.png",
             "ingredientsNameID": [
                 "VODKA",
-                "LIQUEUR_D'ABRICOT",
+                "LIQUEUR_DABRICOT",
                 "POIRE",
                 "CANNEBERGE"
             ]
@@ -1084,8 +1084,7 @@
             "nameID": "FLIRT",
             "imagePath": "Cocktails/flirt.png",
             "ingredientsNameID": [
-                "LIQUEUR",
-                "DE_CARAMEL",
+                "LIQUEUR_DE_CARAMEL",
                 "VODKA",
                 "BATIDA_DE_COCO"
             ]
@@ -1184,7 +1183,7 @@
             "ingredientsNameID": [
                 "PISCO",
                 "LIQUEUR_DE_CAFE",
-                "SIROP_D'ORGEAT"
+                "SIROP_DORGEAT"
             ]
         },
         {
@@ -1345,7 +1344,7 @@
             "ingredientsNameID": [
                 "GRAND_MARNIER",
                 "TONIC",
-                "RONDELLE_D'ORANGE"
+                "RONDELLE_DORANGE"
             ]
         },
         {
@@ -1369,7 +1368,7 @@
             "nameID": "GRI_GRI",
             "imagePath": "Cocktails/gri_gri.png",
             "ingredientsNameID": [
-                "RHUM_YIEUX",
+                "RHUM_VIEUX",
                 "AMARETTO",
                 "LIQUEUR_DE_CAFE"
             ]
@@ -1387,7 +1386,7 @@
             "nameID": "GRIPPE_SOU",
             "imagePath": "Cocktails/grippe_sou.png",
             "ingredientsNameID": [
-                "LIQUEUR_D'ABRICOT",
+                "LIQUEUR_DABRICOT",
                 "TEQUILA",
                 "CANNEBERGE"
             ]
@@ -1684,10 +1683,11 @@
             ]
         },
         {
-            "nameID": "MARTINI_DRY",
+            "nameID": "MARTINI_DRY_COCKTAIL",
             "imagePath": "Cocktails/martini_dry.png",
             "ingredientsNameID": [
-                "MARTINI_DOUX_ET_DRY",
+                "MARTINI_DOUX",
+                "MARTINI_DRY",
                 "GIN",
                 "RONDELLE_DE_CITRON"
             ]
@@ -1890,7 +1890,7 @@
             "nameID": "OMBRAGE",
             "imagePath": "Cocktails/ombrage.png",
             "ingredientsNameID": [
-                "SIROP_D'ORGEAT",
+                "SIROP_DORGEAT",
                 "GIN",
                 "ANANAS",
                 "CREME"
@@ -1973,7 +1973,8 @@
             "imagePath": "Cocktails/papa_collins.png",
             "ingredientsNameID": [
                 "RHUM",
-                "CITRON_SUCRE"
+                "CITRON",
+                "SUCRE"
             ]
         },
         {
@@ -1989,7 +1990,7 @@
             "nameID": "PARADISE_ABRICOT",
             "imagePath": "Cocktails/paradise_abricot.png",
             "ingredientsNameID": [
-                "LIQUEUR_D'ABRICOT",
+                "LIQUEUR_DABRICOT",
                 "GIN",
                 "ABRICOT",
                 "CREME"
@@ -2092,7 +2093,8 @@
             "ingredientsNameID": [
                 "CREME_DE_MURE",
                 "GIN",
-                "CANNEBERGE._CREME"
+                "CANNEBERGE",
+                "CREME"
             ]
         },
         {
@@ -2184,9 +2186,7 @@
             "nameID": "PERLIMPINPIN",
             "imagePath": "Cocktails/perlimpinpin.png",
             "ingredientsNameID": [
-                "LIQUEUR",
-                "DE",
-                "MANDARINE",
+                "LIQUEUR_DE_MANDARINE",
                 "BATIDA_DE_COCO"
             ]
         },
@@ -2204,7 +2204,7 @@
             "imagePath": "Cocktails/philtre.png",
             "ingredientsNameID": [
                 "LIQUEUR_DE_POMME_VERTE",
-                "LIQUEUR_D'ANANAS",
+                "LIQUEUR_DANANAS",
                 "FRAISE"
             ]
         },
@@ -2218,7 +2218,7 @@
             ]
         },
         {
-            "nameID": "PIMS",
+            "nameID": "PIMS_COCKTAIL",
             "imagePath": "Cocktails/pim's.png",
             "ingredientsNameID": [
                 "PIMS",
@@ -2340,7 +2340,7 @@
             "imagePath": "Cocktails/porto_flip.png",
             "ingredientsNameID": [
                 "PORTO",
-                "JAUNE_D' UF",
+                "JAUNE_DOEUF",
                 "SUCRE"
             ]
         },
@@ -2474,7 +2474,7 @@
             "nameID": "ROMAINE",
             "imagePath": "Cocktails/romaine.png",
             "ingredientsNameID": [
-                "SIROP_D'ORGEAT",
+                "SIROP_DORGEAT",
                 "RHUM",
                 "ANANAS",
                 "CREME"
@@ -2630,7 +2630,7 @@
             "nameID": "SIMPLET",
             "imagePath": "Cocktails/simplet.png",
             "ingredientsNameID": [
-                "APISANG",
+                "PISANG",
                 "ANANAS"
             ]
         },
@@ -2647,7 +2647,7 @@
             "nameID": "SINOQUE",
             "imagePath": "Cocktails/sinoque.png",
             "ingredientsNameID": [
-                "MESCAL",
+                "MEZCAL",
                 "LIQUEUR_DE_MARACUJA",
                 "PAMPLEMOUSSE_ROSE"
             ]
@@ -2696,7 +2696,7 @@
             "ingredientsNameID": [
                 "GIN",
                 "CHERRY",
-                "CERISES_A_L'EAU_DE_VIE"
+                "CERISES_A_LEAU_DE_VIE"
             ]
         },
         {
@@ -2985,7 +2985,7 @@
             "imagePath": "Cocktails/vahine.png",
             "ingredientsNameID": [
                 "RHUM",
-                "LIQUEUR_D'ANANAS",
+                "LIQUEUR_DANANAS",
                 "MARACUJA"
             ]
         },

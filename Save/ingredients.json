@@ -43,6 +43,13 @@
             "imagePath": "Ingredients/ananas.png"
         },
         {
+            "nameID": "LIQUEUR_DANANAS",
+            "descriptionID": "LIQUEUR_DANANAS_DESCRIPTION",
+            "alcoholVolume": 18.0,
+            "isLiquid": true,
+            "imagePath": "Ingredients/liqueur_dananas.png"
+        },
+        {
             "nameID": "LIQUEUR_DE_CANNELLE",
             "descriptionID": "LIQUEUR_DE_CANNELLE_DESCRIPTION",
             "alcoholVolume": 25.0,
@@ -62,6 +69,13 @@
             "alcoholVolume": 20.0,
             "isLiquid": true,
             "imagePath": "Ingredients/liqueur_de_cafe.png"
+        },
+        {
+            "nameID": "CAFE",
+            "descriptionID": "CAFE_DESCRIPTION",
+            "alcoholVolume": 0,
+            "isLiquid": true,
+            "imagePath": "Ingredients/cafe.png"
         },
         {
             "nameID": "COGNAC",
@@ -127,6 +141,13 @@
             "imagePath": "Ingredients/creme_de_cacao.png"
         },
         {
+            "nameID": "LIQUEUR_DE_CACAO",
+            "descriptionID": "LIQUEUR_DE_CACAO_DESCRIPTION",
+            "alcoholVolume": 25.0,
+            "isLiquid": true,
+            "imagePath": "Ingredients/liqueur_de_cacao.png"
+        },
+        {
             "nameID": "COINTREAU",
             "descriptionID": "COINTREAU_DESCRIPTION",
             "alcoholVolume": 40.0,
@@ -160,6 +181,13 @@
             "alcoholVolume": 0,
             "isLiquid": false,
             "imagePath": "Ingredients/coquelicot.png"
+        },
+        {
+            "nameID": "LIQUEUR_DE_COQUELICOT",
+            "descriptionID": "LIQUEUR_DE_COQUELICOT_DESCRIPTION",
+            "alcoholVolume": 18,
+            "isLiquid": false,
+            "imagePath": "Ingredients/liqueur_de_coquelicot.png"
         },
         {
             "nameID": "CINZANO",
@@ -216,6 +244,13 @@
             "alcoholVolume": 20.0,
             "isLiquid": true,
             "imagePath": "Ingredients/liqueur_de_noisette.png"
+        },
+        {
+            "nameID": "LIQUEUR_DABRICOT",
+            "descriptionID": "LIQUEUR_DABRICOT_DESCRIPTION",
+            "alcoholVolume": 25.0,
+            "isLiquid": true,
+            "imagePath": "Ingredients/liqueur_dabricot.png"
         },
         {
             "nameID": "LIQUEUR_DE_CANELLE",
@@ -281,6 +316,20 @@
             "imagePath": "Ingredients/pomme.png"
         },
         {
+            "nameID": "POMMEAU",
+            "descriptionID": "POMMEAU_DESCRIPTION",
+            "alcoholVolume": 17.0,
+            "isLiquid": true,
+            "imagePath": "Ingredients/pommeau.png"
+        },
+        {
+            "nameID": "POMME_VERTE",
+            "descriptionID": "POMME_VERTE_DESCRIPTION",
+            "alcoholVolume": 0,
+            "isLiquid": true,
+            "imagePath": "Ingredients/pomme_verte.png"
+        },
+        {
             "nameID": "MALIBU",
             "descriptionID": "MALIBU_DESCRIPTION",
             "alcoholVolume": 21.0,
@@ -335,6 +384,13 @@
             "alcoholVolume": 40.0,
             "isLiquid": true,
             "imagePath": "Ingredients/aquavit.png"
+        },
+        {
+            "nameID": "PORTO",
+            "descriptionID": "PORTO_DESCRIPTION",
+            "alcoholVolume": 20.0,
+            "isLiquid": true,
+            "imagePath": "Ingredients/porto.png"
         },
         {
             "nameID": "MARIE_BRIZARD",
@@ -463,11 +519,11 @@
             "imagePath": "Ingredients/liqueur_de_bourbon.png"
         },
         {
-            "nameID": "CANELLE",
-            "descriptionID": "CANELLE_DESCRIPTION",
+            "nameID": "CANNELLE",
+            "descriptionID": "CANNELLE_DESCRIPTION",
             "alcoholVolume": 0,
             "isLiquid": false,
-            "imagePath": "Ingredients/canelle.png"
+            "imagePath": "Ingredients/cannelle.png"
         },
         {
             "nameID": "BAILEYS",
@@ -477,11 +533,11 @@
             "imagePath": "Ingredients/baileys.png"
         },
         {
-            "nameID": "LIQUEUR_DE_GIMGEMBRE",
-            "descriptionID": "LIQUEUR_DE_GIMGEMBRE_DESCRIPTION",
+            "nameID": "LIQUEUR_DE_GINGEMBRE",
+            "descriptionID": "LIQUEUR_DE_GINGEMBRE_DESCRIPTION",
             "alcoholVolume": 25.0,
             "isLiquid": true,
-            "imagePath": "Ingredients/liqueur_de_gimgembre.png"
+            "imagePath": "Ingredients/liqueur_de_GINGEMBRE.png"
         },
         {
             "nameID": "COCO",
@@ -556,9 +612,17 @@
         {
             "nameID": "CREME_DE_FRAMBOISE",
             "descriptionID": "CREME_DE_FRAMBOISE_DESCRIPTION",
-            "alcoholVolume": 16.0,
+            "alcoholVolume": 35.0,
+            "alcoholVolume": 35.0,
             "isLiquid": true,
             "imagePath": "Ingredients/creme_de_framboise.png"
+        },
+        {
+            "nameID": "LIQUEUR_DE_FRAMBOISE",
+            "descriptionID": "LIQUEUR_DE_FRAMBOISE_DESCRIPTION",
+            "alcoholVolume": 16.0,
+            "isLiquid": true,
+            "imagePath": "Ingredients/liqueur_de_framboise.png"
         },
         {
             "nameID": "LIQUEUR_DE_MANGUE",
@@ -659,6 +723,13 @@
             "imagePath": "Ingredients/liqueur_de_poire_william.png"
         },
         {
+            "nameID": "POIRE",
+            "descriptionID": "POIRE_DESCRIPTION",
+            "alcoholVolume": 0,
+            "isLiquid": true,
+            "imagePath": "Ingredients/poire.png"
+        },
+        {
             "nameID": "LIQUEUR_DE_PASTEQUE",
             "descriptionID": "LIQUEUR_DE_PASTEQUE_DESCRIPTION",
             "alcoholVolume": 15.0,
@@ -701,6 +772,13 @@
             "imagePath": "Ingredients/liqueur_de_fraise.png"
         },
         {
+            "nameID": "LIQUEUR_DE_FRAISE_DES_BOIS",
+            "descriptionID": "LIQUEUR_DE_FRAISE_DES_BOIS_DESCRIPTION",
+            "alcoholVolume": 15.0,
+            "isLiquid": true,
+            "imagePath": "Ingredients/liqueur_de_fraise_des_bois.png"
+        },
+        {
             "nameID": "RHUM_BRUN",
             "descriptionID": "RHUM_BRUN_DESCRIPTION",
             "alcoholVolume": 40.0,
@@ -729,11 +807,11 @@
             "imagePath": "Ingredients/liqueur_de_vanille.png"
         },
         {
-            "nameID": "LIQUEUR_DE_CARAMELLE",
-            "descriptionID": "LIQUEUR_DE_CARAMELLE_DESCRIPTION",
+            "nameID": "LIQUEUR_DE_CARAMEL",
+            "descriptionID": "LIQUEUR_DE_CARAMEL_DESCRIPTION",
             "alcoholVolume": 20.0,
             "isLiquid": true,
-            "imagePath": "Ingredients/liqueur_de_caramelle.png"
+            "imagePath": "Ingredients/LIQUEUR_DE_CARAMEL.png"
         },
         {
             "nameID": "BATIDA_DE_COCO",
@@ -764,6 +842,20 @@
             "imagePath": "Ingredients/raisin.png"
         },
         {
+            "nameID": "JUS_DE_RAISIN",
+            "descriptionID": "JUS_DE_RAISIN_DESCRIPTION",
+            "alcoholVolume": 0,
+            "isLiquid": true,
+            "imagePath": "Ingredients/jus_de_raisin.png"
+        },
+        {
+            "nameID": "FRUIT_DE_LA_PASSION",
+            "descriptionID": "FRUIT_DE_LA_PASSION_DESCRIPTION",
+            "alcoholVolume": 0,
+            "isLiquid": true,
+            "imagePath": "Ingredients/fruit_de_la_passion.png"
+        },
+        {
             "nameID": "ZUBROWKA",
             "descriptionID": "ZUBROWKA_DESCRIPTION",
             "alcoholVolume": 40.0,
@@ -771,11 +863,11 @@
             "imagePath": "Ingredients/zubrowka.png"
         },
         {
-            "nameID": "LIQUEUR_DE_FRUIT_EXOTIQUE",
-            "descriptionID": "LIQUEUR_DE_FRUIT_EXOTIQUE_DESCRIPTION",
+            "nameID": "LIQUEUR_DE_FRUITS_EXOTIQUES",
+            "descriptionID": "LIQUEUR_DE_FRUITS_EXOTIQUES_DESCRIPTION",
             "alcoholVolume": 18.0,
             "isLiquid": true,
-            "imagePath": "Ingredients/liqueur_de_fruit_exotique.png"
+            "imagePath": "Ingredients/liqueur_de_fruits_exotiques.png"
         },
         {
             "nameID": "TONIC",
@@ -897,11 +989,11 @@
             "imagePath": "Ingredients/whiskey_irlandais.png"
         },
         {
-            "nameID": "CERISE_A_LEAU_DE_VIE",
-            "descriptionID": "CERISE_A_LEAU_DE_VIE_DESCRIPTION",
+            "nameID": "CERISES_A_LEAU_DE_VIE",
+            "descriptionID": "CERISES_A_LEAU_DE_VIE_DESCRIPTION",
             "alcoholVolume": 20.0,
             "isLiquid": false,
-            "imagePath": "Ingredients/cerise_a_leau_de_vie.png"
+            "imagePath": "Ingredients/cerises_a_leau_de_vie.png"
         },
         {
             "nameID": "GRANADINE",

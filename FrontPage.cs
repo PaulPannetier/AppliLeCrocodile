@@ -3,29 +3,37 @@ namespace AppliLeCrocodile
 {
     internal class FrontPage : LinkContentPage
     {
+        private Grid grid;
+
         public FrontPage() : base()
         {
             Title = "FrontPage";
-
-            Image backgroundImage = new Image();
-            backgroundImage.Source = "croco.png";
-            backgroundImage.Aspect = Aspect.Fill;
             
-            Grid grid = new Grid();
+            grid = new Grid();
             grid.RowDefinitions = new RowDefinitionCollection(
                 new RowDefinition { Height = GridLength.Star },
                 new RowDefinition { Height = GridLength.Auto }
             );
+
+
+            Image backgroundImage = new Image();
+            backgroundImage.Source = "croco.png";
+            backgroundImage.Aspect = Aspect.Fill;
 
             grid.Children.Add(backgroundImage);
 
             Content = grid;
         }
 
-        private async void OnNextPageButtonClicked(object sender, EventArgs e)
+        public override void Start()
         {
-            Console.WriteLine("Clicked");
-            await Navigation.PushAsync(nextPage);
+            base.Start();
+            base.InitializeSwipe(grid);
+        }
+
+        protected override LinkContentPage Clone()
+        {
+            return new FrontPage();
         }
     }
 }

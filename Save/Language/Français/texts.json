@@ -94,12 +94,24 @@
             "value": "ananas"
         },
         {
+            "key": "LIQUEUR_DANANAS",
+            "value": "liqueur de cannelle"
+        },
+        {
             "key": "LIQUEUR_DE_CANNELLE",
             "value": "liqueur de cannelle"
         },
         {
+            "key": "CANNELLE",
+            "value": "cannelle"
+        },
+        {
             "key": "CHAMPAGNE",
             "value": "champagne"
+        },
+        {
+            "key": "CAFE",
+            "value": "café"
         },
         {
             "key": "LIQUEUR_DE_CAFE",
@@ -142,6 +154,10 @@
             "value": "crème de cacao"
         },
         {
+            "key": "LIQUEUR_DE_CACAO",
+            "value": "liqueur de cacao"
+        },
+        {
             "key": "COINTREAU",
             "value": "cointreau"
         },
@@ -160,6 +176,10 @@
         {
             "key": "COQUELICOT",
             "value": "coquelicot"
+        },
+        {
+            "key": "LIQUEUR_DE_COQUELICOT",
+            "value": "liqueur de coquelicot"
         },
         {
             "key": "CINZANO",
@@ -194,6 +214,10 @@
             "value": "liqueur de noisette"
         },
         {
+            "key": "LIQUEUR_DABRICOT",
+            "value": "liqueur d'abricot'"
+        },
+        {
             "key": "LIQUEUR_DE_CANELLE",
             "value": "liqueur de canelle"
         },
@@ -226,8 +250,16 @@
             "value": "crème de myrtille"
         },
         {
+            "key": "POMMEAU",
+            "value": "pommeau"
+        },
+        {
             "key": "POMME",
             "value": "pomme"
+        },
+        {
+            "key": "POMME_VERTE",
+            "value": "pomme verte"
         },
         {
             "key": "MALIBU",
@@ -262,6 +294,10 @@
             "value": "aquavit"
         },
         {
+            "key": "PORTO",
+            "value": "porto"
+        },
+        {
             "key": "MARIE_BRIZARD",
             "value": "marie brizard"
         },
@@ -284,6 +320,10 @@
         {
             "key": "CREME_DE_POIRE_WILLIAM",
             "value": "crème de poire william"
+        },
+        {
+            "key": "POIRE",
+            "value": "poire"
         },
         {
             "key": "FRAISE",
@@ -342,8 +382,8 @@
             "value": "baileys"
         },
         {
-            "key": "LIQUEUR_DE_GIMGEMBRE",
-            "value": "liqueur de gimgembre"
+            "key": "LIQUEUR_DE_GINGEMBRE",
+            "value": "liqueur de GINGEMBRE"
         },
         {
             "key": "COCO",
@@ -388,6 +428,10 @@
         {
             "key": "CREME_DE_FRAMBOISE",
             "value": "crème de framboise"
+        },
+        {
+            "key": "LIQUEUR_DE_FRAMBOISE",
+            "value": "liqueur de framboise"
         },
         {
             "key": "LIQUEUR_DE_MANGUE",
@@ -486,12 +530,8 @@
             "value": "liqueur de vanille"
         },
         {
-            "key": "LIQUEUR_DE_CARAMELLE",
+            "key": "LIQUEUR_DE_CARAMEL",
             "value": "liqueur de caramelle"
-        },
-        {
-            "key": "BATIDA_DE_COCO",
-            "value": "batida de coco"
         },
         {
             "key": "SUZE",
@@ -506,12 +546,20 @@
             "value": "raisin"
         },
         {
+            "key": "JUS_DE_RAISIN",
+            "value": "jus de raisin"
+        },
+        {
+            "key": "FRUIT_DE_LA_PASSION",
+            "value": "fruit de la passion"
+        },
+        {
             "key": "ZUBROWKA",
             "value": "zubrowka"
         },
         {
-            "key": "LIQUEUR_DE_FRUIT_EXOTIQUE",
-            "value": "liqueur de fruit exotique"
+            "key": "LIQUEUR_DE_FRUITS_EXOTIQUES",
+            "value": "liqueur de fruits exotiques"
         },
         {
             "key": "TONIC",
@@ -540,6 +588,10 @@
         {
             "key": "CREME_DE_FRAISE_DES_BOIS",
             "value": "crème de fraise des bois"
+        },
+        {
+            "key": "LIQUEUR_DE_FRAISE_DES_BOIS",
+            "value": "liqueur de fraise des bois"
         },
         {
             "key": "MARTINI_DOUX",
@@ -582,7 +634,7 @@
             "value": "whiskey irlandais"
         },
         {
-            "key": "CERISE_A_LEAU_DE_VIE",
+            "key": "CERISES_A_LEAU_DE_VIE",
             "value": "cerise a l'eau de vie"
         },
         {
@@ -942,7 +994,7 @@
             "value": "Consul do Brasil"
         },
         {
-            "key": "COQUELICOT",
+            "key": "COQUELICOT_COCKTAIL",
             "value": "Coquelicot"
         },
         {
@@ -1330,7 +1382,7 @@
             "value": "Marina"
         },
         {
-            "key": "MARTINI_DRY",
+            "key": "MARTINI_DRY_COCKTAIL",
             "value": "Martini Dry"
         },
         {
@@ -1558,7 +1610,7 @@
             "value": "Pierre Vert"
         },
         {
-            "key": "PIMS",
+            "key": "PIMS_COCKTAIL",
             "value": "Pim's"
         },
         {

@@ -4,11 +4,13 @@ namespace AppliLeCrocodile
 {
     internal class SummaryPage : LinkContentPage
     {
-        public SummaryPage()
+        VerticalStackLayout views;
+
+        public SummaryPage() : base()
         {
             Title = "SummaryPage";
 
-            VerticalStackLayout views = new VerticalStackLayout();
+            views = new VerticalStackLayout();
             views.Padding = new Thickness(0d, 40d, 0d, 0d);
             views.Spacing = 0;
             views.VerticalOptions = LayoutOptions.Fill;
@@ -177,6 +179,17 @@ namespace AppliLeCrocodile
             views.Children.Add(adresse);
 
             Content = views;
+        }
+
+        public override void Start()
+        {
+            base.Start();
+            base.InitializeSwipe(views);
+        }
+
+        protected override LinkContentPage Clone()
+        {
+            return new SummaryPage();
         }
     }
 }
