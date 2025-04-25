@@ -1,15 +1,13 @@
 ﻿
 namespace AppliLeCrocodile
 {
-    internal class FrontPage : LinkContentPage
+    internal class FrontPage : SwipableContent
     {
-        private Grid grid;
-
-        public FrontPage() : base()
+        public FrontPage(MainPage mainPage) : base(mainPage)
         {
-            Title = "FrontPage";
-            
-            grid = new Grid();
+            title = "FrontPage";
+
+            Grid grid = new Grid();
             grid.RowDefinitions = new RowDefinitionCollection(
                 new RowDefinition { Height = GridLength.Star },
                 new RowDefinition { Height = GridLength.Auto }
@@ -22,18 +20,7 @@ namespace AppliLeCrocodile
 
             grid.Children.Add(backgroundImage);
 
-            Content = grid;
-        }
-
-        public override void Start()
-        {
-            base.Start();
-            base.InitializeSwipe(grid);
-        }
-
-        protected override LinkContentPage Clone()
-        {
-            return new FrontPage();
+            content = grid;
         }
     }
 }

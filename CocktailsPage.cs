@@ -2,21 +2,23 @@
 
 namespace AppliLeCrocodile
 {
-    internal class CocktailsPage : LinkContentPage
+    internal class CocktailsPage : SwipableContent
     {
-        private Cocktail[] cocktails;
-        private Grid grid;
+        public const int nbColumns = 2;
+        public const int nbRows = 11;
 
-        public CocktailsPage(Cocktail[] cocktails) : base()
+        private Cocktail[] cocktails;
+
+        public CocktailsPage(MainPage mainPage, Cocktail[] cocktails) : base(mainPage)
         {
             this.cocktails = cocktails;
-            Title = "CocktailsPage";
+            title = "CocktailsPage";
 
-            grid = new Grid();
+            Grid grid = new Grid();
             grid.Padding = new Thickness(25d, 40d, 25d, 40d);
             grid.VerticalOptions = LayoutOptions.Fill;
 
-            for (int j = 0; j < ApplicationManager.nbColumns; j++)
+            for (int j = 0; j < nbColumns; j++)
             {
                 VerticalStackLayout column = new VerticalStackLayout();
                 column.VerticalOptions = LayoutOptions.Center;
@@ -24,9 +26,9 @@ namespace AppliLeCrocodile
                 column.Spacing = 11d;
 
                 bool end = false;
-                for(int i = 0; i < ApplicationManager.nbRows; i++)
+                for(int i = 0; i < nbRows; i++)
                 {
-                    int cocktailIndex = i + (j * ApplicationManager.nbRows);
+                    int cocktailIndex = i + (j * nbRows);
                     if(cocktailIndex >= cocktails.Length)
                     {
                         end = true;
@@ -43,13 +45,7 @@ namespace AppliLeCrocodile
                     break;
             }
 
-            Content = grid;
-        }
-
-        public override void Start()
-        {
-            base.Start();
-            base.InitializeSwipe(grid);
+            content = grid;
         }
 
         private IView CreateCocktailView(in Cocktail cocktail)
@@ -81,11 +77,6 @@ namespace AppliLeCrocodile
 
             views.Children.Add(ingredient);
             return views;
-        }
-
-        protected override LinkContentPage Clone()
-        {
-            return new CocktailsPage(cocktails);
         }
     }
 }

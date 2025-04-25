@@ -1,11 +1,11 @@
 ﻿
 namespace AppliLeCrocodile
 {
-    internal class TestPage : LinkContentPage
+    internal class TestPage : SwipableContent
     {
-        public TestPage()
+        public TestPage(MainPage mainPage) : base(mainPage)
         {
-            Title = "TestPage";
+            title = "TestPage";
 
             VerticalStackLayout views = new VerticalStackLayout();
             views.Padding = 0;
@@ -76,7 +76,7 @@ namespace AppliLeCrocodile
             entry.Keyboard = Keyboard.Text;
             views.Children.Add(entry);
 
-            Content = views;
+            content = views;
         }
     }
 }

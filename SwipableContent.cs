@@ -1,59 +1,49 @@
 ﻿
 namespace AppliLeCrocodile
 {
-    internal class LinkContentPage : ContentPage
+    internal class SwipableContent : PageContent
     {
+        public const uint SWIPE_DURATION = 250;
+
         private PanGestureRecognizer panGesture;
         private double panX;
 
-        protected LinkContentPage? previousPage;
-        protected LinkContentPage? nextPage;
+        protected SwipableContent? previousPage;
+        protected SwipableContent? nextPage;
 
         public double swipeThreshold;
 
-        public LinkContentPage()
+        public SwipableContent(MainPage mainPage) : base(mainPage)
         {
             swipeThreshold = 100d;
-            NavigationPage.SetHasNavigationBar(this, false);
-            NavigationPage.SetHasBackButton(this, false);
         }
 
-        public virtual void Initialize(LinkContentPage? previousPage, LinkContentPage? nextPage)
+        public virtual void Initialize(SwipableContent? previousPage, SwipableContent? nextPage)
         {
             this.previousPage = previousPage;
             this.nextPage = nextPage;
         }
 
-        public virtual void Start()
+        public override void Start()
         {
-
-        }
-
-        protected virtual LinkContentPage Clone() => null;
-
-        protected void InitializeSwipe(Layout mainLayout)
-        {
+            base.Start();
+            if(content == null)
+                return;
             panGesture = new PanGestureRecognizer();
             panGesture.PanUpdated += OnPanUpdated;
-            mainLayout.GestureRecognizers.Add(panGesture);
+            content.GestureRecognizers.Add(panGesture);
         }
 
         private async Task LoadPreviousPage()
         {
-            LinkContentPage previousClone = previousPage.Clone();
-            previousClone.Initialize(previousPage.previousPage, this);
-            previousClone.Start();
-            Console.WriteLine($"Loading previous page {previousClone.Title}");
-            await Application.Current.MainPage.Navigation.PushAsync(previousClone);
+            Console.WriteLine($"Loading previous page {previousPage.title}");
+            await mainPage.LoadPageContent(new MainPage.SwipePageContentParam(previousPage, MainPage.TransitionType.Swipe, true));
         }
 
         private async Task LoadNextPage()
         {
-            LinkContentPage nextClone = nextPage.Clone();
-            nextClone.Initialize(this, nextPage.nextPage);
-            nextClone.Start();
-            Console.WriteLine($"Loading next page {nextClone.Title}");
-            await Application.Current.MainPage.Navigation.PushAsync(nextClone);
+            Console.WriteLine($"Loading previous page {nextPage.title}");
+            await mainPage.LoadPageContent(new MainPage.SwipePageContentParam(nextPage, MainPage.TransitionType.Swipe, false));
         }
 
         private async void OnPanUpdated(object? sender, PanUpdatedEventArgs? panArgs)
