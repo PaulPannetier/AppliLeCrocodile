@@ -70,6 +70,10 @@
             "value": "6 rue Royer Collard Paris 5e"
         },
         {
+            "key": "SOFT_TITLE",
+            "value": "SANS ALCOOL  <SOFT_PRICE>€"
+        },
+        {
             "key": "GIN",
             "value": "gin"
         },
@@ -215,7 +219,7 @@
         },
         {
             "key": "LIQUEUR_DABRICOT",
-            "value": "liqueur d'abricot'"
+            "value": "liqueur d'abricot"
         },
         {
             "key": "LIQUEUR_DE_CANELLE",
@@ -2004,6 +2008,86 @@
         {
             "key": "ZEPHYR",
             "value": "Zéphyr"
+        },
+        {
+            "key": "ALOUETTE",
+            "value": "Alouette"
+        },
+        {
+            "key": "ARA",
+            "value": "Ara"
+        },
+        {
+            "key": "AUTRUCHE",
+            "value": "Autruche"
+        },
+        {
+            "key": "CACATOES",
+            "value": "Cacatoès"
+        },
+        {
+            "key": "COLIBRI",
+            "value": "Colibri"
+        },
+        {
+            "key": "COUCOU",
+            "value": "Coucou"
+        },
+        {
+            "key": "DODO",
+            "value": "Dodo"
+        },
+        {
+            "key": "GOBE_MOUCHE",
+            "value": "Gobe Mouche"
+        },
+        {
+            "key": "MANCHOT",
+            "value": "Manchot"
+        },
+        {
+            "key": "MESANGE",
+            "value": "Mésange"
+        },
+        {
+            "key": "MARABOUT",
+            "value": "Marabout"
+        },
+        {
+            "key": "PELICAN",
+            "value": "Pélican"
+        },
+        {
+            "key": "PIC_VERT",
+            "value": "Pic-Vert"
+        },
+        {
+            "key": "PIOU_PIOU",
+            "value": "Piou-piou"
+        },
+        {
+            "key": "PTIT_PIAF",
+            "value": "P'tit Piaf"
+        },
+        {
+            "key": "QUETZAL",
+            "value": "Quetzal"
+        },
+        {
+            "key": "ROSSIGNOL",
+            "value": "Rossignol"
+        },
+        {
+            "key": "ROUGE_GORGE",
+            "value": "Rouge-gorge"
+        },
+        {
+            "key": "TOUCAN",
+            "value": "Toucan"
+        },
+        {
+            "key": "VAUTOUR",
+            "value": "Vautour"
         }
     ]
 }

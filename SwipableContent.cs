@@ -3,7 +3,7 @@ namespace AppliLeCrocodile
 {
     internal class SwipableContent : PageContent
     {
-        public const uint SWIPE_DURATION = 250;
+        public const uint SWIPE_DURATION = 250u;
 
         private PanGestureRecognizer panGesture;
         private double panX;
@@ -15,7 +15,7 @@ namespace AppliLeCrocodile
 
         public SwipableContent(MainPage mainPage) : base(mainPage)
         {
-            swipeThreshold = 100d;
+            swipeThreshold = 50d;
         }
 
         public virtual void Initialize(SwipableContent? previousPage, SwipableContent? nextPage)

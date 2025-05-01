@@ -7,6 +7,10 @@
         {
             "key": "HAPPY_HOURR_COCKTAILS_PRICE",
             "value": "8"
+        },
+        {
+            "key": "SOFT_PRICE",
+            "value": "6"
         }
     ]
 }

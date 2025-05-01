@@ -41,6 +41,10 @@
 		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'tizen'">6.5</SupportedOSPlatformVersion>
 	</PropertyGroup>
 
+	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net9.0-android|AnyCPU'">
+	  <AndroidPackageFormat>apk</AndroidPackageFormat>
+	</PropertyGroup>
+
 	<ItemGroup>
 		<!-- App Icon -->
 		<MauiIcon Include="Resources\AppIcon\appicon.svg" ForegroundFile="Resources\AppIcon\appiconfg.svg" Color="#512BD4" />
@@ -59,6 +63,16 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <AndroidResource Remove="Resources\Fonts\NewFolder\**" />
+	  <Compile Remove="Resources\Fonts\NewFolder\**" />
+	  <EmbeddedResource Remove="Resources\Fonts\NewFolder\**" />
+	  <MauiCss Remove="Resources\Fonts\NewFolder\**" />
+	  <MauiFont Remove="Resources\Fonts\NewFolder\**" />
+	  <MauiXaml Remove="Resources\Fonts\NewFolder\**" />
+	  <None Remove="Resources\Fonts\NewFolder\**" />
+	</ItemGroup>
+
+	<ItemGroup>
 	  <None Remove="Save\cocktails.json" />
 	  <None Remove="Save\ingredients.json" />
 	  <None Remove="Save\Language\English\texts.json" />
@@ -66,6 +80,8 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <EmbeddedResource Include="Save\fruit_juice.json" />
+	  <EmbeddedResource Include="Save\softs.json" />
 	  <EmbeddedResource Include="Save\cocktails.json" />
 	  <EmbeddedResource Include="Save\ingredients.json" />
 	  <EmbeddedResource Include="Save\Language\English\texts.json" />
@@ -79,9 +95,9 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Folder Include="Resources\Fonts\NewFolder\" />
 	  <Folder Include="Resources\Images\Cocktails\" />
 	  <Folder Include="Resources\Images\Ingredients\" />
+	  <Folder Include="Resources\Images\Soft\" />
 	</ItemGroup>
 
 </Project>

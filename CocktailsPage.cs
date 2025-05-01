@@ -15,12 +15,16 @@ namespace AppliLeCrocodile
             title = "CocktailsPage";
 
             Grid grid = new Grid();
-            grid.Padding = new Thickness(25d, 40d, 25d, 40d);
+            grid.BackgroundColor = Colors.White;
+            double horizontalPadding = 25d;
+            grid.Padding = new Thickness(horizontalPadding, 30d, horizontalPadding, 30d);
             grid.VerticalOptions = LayoutOptions.Fill;
 
+            VerticalStackLayout[] columns = new VerticalStackLayout[nbColumns];
             for (int j = 0; j < nbColumns; j++)
             {
                 VerticalStackLayout column = new VerticalStackLayout();
+                columns[j] = column;
                 column.VerticalOptions = LayoutOptions.Center;
                 column.Padding = new Thickness(10d, 0d, 10d, 0f);
                 column.Spacing = 11d;
@@ -38,8 +42,8 @@ namespace AppliLeCrocodile
                     IView view = CreateCocktailView(cocktails[cocktailIndex]);
                     column.Children.Add(view);
                 }
-                
-                grid.Add(column, j, 0);
+
+                grid.Add(columns[j], j, 0);
 
                 if (end)
                     break;
@@ -54,7 +58,7 @@ namespace AppliLeCrocodile
             Label title = new Label();
             title.Text = LanguageManager.Instance.GetText(cocktail.nameID);
             title.HorizontalOptions = LayoutOptions.Start;
-            title.FontSize = 19;
+            title.FontSize = 17;
             title.TextColor = Colors.Black;
             title.HorizontalTextAlignment = TextAlignment.Center;
             title.FontAttributes = FontAttributes.Bold;
@@ -71,7 +75,7 @@ namespace AppliLeCrocodile
 
             Label ingredient = new Label();
             ingredient.Text = sb.ToString();
-            ingredient.FontSize = 14;
+            ingredient.FontSize = 12;
             ingredient.TextColor = Colors.Black;
             ingredient.HorizontalTextAlignment = TextAlignment.Start;
 

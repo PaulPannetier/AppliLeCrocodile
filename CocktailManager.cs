@@ -17,8 +17,11 @@ namespace AppliLeCrocodile
 
         private const string ingredientsPath = "ingredients.json";
         private const string cocktailsPath = "cocktails.json";
+        private const string softsPath = "softs.json";
 
         private Cocktail[] cocktails;
+        private Cocktail[] softs;
+        private Ingredient[] fruitJuices;
 
         public Ingredient[] ingredients { get; private set; }
 
@@ -26,6 +29,7 @@ namespace AppliLeCrocodile
         {
             LoadIngredients();
             LoadCocktails();
+            LoadSofts();
         }
 
         #region Verification
@@ -94,6 +98,13 @@ namespace AppliLeCrocodile
         {
             IngredientsSave ingredientsSave = JsonUtility.DeserializeFromSave<IngredientsSave>(ingredientsPath);
             ingredients = ingredientsSave.ingredients;
+            List<Ingredient> fruitJuiceLst = new List<Ingredient>(ingredients.Length);
+            foreach (Ingredient ingredient in ingredients)
+            {
+                if(ingredient.isFruitJuice)
+                    fruitJuiceLst.Add(ingredient);
+            }
+            fruitJuices = fruitJuiceLst.ToArray();
         }
 
         private void LoadCocktails()
@@ -107,6 +118,19 @@ namespace AppliLeCrocodile
 
             cocktails = cocktailSave.cocktails;
             Array.Sort(cocktails, CompareCocktail);
+        }
+
+        private void LoadSofts()
+        {
+            CocktailsSave cocktailSave = JsonUtility.DeserializeFromSave<CocktailsSave>(softsPath);
+
+            int CompareCocktail(Cocktail c1, Cocktail c2)
+            {
+                return LanguageManager.Instance.GetText(c1.nameID).CompareTo(LanguageManager.Instance.GetText(c2.nameID));
+            }
+
+            softs = cocktailSave.cocktails;
+            Array.Sort(softs, CompareCocktail);
         }
 
         public Ingredient GetIngredientByID(string nameID) => Array.Find(ingredients, (Ingredient i) => i.nameID == nameID);
@@ -124,6 +148,26 @@ namespace AppliLeCrocodile
             }
 
             return res.ToArray();
+        }
+
+        public Cocktail[] GetSofts(CocktailFilter? filter)
+        {
+            if (!filter.HasValue)
+                return (Cocktail[])softs.Clone();
+
+            List<Cocktail> res = new List<Cocktail>(softs.Length);
+            foreach (Cocktail soft in softs)
+            {
+                if (filter.Value.IsValidCocktail(soft))
+                    res.Add(soft);
+            }
+
+            return res.ToArray();
+        }
+
+        public Ingredient[] GetFruitJuice(CocktailFilter? filter)
+        {
+            return (Ingredient[])fruitJuices.Clone();
         }
     }
 }
