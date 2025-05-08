@@ -17,6 +17,9 @@ namespace AppliLeCrocodile
 
         public const string applicationName = "AppliLeCrocodile";
         public const string relativeSaveDirectory = "Save";
+        public const double developpementWidth = 1080d;
+        public const double developpementHeight = 2400d;
+        public const double developpementDensity = 2.625d;
 
         public Action onSleepCallback;
 
@@ -49,6 +52,8 @@ namespace AppliLeCrocodile
             CocktailManager.Instance.Start();
             mainPage.Start();
         }
+
+
 
         public Page GetRootPage()
         {

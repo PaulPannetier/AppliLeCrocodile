@@ -104,33 +104,50 @@ namespace AppliLeCrocodile
                 if(ingredient.isFruitJuice)
                     fruitJuiceLst.Add(ingredient);
             }
+
+            int FruitJuiceCompare(Ingredient right, Ingredient left)
+            {
+                string rightStr = LanguageManager.Instance.GetText(right.nameID);
+                string leftStr = LanguageManager.Instance.GetText(left.nameID);
+                return rightStr.CompareTo(leftStr);
+            }
+
             fruitJuices = fruitJuiceLst.ToArray();
+            Array.Sort(fruitJuices, FruitJuiceCompare);
+        }
+
+        private int CompareCocktail(Cocktail right, Cocktail left)
+        {
+            string rightStr = LanguageManager.Instance.GetText(right.nameID);
+            string leftStr = LanguageManager.Instance.GetText(left.nameID);
+            return rightStr.CompareTo(leftStr);
         }
 
         private void LoadCocktails()
         {
             CocktailsSave cocktailSave = JsonUtility.DeserializeFromSave<CocktailsSave>(cocktailsPath);
-
-            int CompareCocktail(Cocktail c1, Cocktail c2)
-            {
-                return LanguageManager.Instance.GetText(c1.nameID).CompareTo(LanguageManager.Instance.GetText(c2.nameID));
-            }
-
             cocktails = cocktailSave.cocktails;
             Array.Sort(cocktails, CompareCocktail);
         }
 
         private void LoadSofts()
         {
-            CocktailsSave cocktailSave = JsonUtility.DeserializeFromSave<CocktailsSave>(softsPath);
-
-            int CompareCocktail(Cocktail c1, Cocktail c2)
+            int CompareSoft(Cocktail right, Cocktail left)
             {
-                return LanguageManager.Instance.GetText(c1.nameID).CompareTo(LanguageManager.Instance.GetText(c2.nameID));
+                if(right.nameID == "MESANGE" && left.nameID == "MARABOUT")
+                    return -1;
+                if (right.nameID == "MARABOUT" && left.nameID == "MESANGE")
+                    return 1;
+
+                string rightStr = LanguageManager.Instance.GetText(right.nameID);
+                string leftStr = LanguageManager.Instance.GetText(left.nameID);
+                return rightStr.CompareTo(leftStr);
             }
 
+
+            CocktailsSave cocktailSave = JsonUtility.DeserializeFromSave<CocktailsSave>(softsPath);
             softs = cocktailSave.cocktails;
-            Array.Sort(softs, CompareCocktail);
+            Array.Sort(softs, CompareSoft);
         }
 
         public Ingredient GetIngredientByID(string nameID) => Array.Find(ingredients, (Ingredient i) => i.nameID == nameID);

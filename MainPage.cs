@@ -25,7 +25,7 @@ namespace AppliLeCrocodile
         public void Start()
         {
             CreatePages(null);
-            LoadPageContent(new LoadPageContentParam(pages[pages.Length - 3], TransitionType.None));
+            LoadPageContent(new LoadPageContentParam(pages[pages.Length - 2], TransitionType.None));
         }
 
         private void CreatePages(CocktailFilter? filter)

@@ -1,5 +1,4 @@
-﻿
-using System.Text;
+﻿using System.Text;
 
 namespace AppliLeCrocodile
 {
@@ -7,6 +6,12 @@ namespace AppliLeCrocodile
     {
         private Cocktail[] softs;
         private Ingredient[] fruitJuices;
+        private Random rng = new Random();
+
+        private Color RandomColor()
+        {
+            return Color.FromRgb((byte)rng.Next(0, 256), (byte)rng.Next(0, 256), (byte)rng.Next(0, 256));
+        }
 
         public SoftPage(MainPage mainPage, Cocktail[] softs, Ingredient[] fruitJuices) : base(mainPage)
         {
@@ -15,41 +20,62 @@ namespace AppliLeCrocodile
 
             title = "SoftPage";
 
-            return;
-
             VerticalStackLayout views = new VerticalStackLayout();
             views.HorizontalOptions = LayoutOptions.Fill;
             views.VerticalOptions = LayoutOptions.Fill;
-            views.Padding = new Thickness(30d, 50d, 30d, 50d);
+
 
             Label softLabel = new Label();
             softLabel.Text = LanguageManager.Instance.GetText("SOFT_TITLE");
-            softLabel.FontSize = 50;
+            softLabel.Padding = new Thickness(0d, GetRelativeHeight(50d), 0d, 0d);
+            softLabel.FontSize = GetRelativeFontSize(30d);
             softLabel.FontAttributes = FontAttributes.Bold;
             softLabel.HorizontalTextAlignment = TextAlignment.Center;
             softLabel.TextColor = Colors.Black;
             views.Children.Add(softLabel);
 
-            return;
 
-            VerticalStackLayout softStack = new VerticalStackLayout();
-            softStack.Padding = new Thickness(0d, 0d, 0d, 0d);
+            HorizontalStackLayout gridLike = new HorizontalStackLayout();
+            gridLike.HorizontalOptions = LayoutOptions.Fill;
+            gridLike.VerticalOptions = LayoutOptions.Fill;
+            double gridHorizontalPadding = GetRelativeWidth(30d);
+            gridLike.Padding = new Thickness(gridHorizontalPadding, GetRelativeHeight(10d), gridHorizontalPadding, 0d);
 
-            Grid softsGrid = new Grid();
-            int endIndex = softs.Length % 2 == 0 ? (softs.Length / 2) - 1 : softs.Length / 2;
+
+            double columnHorizontalPadding = GetRelativeWidth(30d); // Distance between the 2 columns
+            double columnVerticalPadding = GetRelativeHeight(4d);
+            double totalHorizontalPadding = (2d * gridHorizontalPadding) + columnHorizontalPadding;
+            double fullScreenWidth = GetRelativeWidth(ApplicationManager.developpementWidth / ApplicationManager.developpementDensity);
+            double softWidth = (fullScreenWidth - totalHorizontalPadding) * 0.5d;
+
+            VerticalStackLayout column1 = new VerticalStackLayout();
+            column1.Padding = new Thickness(0d, 0d, columnHorizontalPadding * 0.5d, 0d);
+            int endIndex = softs.Length % 2 == 0 ? softs.Length / 2 : (softs.Length / 2) + 1;
             for (int i = 0; i < endIndex; i++)
             {
-                IView softView = CreateSoftView(softs[i]);
-                softsGrid.Add(softView, 0, i);
-            }
-            for (int i = endIndex; i < softs.Length; i++)
-            {
-                IView softView = CreateSoftView(softs[i]);
-                softsGrid.Add(softView, 1, i);
+                Layout softView = CreateSoftView(softs[i]);
+                softView.WidthRequest = softWidth;
+                softView.Padding = new Thickness(0d, columnVerticalPadding, 0d, columnVerticalPadding);
+                column1.Children.Add(softView);
             }
 
-            softStack.Children.Add(softsGrid);
-            views.Children.Add(softStack);
+            VerticalStackLayout column2 = new VerticalStackLayout();
+            column2.Padding = new Thickness(columnHorizontalPadding * 0.5d, 0d, 0d, 0d);
+            for (int i = endIndex; i < softs.Length; i++)
+            {
+                Layout softView = CreateSoftView(softs[i]);
+                softView.WidthRequest = softWidth;
+                softView.Padding = new Thickness(0d, columnVerticalPadding, 0d, columnVerticalPadding);
+                column2.Children.Add(softView);
+            }
+
+            gridLike.Children.Add(column1);
+            gridLike.Children.Add(column2);
+            views.Children.Add(gridLike);
+
+            content = views;
+
+            return;
 
 
             Label fruitJuiceLabel = new Label();
@@ -87,7 +113,7 @@ namespace AppliLeCrocodile
             content = views;
         }
 
-        public IView CreateSoftView(Cocktail soft)
+        public Layout CreateSoftView(Cocktail soft)
         {
             VerticalStackLayout views = new VerticalStackLayout();
             Label title = new Label();
