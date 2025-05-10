@@ -9,12 +9,16 @@ namespace AppliLeCrocodile
         public string nameID { get; set; }
         public string imagePath { get; set; }
         public string descriptionID { get; set; }
+        public string demiPriceId { get; set; }
+        public string pintPriceId { get; set; }
 
-        public Beer(string nameID, string imagePath, string descriptionID)
+        public Beer(string nameID, string imagePath, string descriptionID, string demiPriceId, string pintPriceId)
         {
             this.nameID = nameID;
             this.imagePath = imagePath;
             this.descriptionID = descriptionID;
+            this.demiPriceId = demiPriceId;
+            this.pintPriceId = pintPriceId;
         }
 
         public override string ToString() => nameID;

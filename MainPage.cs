@@ -25,7 +25,7 @@ namespace AppliLeCrocodile
         public void Start()
         {
             CreatePages(null);
-            LoadPageContent(new LoadPageContentParam(pages[pages.Length - 3], TransitionType.None));
+            LoadPageContent(new LoadPageContentParam(pages[pages.Length - 1], TransitionType.None));
         }
 
         private void CreatePages(CocktailFilter? filter)
@@ -36,8 +36,8 @@ namespace AppliLeCrocodile
             pages = new PageContent[nbPages];
             pages[0] = new FrontPage(this);
             pages[1] = new SummaryPage(this);
-            pages[pages.Length - 2] = new SoftPage(this, CocktailManager.Instance.GetSofts(null), CocktailManager.Instance.GetFruitJuice(null));
-            pages[pages.Length - 1] = new LastPage(this);
+            pages[pages.Length - 2] = new SoftPage(this, CocktailManager.Instance.GetSofts(null), CocktailManager.Instance.GetFruitJuice());
+            pages[pages.Length - 1] = new LastPage(this, CocktailManager.Instance.GetBeers(), CocktailManager.Instance.GetSnacks());
 
             int cocktailIndex = 0;
             int endIndexPage = nbPages - 3;

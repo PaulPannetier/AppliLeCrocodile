@@ -75,6 +75,7 @@ namespace AppliLeCrocodile
             happyHourUnderline.HeightRequest = GetRelativeHeight(1d);
             happyHourUnderline.WidthRequest = happyHour.Width;
             happyHourUnderline.BackgroundColor = Colors.Black;
+            happyHourUnderline.Color = Colors.Black;
             happyHourUnderline.HorizontalOptions = LayoutOptions.Fill;
             happyHourUnderline.Margin = new Thickness(0d, -GetRelativeHeight(4d), 0d, 0d);
 

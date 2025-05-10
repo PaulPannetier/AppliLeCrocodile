@@ -2098,6 +2098,10 @@
             "value": "Vautour"
         },
         {
+            "key": "BEER_TITLE",
+            "value": "Bières pression"
+        },
+        {
             "key": "CHOUFFE",
             "value": "CHOUFFE"
         },
@@ -2106,12 +2110,48 @@
             "value": "La Chouffe est une bière blonde à triple fermentation, elle possède un haut degré d'alcool de 8%. Son arôme est particulier, fleur d'oranger ou pomme acide."
         },
         {
+            "key": "CHOUFFE_DEMI_PRICE",
+            "value": "Demi : <CHOUFFE_DEMI_PRICE> €"
+        },
+        {
+            "key": "CHOUFFE_PINTE_PRICE",
+            "value": "Pinte : <CHOUFFE_PINTE_PRICE> €"
+        },
+        {
             "key": "PELFORTH",
             "value": "PELFORTH"
         },
         {
             "key": "PELFORTH_DESCRIPTION",
             "value": "La Pelforth est une bière Bière brune à 6,5 % avec un fort goût de caramel ou de miel, et légèrement de café. Elle est relativement sucrée et peu amère, pour une bière brune."
+        },
+        {
+            "key": "PELFORTH_DEMI_PRICE",
+            "value": "Demi : <PELFORTH_DEMI_PRICE> €"
+        },
+        {
+            "key": "PELFORTH_PINTE_PRICE",
+            "value": "Pinte : <PELFORTH_PINTE_PRICE> €"
+        },
+        {
+            "key": "SNACKS_TITLE",
+            "value": "A grignoter"
+        },
+        {
+            "key": "PEANUTS",
+            "value": "Cacahuètes"
+        },
+        {
+            "key": "PEANUTS_PRICE",
+            "value": "<PEANUT_PRICE> €"
+        },
+        {
+            "key": "CHIPS",
+            "value": "Chips Barbecue, poulet ou nature"
+        },
+        {
+            "key": "CHIPS_PRICE",
+            "value": "<CHIPS_PRICE> €"
         }
     ]
 }

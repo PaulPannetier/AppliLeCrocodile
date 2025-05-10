@@ -3,12 +3,16 @@
         {
             "nameID": "CHOUFFE",
             "imagePath": "Beers/chouffe.png",
-            "descriptionID": "CHOUFFE_DESCRIPTION"
+            "descriptionID": "CHOUFFE_DESCRIPTION",
+            "demiPriceId": "CHOUFFE_DEMI_PRICE",
+            "pintPriceId": "CHOUFFE_PINTE_PRICE"
         },
         {
             "nameID": "PELFORTH",
             "imagePath": "Beers/pelforth.png",
-            "descriptionID": "PELFORTH_DESCRIPTION"
+            "descriptionID": "PELFORTH_DESCRIPTION",
+            "demiPriceId": "PELFORTH_DEMI_PRICE",
+            "pintPriceId": "PELFORTH_PINTE_PRICE"
         }
     ]
 }

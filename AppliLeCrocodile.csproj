@@ -82,6 +82,7 @@
 	<ItemGroup>
 	  <EmbeddedResource Include="Save\fruit_juice.json" />
 	  <EmbeddedResource Include="Save\beers.json" />
+	  <EmbeddedResource Include="Save\snacks.json" />
 	  <EmbeddedResource Include="Save\softs.json" />
 	  <EmbeddedResource Include="Save\cocktails.json" />
 	  <EmbeddedResource Include="Save\ingredients.json" />

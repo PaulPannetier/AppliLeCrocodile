@@ -1,20 +1,44 @@
 {
-  "dataConstantes": [
-    {
-      "key": "COCKTAILS_PRICE",
-      "value": "10"
-    },
-    {
-      "key": "HAPPY_HOURR_COCKTAILS_PRICE",
-      "value": "8"
-    },
-    {
-      "key": "SOFT_PRICE",
-      "value": "6"
-    },
-    {
-      "key": "FRUIT_JUICE_PRICE",
-      "value": "4"
-    }
-  ]
+    "dataConstantes": [
+        {
+            "key": "COCKTAILS_PRICE",
+            "value": "10"
+        },
+        {
+            "key": "HAPPY_HOURR_COCKTAILS_PRICE",
+            "value": "8"
+        },
+        {
+            "key": "SOFT_PRICE",
+            "value": "6"
+        },
+        {
+            "key": "FRUIT_JUICE_PRICE",
+            "value": "4"
+        },
+        {
+            "key": "CHOUFFE_DEMI_PRICE",
+            "value": "4,50"
+        },
+        {
+            "key": "CHOUFFE_PINTE_PRICE",
+            "value": "7,50"
+        },
+        {
+            "key": "PELFORTH_DEMI_PRICE",
+            "value": "3,50"
+        },
+        {
+            "key": "PELFORTH_PINTE_PRICE",
+            "value": "6"
+        },
+        {
+            "key": "PEANUT_PRICE",
+            "value": "1,50"
+        },
+        {
+            "key": "CHIPS_PRICE",
+            "value": "3,50"
+        }
+    ]
 }

@@ -1,5 +1,4 @@
-﻿using System.Collections.Generic;
-using System.Text;
+﻿using System.Text;
 
 namespace AppliLeCrocodile
 {
@@ -18,10 +17,14 @@ namespace AppliLeCrocodile
         private const string ingredientsPath = "ingredients.json";
         private const string cocktailsPath = "cocktails.json";
         private const string softsPath = "softs.json";
+        private const string beersPath = "beers.json";
+        private const string snacksPath = "snacks.json";
 
         private Cocktail[] cocktails;
         private Cocktail[] softs;
         private Ingredient[] fruitJuices;
+        private Beer[] beers;
+        private Snack[] snacks;
 
         public Ingredient[] ingredients { get; private set; }
 
@@ -30,6 +33,8 @@ namespace AppliLeCrocodile
             LoadIngredients();
             LoadCocktails();
             LoadSofts();
+            LoadBeers();
+            LoadSnacks();
         }
 
         #region Verification
@@ -150,6 +155,18 @@ namespace AppliLeCrocodile
             Array.Sort(softs, CompareSoft);
         }
 
+        private void LoadBeers()
+        {
+            BeerSave beerSave = JsonUtility.DeserializeFromSave<BeerSave>(beersPath);
+            beers = beerSave.beers;
+        }
+
+        private void LoadSnacks()
+        {
+            SnackSave snacksSave = JsonUtility.DeserializeFromSave<SnackSave>(snacksPath);
+            snacks = snacksSave.snacks;
+        }
+
         public Ingredient GetIngredientByID(string nameID) => Array.Find(ingredients, (Ingredient i) => i.nameID == nameID);
 
         public Cocktail[] GetCocktails(CocktailFilter? filter)
@@ -182,9 +199,19 @@ namespace AppliLeCrocodile
             return res.ToArray();
         }
 
-        public Ingredient[] GetFruitJuice(CocktailFilter? filter)
+        public Ingredient[] GetFruitJuice()
         {
             return (Ingredient[])fruitJuices.Clone();
+        }
+
+        public Beer[] GetBeers()
+        {
+            return (Beer[])beers.Clone();
+        }
+
+        public Snack[] GetSnacks()
+        {
+            return (Snack[])snacks.Clone();
         }
     }
 }
