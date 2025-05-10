@@ -6,12 +6,6 @@ namespace AppliLeCrocodile
     {
         private Cocktail[] softs;
         private Ingredient[] fruitJuices;
-        private Random rng = new Random();
-
-        private Color RandomColor()
-        {
-            return Color.FromRgb((byte)rng.Next(0, 256), (byte)rng.Next(0, 256), (byte)rng.Next(0, 256));
-        }
 
         public SoftPage(MainPage mainPage, Cocktail[] softs, Ingredient[] fruitJuices) : base(mainPage)
         {
@@ -37,7 +31,6 @@ namespace AppliLeCrocodile
 
             HorizontalStackLayout gridLike = new HorizontalStackLayout();
             gridLike.HorizontalOptions = LayoutOptions.Fill;
-            gridLike.VerticalOptions = LayoutOptions.Fill;
             double gridHorizontalPadding = GetRelativeWidth(30d);
             gridLike.Padding = new Thickness(gridHorizontalPadding, GetRelativeHeight(10d), gridHorizontalPadding, 0d);
 
@@ -73,25 +66,23 @@ namespace AppliLeCrocodile
             gridLike.Children.Add(column2);
             views.Children.Add(gridLike);
 
-            content = views;
-
-            return;
-
 
             Label fruitJuiceLabel = new Label();
             fruitJuiceLabel.Text = LanguageManager.Instance.GetText("FRUIT_JUICE_TITLE");
-            fruitJuiceLabel.FontSize = 50;
+            fruitJuiceLabel.Padding = new Thickness(0d, GetRelativeHeight(30d), 0d, 0d); 
+            fruitJuiceLabel.FontSize = GetRelativeFontSize(30d);
             fruitJuiceLabel.FontAttributes = FontAttributes.Bold;
             fruitJuiceLabel.HorizontalTextAlignment = TextAlignment.Center;
             fruitJuiceLabel.TextColor = Colors.Black;
-            views.Children.Add(softLabel);
+            views.Children.Add(fruitJuiceLabel);
 
             Label chooseLabel = new Label();
             chooseLabel.Text = LanguageManager.Instance.GetText("CHOOSE");
-            chooseLabel.FontSize = 20;
+            chooseLabel.Padding = new Thickness(0d, GetRelativeHeight(4d), 0d, 0d);
+            chooseLabel.FontSize = GetRelativeFontSize(14d);
             chooseLabel.HorizontalTextAlignment = TextAlignment.Center;
             chooseLabel.TextColor = Colors.Black;
-            views.Children.Add(softLabel);
+            views.Children.Add(chooseLabel);
 
             StringBuilder sb = new StringBuilder();
             for (int i = 0; i < fruitJuices.Length; i++)
@@ -103,9 +94,9 @@ namespace AppliLeCrocodile
 
             sb.Remove(sb.Length - 2, 2);
             Label juicesLabel = new Label();
-            juicesLabel.Padding = new Thickness(20d, 10d);
+            juicesLabel.Padding = new Thickness(GetRelativeWidth(20d), GetRelativeHeight(0d));
             juicesLabel.Text = sb.ToString();
-            juicesLabel.FontSize = 20;
+            juicesLabel.FontSize = GetRelativeFontSize(14d);
             juicesLabel.HorizontalTextAlignment = TextAlignment.Center;
             juicesLabel.TextColor = Colors.Black;
             views.Children.Add(juicesLabel);
@@ -119,7 +110,7 @@ namespace AppliLeCrocodile
             Label title = new Label();
             title.Text = LanguageManager.Instance.GetText(soft.nameID);
             title.HorizontalOptions = LayoutOptions.Start;
-            title.FontSize = 17;
+            title.FontSize = GetRelativeFontSize(17d);
             title.TextColor = Colors.Black;
             title.HorizontalTextAlignment = TextAlignment.Center;
             title.FontAttributes = FontAttributes.Bold;
@@ -136,7 +127,7 @@ namespace AppliLeCrocodile
 
             Label ingredient = new Label();
             ingredient.Text = sb.ToString();
-            ingredient.FontSize = 12;
+            ingredient.FontSize = GetRelativeFontSize(12d);
             ingredient.TextColor = Colors.Black;
             ingredient.HorizontalTextAlignment = TextAlignment.Start;
 

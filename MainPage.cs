@@ -25,7 +25,7 @@ namespace AppliLeCrocodile
         public void Start()
         {
             CreatePages(null);
-            LoadPageContent(new LoadPageContentParam(pages[pages.Length - 2], TransitionType.None));
+            LoadPageContent(new LoadPageContentParam(pages[pages.Length - 3], TransitionType.None));
         }
 
         private void CreatePages(CocktailFilter? filter)
@@ -51,7 +51,7 @@ namespace AppliLeCrocodile
 
             ((SwipableContent)pages[0]).Initialize(null, (SwipableContent)pages[1]);
             ((SwipableContent)pages[pages.Length - 1]).Initialize((SwipableContent)pages[pages.Length - 2], null);
-            for (int i = 1; i < pages.Length - 2; i++)
+            for (int i = 1; i < pages.Length - 1; i++)
             {
                 ((SwipableContent)pages[i]).Initialize((SwipableContent)pages[i - 1], (SwipableContent)pages[i + 1]);
             }

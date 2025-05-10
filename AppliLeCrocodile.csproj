@@ -81,6 +81,7 @@
 
 	<ItemGroup>
 	  <EmbeddedResource Include="Save\fruit_juice.json" />
+	  <EmbeddedResource Include="Save\beers.json" />
 	  <EmbeddedResource Include="Save\softs.json" />
 	  <EmbeddedResource Include="Save\cocktails.json" />
 	  <EmbeddedResource Include="Save\ingredients.json" />
@@ -97,6 +98,7 @@
 	<ItemGroup>
 	  <Folder Include="Resources\Images\Cocktails\" />
 	  <Folder Include="Resources\Images\Ingredients\" />
+	  <Folder Include="Resources\Images\Beers\" />
 	  <Folder Include="Resources\Images\Soft\" />
 	</ItemGroup>
 

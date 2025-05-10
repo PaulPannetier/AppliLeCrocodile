@@ -16,18 +16,16 @@ namespace AppliLeCrocodile
 
             Grid grid = new Grid();
             grid.BackgroundColor = Colors.White;
-            double horizontalPadding = 25d;
-            grid.Padding = new Thickness(horizontalPadding, 30d, horizontalPadding, 30d);
+            double horizontalPadding = GetRelativeWidth(25d);
+            grid.Padding = new Thickness(horizontalPadding, GetRelativeHeight(30d), horizontalPadding, 0d);
             grid.VerticalOptions = LayoutOptions.Fill;
 
-            VerticalStackLayout[] columns = new VerticalStackLayout[nbColumns];
             for (int j = 0; j < nbColumns; j++)
             {
                 VerticalStackLayout column = new VerticalStackLayout();
-                columns[j] = column;
                 column.VerticalOptions = LayoutOptions.Center;
-                column.Padding = new Thickness(10d, 0d, 10d, 0f);
-                column.Spacing = 11d;
+                column.Padding = new Thickness(GetRelativeWidth(10d), 0d, GetRelativeWidth(10d), 0f);
+                column.Spacing = GetRelativeHeight(11d);
 
                 bool end = false;
                 for(int i = 0; i < nbRows; i++)
@@ -43,7 +41,7 @@ namespace AppliLeCrocodile
                     column.Children.Add(view);
                 }
 
-                grid.Add(columns[j], j, 0);
+                grid.Add(column, j, 0);
 
                 if (end)
                     break;
@@ -58,7 +56,7 @@ namespace AppliLeCrocodile
             Label title = new Label();
             title.Text = LanguageManager.Instance.GetText(cocktail.nameID);
             title.HorizontalOptions = LayoutOptions.Start;
-            title.FontSize = 17;
+            title.FontSize = GetRelativeFontSize(17d);
             title.TextColor = Colors.Black;
             title.HorizontalTextAlignment = TextAlignment.Center;
             title.FontAttributes = FontAttributes.Bold;
@@ -75,7 +73,7 @@ namespace AppliLeCrocodile
 
             Label ingredient = new Label();
             ingredient.Text = sb.ToString();
-            ingredient.FontSize = 12;
+            ingredient.FontSize = GetRelativeFontSize(12d);
             ingredient.TextColor = Colors.Black;
             ingredient.HorizontalTextAlignment = TextAlignment.Start;
 

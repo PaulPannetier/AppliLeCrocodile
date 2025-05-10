@@ -1,0 +1,14 @@
+{
+    "beers": [
+        {
+            "nameID": "CHOUFFE",
+            "imagePath": "Beers/chouffe.png",
+            "descriptionID": "CHOUFFE_DESCRIPTION"
+        },
+        {
+            "nameID": "PELFORTH",
+            "imagePath": "Beers/pelforth.png",
+            "descriptionID": "PELFORTH_DESCRIPTION"
+        }
+    ]
+}
