@@ -5,11 +5,13 @@ namespace AppliLeCrocodile
     {
         private Beer[] beers;
         private Snack[] snacks;
+        private Soda[] sodas;
 
-        public LastPage(MainPage mainPage, Beer[] beers, Snack[] snacks) : base(mainPage)
+        public LastPage(MainPage mainPage, Beer[] beers, Snack[] snacks, Soda[] sodas) : base(mainPage)
         {
             this.beers = beers;
             this.snacks = snacks;
+            this.sodas = sodas;
 
             title = "Last Page";
 
@@ -24,7 +26,6 @@ namespace AppliLeCrocodile
             //beerTitle.TextDecorations = TextDecorations.Underline;
             beerTitle.HorizontalTextAlignment = TextAlignment.Center;
             beerTitle.TextColor = Colors.Black;
-            beerTitle.Padding = new Thickness(0d, GetRelativeHeight(30d), 0d, 0d);
 
             //for beer title underline
             BoxView beerTitleUnderline = new BoxView();
@@ -35,6 +36,7 @@ namespace AppliLeCrocodile
             beerTitleUnderline.Margin = new Thickness(0d, -GetRelativeHeight(4d), 0d, 0d);
 
             VerticalStackLayout beerTitleGroup = new VerticalStackLayout();
+            beerTitleGroup.Padding = new Thickness(0d, GetRelativeHeight(40d), 0d, 0d);
             beerTitleGroup.Spacing = 0d;
             beerTitleGroup.HorizontalOptions = LayoutOptions.Center;
             beerTitleGroup.Children.Add(beerTitle);
@@ -56,7 +58,7 @@ namespace AppliLeCrocodile
 
             VerticalStackLayout snackTitleGroup = new VerticalStackLayout();
             snackTitleGroup.HorizontalOptions = LayoutOptions.Fill;
-            snackTitleGroup.Padding = new Thickness(0d, GetRelativeHeight(20d), 0d, 0d);
+            snackTitleGroup.Padding = new Thickness(0d, GetRelativeHeight(30d), 0d, 0d);
 
             Label snacksTitle = new Label();
             snacksTitle.Text = LanguageManager.Instance.GetText("SNACKS_TITLE");
@@ -87,25 +89,121 @@ namespace AppliLeCrocodile
 
             VerticalStackLayout snacksLayout = new VerticalStackLayout();
             snacksLayout.HorizontalOptions = LayoutOptions.Center;
+            snacksLayout.HorizontalOptions = LayoutOptions.Fill;
             snacksLayout.Spacing = GetRelativeHeight(5d);
-            snacksLayout.Padding = new Thickness(0d, GetRelativeHeight(15d), 0d, 0d);
+            double horizontalPadding = GetRelativeWidth(40d);
+            snacksLayout.Padding = new Thickness(horizontalPadding, GetRelativeHeight(25d), horizontalPadding, 0d);
 
             foreach (Snack snack in snacks)
             {
                 Layout snackLayout = CreateSnackLayout(snack);
                 snacksLayout.Children.Add(snackLayout);
             }
-
             views.Children.Add(snacksLayout);
 
+            VerticalStackLayout sodaTitleGroup = new VerticalStackLayout();
+            sodaTitleGroup.Padding = new Thickness(0d, GetRelativeHeight(30), 0d, 0d);
+            sodaTitleGroup.HorizontalOptions = LayoutOptions.Center;
+
+            Label sodaTitle = new Label();
+            sodaTitle.Text = LanguageManager.Instance.GetText("SODA_TITLE");
+            sodaTitle.FontSize = GetRelativeFontSize(20d);
+            sodaTitle.TextColor = Colors.Black;
+            sodaTitle.FontAttributes = FontAttributes.Bold;
+
+            BoxView sodaUnderline = new BoxView();
+            sodaUnderline.HeightRequest = GetRelativeHeight(1d);
+            sodaUnderline.WidthRequest = sodaTitle.Width;
+            sodaUnderline.BackgroundColor = Colors.Black;
+            sodaUnderline.Color = Colors.Black;
+            sodaUnderline.HorizontalOptions = LayoutOptions.Fill;
+            sodaUnderline.Margin = new Thickness(0d, -GetRelativeHeight(4d), 0d, 0d);
+
+            sodaTitleGroup.Loaded += (s, e) =>
+            {
+                double width = sodaTitle.Measure(double.PositiveInfinity, double.PositiveInfinity).Width;
+                sodaUnderline.WidthRequest = width;
+                sodaUnderline.HorizontalOptions = LayoutOptions.Start;
+            };
+
+            sodaTitleGroup.Children.Add(sodaTitle);
+            sodaTitleGroup.Children.Add(sodaUnderline);
+            views.Children.Add(sodaTitleGroup);
+
+            Grid sodaGrid = new Grid();
+            horizontalPadding = GetRelativeWidth(30d);
+            sodaGrid.Padding = new Thickness(horizontalPadding, GetRelativeHeight(25d), horizontalPadding, 0d);
+            sodaGrid.ColumnSpacing = GetRelativeWidth(40d);
+            sodaGrid.HorizontalOptions = LayoutOptions.Fill;
+            sodaGrid.ColumnDefinitions = new ColumnDefinitionCollection(
+                new ColumnDefinition { Width = GridLength.Star },
+                new ColumnDefinition { Width = GridLength.Auto }
+            );
+
+            VerticalStackLayout sodasLayoutFirstRow = new VerticalStackLayout();
+            sodasLayoutFirstRow.HorizontalOptions = LayoutOptions.Center;
+            sodasLayoutFirstRow.Spacing = GetRelativeHeight(5d);
+            int endIndex = sodas.Length % 2 == 0 ? sodas.Length >> 1 : (sodas.Length >> 1) + 1;
+            for (int i = 0; i < endIndex; i++)
+            {
+                Layout sodaLayout = CreateSodaLayout(sodas[i]);
+                sodasLayoutFirstRow.Children.Add(sodaLayout);
+            }
+            sodaGrid.Add(sodasLayoutFirstRow, 0, 0);
+
+            VerticalStackLayout sodasLayoutSecondRow = new VerticalStackLayout();
+            sodasLayoutSecondRow.HorizontalOptions = LayoutOptions.Center;
+            sodasLayoutSecondRow.Spacing = GetRelativeHeight(5d);
+            for (int i = endIndex; i < sodas.Length; i++)
+            {
+                Layout sodaLayout = CreateSodaLayout(sodas[i]);
+                sodasLayoutSecondRow.Children.Add(sodaLayout);
+            }
+            sodaGrid.Add(sodasLayoutSecondRow, 1, 0);
+            views.Children.Add(sodaGrid);
 
             content = views;
         }
 
+        private Layout CreateSodaLayout(in Soda soda)
+        {
+            //VerticalStackLayout vsl = new VerticalStackLayout();
+            //vsl.HorizontalOptions = LayoutOptions.Center;
+            //Label label = new Label();
+            //label.Text = "TEST";
+            //vsl.Children.Add(label);
+            //return vsl;
+
+            Grid views = new Grid();
+            views.ColumnDefinitions = new ColumnDefinitionCollection(
+                new ColumnDefinition { Width = GridLength.Star },
+                new ColumnDefinition { Width = GridLength.Auto }
+            );
+
+            Label sodaLabel = new Label();
+            sodaLabel.Text = LanguageManager.Instance.GetText(soda.nameID);
+            sodaLabel.TextColor = Colors.Black;
+            sodaLabel.HorizontalOptions = LayoutOptions.Start;
+            sodaLabel.FontSize = GetRelativeFontSize(14d);
+            views.Children.Add(sodaLabel);
+
+            Label sodaPrice = new Label();
+            sodaPrice.Text = LanguageManager.Instance.GetText(soda.priceID);
+            sodaPrice.TextColor = Colors.Black;
+            sodaPrice.HorizontalOptions = LayoutOptions.End;
+            sodaPrice.FontSize = GetRelativeFontSize(14d);
+            views.Children.Add(sodaPrice);
+
+            return views;
+        }
+
         private Layout CreateSnackLayout(in Snack snack)
         {
-            HorizontalStackLayout views = new HorizontalStackLayout();
-            views.WidthRequest = GetRelativeWidth(250d);
+            Grid views = new Grid();
+            views.ColumnDefinitions = new ColumnDefinitionCollection(
+                new ColumnDefinition { Width = GridLength.Star },
+                new ColumnDefinition { Width = GridLength.Auto }
+            );
 
             Label snackLabel = new Label();
             snackLabel.Text = LanguageManager.Instance.GetText(snack.nameID);
@@ -122,7 +220,6 @@ namespace AppliLeCrocodile
             views.Children.Add(snackPrice);
 
             return views;
-
         }
 
         private Layout CreateBeerLayout(in Beer beer)
@@ -155,13 +252,13 @@ namespace AppliLeCrocodile
 
             Label beerDemiPrice = new Label();
             beerDemiPrice.Text = LanguageManager.Instance.GetText(beer.demiPriceId);
-            beerDemiPrice.FontSize = GetRelativeFontSize(18d);
+            beerDemiPrice.FontSize = GetRelativeFontSize(16.5d);
             beerDemiPrice.TextColor = Colors.Black;
             beerLayout.Children.Add(beerDemiPrice);
 
             Label beerPintePrice = new Label();
             beerPintePrice.Text = LanguageManager.Instance.GetText(beer.pintPriceId);
-            beerPintePrice.FontSize = GetRelativeFontSize(18d);
+            beerPintePrice.FontSize = GetRelativeFontSize(16.5d);
             beerPintePrice.TextColor = Colors.Black;
             beerLayout.Children.Add(beerPintePrice);
 

@@ -1,7 +1,4 @@
 ﻿
-
-using System.Collections.Specialized;
-
 namespace AppliLeCrocodile
 {
     public struct Beer

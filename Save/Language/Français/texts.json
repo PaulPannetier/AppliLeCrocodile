@@ -2152,6 +2152,50 @@
         {
             "key": "CHIPS_PRICE",
             "value": "<CHIPS_PRICE> €"
+        },
+        {
+            "key": "SODA_TITLE",
+            "value": "Soft"
+        },
+        {
+            "key": "SCHWEPPES",
+            "value": "Schweppes"
+        },
+        {
+            "key": "SCHWEPPES_PRICE",
+            "value": "<SCHWEPPES_PRICE> €"
+        },
+        {
+            "key": "COCACOLA",
+            "value": "Coca-Cola"
+        },
+        {
+            "key": "COCACOLA_PRICE",
+            "value": "<COCACOLA_PRICE> €"
+        },
+        {
+            "key": "COCACOLA_LIGHT",
+            "value": "Coca-Cola light"
+        },
+        {
+            "key": "COCACOLA_LIGHT_PRICE",
+            "value": "<COCACOLA_LIGHT_PRICE> €"
+        },
+        {
+            "key": "PERRIER",
+            "value": "Perrier"
+        },
+        {
+            "key": "PERRIER_PRICE",
+            "value": "<PERRIER_PRICE> €"
+        },
+        {
+            "key": "RED_BULL",
+            "value": "Red Bull"
+        },
+        {
+            "key": "RED_BULL_PRICE",
+            "value": "<RED_BULL_PRICE> €"
         }
     ]
 }

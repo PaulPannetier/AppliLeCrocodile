@@ -39,6 +39,26 @@
         {
             "key": "CHIPS_PRICE",
             "value": "3,50"
+        },
+        {
+            "key": "SCHWEPPES_PRICE",
+            "value": "3,50"
+        },
+        {
+            "key": "COCACOLA_PRICE",
+            "value": "3,50"
+        },
+        {
+            "key": "COCACOLA_LIGHT_PRICE",
+            "value": "3,50"
+        },
+        {
+            "key": "PERRIER_PRICE",
+            "value": "3,50"
+        },
+        {
+            "key": "RED_BULL_PRICE",
+            "value": "4,50"
         }
     ]
 }

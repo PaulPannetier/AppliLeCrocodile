@@ -37,7 +37,7 @@ namespace AppliLeCrocodile
             pages[0] = new FrontPage(this);
             pages[1] = new SummaryPage(this);
             pages[pages.Length - 2] = new SoftPage(this, CocktailManager.Instance.GetSofts(null), CocktailManager.Instance.GetFruitJuice());
-            pages[pages.Length - 1] = new LastPage(this, CocktailManager.Instance.GetBeers(), CocktailManager.Instance.GetSnacks());
+            pages[pages.Length - 1] = new LastPage(this, CocktailManager.Instance.GetBeers(), CocktailManager.Instance.GetSnacks(), CocktailManager.Instance.GetSodas());
 
             int cocktailIndex = 0;
             int endIndexPage = nbPages - 3;
