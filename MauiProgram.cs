@@ -14,7 +14,6 @@ namespace AppliLeCrocodile
                     fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
                     fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
                     fonts.AddFont("NextSunday.ttf", "NextSunday");
-                    fonts.AddFont("ComicHelvetic.otf", "ComicHelvetic");
                 });
 
 #if DEBUG

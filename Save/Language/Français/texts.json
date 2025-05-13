@@ -2256,6 +2256,14 @@
         {
             "key": "BUY_MENU_CARD",
             "value": "Pas la peine de voler notre jolie carte avec un sourire et <MENU_CARD_PRICE>€ elle est à vous !!!"
+        },
+        {
+            "key": "SEARCH_BAR_PLACEHOLDER",
+            "value": "Cocktail"
+        },
+        {
+            "key": "NO_COCKTAIL",
+            "value": "Aucun cocktail correspondant"
         }
     ]
 }

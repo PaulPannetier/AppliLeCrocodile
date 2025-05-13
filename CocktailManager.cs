@@ -188,30 +188,30 @@ namespace AppliLeCrocodile
 
         public Ingredient GetIngredientByID(string nameID) => Array.Find(ingredients, (Ingredient i) => i.nameID == nameID);
 
-        public Cocktail[] GetCocktails(CocktailFilter? filter)
+        public Cocktail[] GetCocktails(ICocktailFilter? filter)
         {
-            if(!filter.HasValue)
+            if(filter == null)
                 return (Cocktail[])cocktails.Clone();
 
             List<Cocktail> res = new List<Cocktail>(cocktails.Length);
             foreach (Cocktail cocktail in cocktails)
             {
-                if(filter.Value.IsValidCocktail(cocktail))
+                if(filter.IsValidCocktail(cocktail))
                     res.Add(cocktail);
             }
 
             return res.ToArray();
         }
 
-        public Cocktail[] GetSofts(CocktailFilter? filter)
+        public Cocktail[] GetSofts(ICocktailFilter? filter)
         {
-            if (!filter.HasValue)
+            if (filter == null)
                 return (Cocktail[])softs.Clone();
 
             List<Cocktail> res = new List<Cocktail>(softs.Length);
             foreach (Cocktail soft in softs)
             {
-                if (filter.Value.IsValidCocktail(soft))
+                if (filter.IsValidCocktail(soft))
                     res.Add(soft);
             }
 

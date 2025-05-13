@@ -29,7 +29,7 @@ namespace AppliLeCrocodile
             LoadPageContent(new LoadPageContentParam(pages[2], TransitionType.None));
         }
 
-        private void CreatePages(CocktailFilter? filter)
+        private void CreatePages(ICocktailFilter? filter)
         {
             List<PageContent> currentPages = new List<PageContent>
             {

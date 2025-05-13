@@ -8,11 +8,102 @@ namespace AppliLeCrocodile
         public const int nbRows = 12;
 
         private Cocktail[] cocktails;
+        private StackLayout cocktailsLayout;
 
         public CocktailsPage(MainPage mainPage, Cocktail[] cocktails) : base(mainPage)
         {
             this.cocktails = cocktails;
             title = "CocktailsPage";
+
+
+            VerticalStackLayout views = new VerticalStackLayout();
+            views.HorizontalOptions = LayoutOptions.Center;
+            views.VerticalOptions = LayoutOptions.Start;
+            views.Padding = new Thickness(0d, GetRelativeHeight(25d), 0d, 0d);
+
+            SearchBar searchBar = new SearchBar();
+            searchBar.HorizontalOptions = LayoutOptions.Center;
+            searchBar.Placeholder = LanguageManager.Instance.GetText("SEARCH_BAR_PLACEHOLDER");
+            searchBar.TextChanged += OnSearchTextChange;
+
+            views.Add(searchBar);
+
+            cocktailsLayout = new StackLayout();
+            cocktailsLayout.Add(CreateCocktailsLayout(cocktails));
+            
+            views.Add(cocktailsLayout);
+
+            content = views;
+        }
+
+        private void OnSearchTextChange(object sender, TextChangedEventArgs e)
+        {
+            if(e.NewTextValue == null || e.NewTextValue == string.Empty)
+            {
+                Layout baseCocktailLayout = CreateCocktailsLayout(this.cocktails);
+                ChangeCocktailLayout(baseCocktailLayout);
+                return;
+            }
+
+            string pattern = e.NewTextValue.ToLower();
+            PatternCocktailFilter filter = new PatternCocktailFilter(pattern);
+            Cocktail[] newCocktails = CocktailManager.Instance.GetCocktails(filter);
+
+            // < 0 => left < right
+            // 0 => left = right
+            // > 0 => left > right
+            int CompareTo(Cocktail left, Cocktail right)
+            {
+                string s1 = LanguageManager.Instance.GetText(left.nameID);
+                string s2 = LanguageManager.Instance.GetText(right.nameID);
+
+                int index1 = s1.IndexOf(pattern, StringComparison.OrdinalIgnoreCase);
+                int index2 = s2.IndexOf(pattern, StringComparison.OrdinalIgnoreCase);
+
+                if(index1 == -1 || index2 == -1)
+                {
+                    if (index1 == index2) 
+                        return 0;
+
+                    return index1 == -1 ? 1 : -1;
+                }
+
+                return index1.CompareTo(index2);
+            }
+
+            Array.Sort(newCocktails, CompareTo);
+
+            if (newCocktails.Length > nbColumns * nbRows)
+            {
+                newCocktails = newCocktails[0.. (nbColumns * nbRows)];
+            }
+
+            Layout cocktailLayout = CreateCocktailsLayout(newCocktails);
+            ChangeCocktailLayout(cocktailLayout);
+        }
+
+        private void ChangeCocktailLayout(Layout newCocktailsLayout)
+        {
+            cocktailsLayout.Clear();
+            cocktailsLayout.Add(newCocktailsLayout);
+        }
+
+        private Layout CreateCocktailsLayout(Cocktail[] cocktails)
+        {
+            if(cocktails.Length <= 0)
+            {
+                StackLayout views = new StackLayout();
+
+                Label noCocktailLabel = new Label();
+                noCocktailLabel.Text = LanguageManager.Instance.GetText("NO_COCKTAIL");
+                noCocktailLabel.Padding = new Thickness(0d, GetRelativeHeight(30d), 0d, 0d);
+                noCocktailLabel.HorizontalOptions = LayoutOptions.Center;
+                noCocktailLabel.FontSize = GetRelativeFontSize(18d);
+                noCocktailLabel.TextColor = Colors.Black;
+
+                views.Add(noCocktailLabel);
+                return views;
+            }
 
             HorizontalStackLayout horizontalStack = new HorizontalStackLayout();
             double horiPadding = GetRelativeWidth(35d);
@@ -38,7 +129,7 @@ namespace AppliLeCrocodile
                 int endCocktailIndex = j == nbColumns - 1 ? cocktails.Length : begCocktailIndex + nbRows;
                 for (int i = begCocktailIndex; i < endCocktailIndex; i++)
                 {
-                    if(i >= cocktails.Length)
+                    if (i >= cocktails.Length)
                     {
                         end = true;
                         break;
@@ -54,7 +145,7 @@ namespace AppliLeCrocodile
                     break;
             }
 
-            content = horizontalStack;
+            return horizontalStack;
         }
 
         private Layout CreateCocktailLayout(in Cocktail cocktail)
