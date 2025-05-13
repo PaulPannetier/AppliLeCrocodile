@@ -6,12 +6,14 @@ namespace AppliLeCrocodile
         private Beer[] beers;
         private Snack[] snacks;
         private Soda[] sodas;
+        private Shoother[] shooters;
 
-        public LastPage(MainPage mainPage, Beer[] beers, Snack[] snacks, Soda[] sodas) : base(mainPage)
+        public LastPage(MainPage mainPage, Beer[] beers, Snack[] snacks, Soda[] sodas, Shoother[] shooters) : base(mainPage)
         {
             this.beers = beers;
             this.snacks = snacks;
             this.sodas = sodas;
+            this.shooters = shooters;
 
             title = "Last Page";
 
@@ -131,14 +133,9 @@ namespace AppliLeCrocodile
             views.Children.Add(sodaTitleGroup);
 
             Grid sodaGrid = new Grid();
-            horizontalPadding = GetRelativeWidth(30d);
-            sodaGrid.Padding = new Thickness(horizontalPadding, GetRelativeHeight(25d), horizontalPadding, 0d);
+            sodaGrid.Padding = new Thickness(0d, GetRelativeHeight(25d), 0d, 0d);
             sodaGrid.ColumnSpacing = GetRelativeWidth(40d);
-            sodaGrid.HorizontalOptions = LayoutOptions.Fill;
-            sodaGrid.ColumnDefinitions = new ColumnDefinitionCollection(
-                new ColumnDefinition { Width = GridLength.Star },
-                new ColumnDefinition { Width = GridLength.Auto }
-            );
+            sodaGrid.HorizontalOptions = LayoutOptions.Center;
 
             VerticalStackLayout sodasLayoutFirstRow = new VerticalStackLayout();
             sodasLayoutFirstRow.HorizontalOptions = LayoutOptions.Center;
@@ -162,37 +159,136 @@ namespace AppliLeCrocodile
             sodaGrid.Add(sodasLayoutSecondRow, 1, 0);
             views.Children.Add(sodaGrid);
 
+
+            VerticalStackLayout shootersGroup = new VerticalStackLayout();
+            shootersGroup.HorizontalOptions = LayoutOptions.Center;
+            shootersGroup.Padding = new Thickness(0d, GetRelativeHeight(30d), 0d, 0d);
+
+            Label shooterTitle = new Label();
+            shooterTitle.Text = LanguageManager.Instance.GetText("SHOOTERS_TITLE");
+            shooterTitle.FontSize = GetRelativeFontSize(20d);
+            shooterTitle.TextColor = Colors.Black;
+            shooterTitle.FontAttributes = FontAttributes.Bold;
+
+            BoxView shooterUnderline = new BoxView();
+            shooterUnderline.HeightRequest = GetRelativeHeight(1d);
+            shooterUnderline.WidthRequest = shooterTitle.Width;
+            shooterUnderline.BackgroundColor = Colors.Black;
+            shooterUnderline.Color = Colors.Black;
+            shooterUnderline.HorizontalOptions = LayoutOptions.Fill;
+            shooterUnderline.Margin = new Thickness(0d, -GetRelativeHeight(4d), 0d, 0d);
+
+            shootersGroup.Children.Add(shooterTitle);
+            shootersGroup.Children.Add(shooterUnderline);
+            views.Children.Add(shootersGroup);
+
+
+            VerticalStackLayout shootersPrice = new VerticalStackLayout();
+            shootersPrice.Padding = new Thickness(0d, GetRelativeHeight(25d), 0d, 0d);
+            shootersPrice.Spacing = GetRelativeHeight(4d);
+
+            Label oneShooterPrice = new Label();
+            oneShooterPrice.Text = LanguageManager.Instance.GetText("ONE_SHOOTER_PRICE");
+            oneShooterPrice.FontSize = GetRelativeFontSize(14d);
+            oneShooterPrice.HorizontalOptions = LayoutOptions.Center;
+            oneShooterPrice.TextColor = Colors.Black;
+
+            Label fiveShooterPrice = new Label();
+            fiveShooterPrice.Text = LanguageManager.Instance.GetText("FIVE_SHOOTER_PRICE");
+            fiveShooterPrice.FontSize = GetRelativeFontSize(14d);
+            fiveShooterPrice.HorizontalOptions = LayoutOptions.Center;
+            fiveShooterPrice.TextColor = Colors.Black;
+
+            Label tenShooterPrice = new Label();
+            tenShooterPrice.Text = LanguageManager.Instance.GetText("TEN_SHOOTER_PRICE");
+            tenShooterPrice.FontSize = GetRelativeFontSize(14d);
+            tenShooterPrice.HorizontalOptions = LayoutOptions.Center;
+            tenShooterPrice.TextColor = Colors.Black;
+
+            shootersPrice.Children.Add(oneShooterPrice);
+            shootersPrice.Children.Add(fiveShooterPrice);
+            shootersPrice.Children.Add(tenShooterPrice);
+            views.Children.Add(shootersPrice);
+
+
+            int nbShootersPerCol = (int)MathF.Ceiling(shooters.Length / 3f);
+            Grid shootGrid = new Grid();
+            shootGrid.ColumnSpacing = GetRelativeWidth(15d);
+            shootGrid.RowSpacing = GetRelativeHeight(4d);
+            shootGrid.HorizontalOptions = LayoutOptions.Center;
+            shootGrid.Padding = new Thickness(0d, GetRelativeHeight(25d), 0d, 0d);
+
+            for (int i = 0; i < nbShootersPerCol; i++)
+            {
+                Layout shootLayout = CreateShooterLayout(shooters[i]);
+                shootGrid.Add(shootLayout, 0, i);
+            }
+
+            for (int i = nbShootersPerCol; i < 2 * nbShootersPerCol; i++)
+            {
+                Layout shootLayout = CreateShooterLayout(shooters[i]);
+                shootGrid.Add(shootLayout, 1, i - nbShootersPerCol);
+            }
+
+            for (int i = 2 * nbShootersPerCol; i < shooters.Length; i++)
+            {
+                Layout shootLayout = CreateShooterLayout(shooters[i]);
+                shootGrid.Add(shootLayout, 2, i - (2 * nbShootersPerCol));
+            }
+
+            views.Children.Add(shootGrid);
+
+            Label menuLabel = new Label();
+            menuLabel.Text = LanguageManager.Instance.GetText("BUY_MENU_CARD");
+            menuLabel.FontSize = GetRelativeFontSize(14d);
+            menuLabel.HorizontalOptions = LayoutOptions.Center;
+            menuLabel.HorizontalTextAlignment = TextAlignment.Center;
+            menuLabel.LineHeight = 1.3d;
+            menuLabel.Padding = new Thickness(GetRelativeWidth(35d), GetRelativeHeight(40d), GetRelativeWidth(35d), 0d);
+            menuLabel.TextColor = Colors.Black;
+
+            views.Add(menuLabel);
+
             content = views;
+        }
+
+        private Layout CreateShooterLayout(in Shoother shoot)
+        {
+            StackLayout stack = new StackLayout();
+
+            Label shootLabel = new Label();
+            shootLabel.Text = LanguageManager.Instance.GetText(shoot.nameID);
+            shootLabel.HorizontalOptions = LayoutOptions.Center;
+            shootLabel.TextColor = Colors.Black;
+            shootLabel.FontSize = GetRelativeFontSize(14d);
+
+            stack.Children.Add(shootLabel);
+
+            return stack;
         }
 
         private Layout CreateSodaLayout(in Soda soda)
         {
-            //VerticalStackLayout vsl = new VerticalStackLayout();
-            //vsl.HorizontalOptions = LayoutOptions.Center;
-            //Label label = new Label();
-            //label.Text = "TEST";
-            //vsl.Children.Add(label);
-            //return vsl;
-
             Grid views = new Grid();
             views.ColumnDefinitions = new ColumnDefinitionCollection(
                 new ColumnDefinition { Width = GridLength.Star },
                 new ColumnDefinition { Width = GridLength.Auto }
             );
+            views.ColumnSpacing = GetRelativeWidth(20d);
 
             Label sodaLabel = new Label();
             sodaLabel.Text = LanguageManager.Instance.GetText(soda.nameID);
             sodaLabel.TextColor = Colors.Black;
             sodaLabel.HorizontalOptions = LayoutOptions.Start;
             sodaLabel.FontSize = GetRelativeFontSize(14d);
-            views.Children.Add(sodaLabel);
+            views.Add(sodaLabel, 0, 0);
 
             Label sodaPrice = new Label();
             sodaPrice.Text = LanguageManager.Instance.GetText(soda.priceID);
             sodaPrice.TextColor = Colors.Black;
             sodaPrice.HorizontalOptions = LayoutOptions.End;
             sodaPrice.FontSize = GetRelativeFontSize(14d);
-            views.Children.Add(sodaPrice);
+            views.Add(sodaPrice, 1, 0);
 
             return views;
         }

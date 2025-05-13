@@ -63,7 +63,7 @@ namespace AppliLeCrocodile
 
 
             Label happyHour = new Label();
-            happyHour.Padding = new Thickness(0d, GetRelativeHeight(5d), 0d, GetRelativeHeight(0d));
+            happyHour.Padding = new Thickness(0d, GetRelativeHeight(5d), 0d, 0d);
             happyHour.Text = LanguageManager.Instance.GetText("HAPPY_HOUR");
             happyHour.FontSize = GetRelativeFontSize(18d);
             happyHour.TextColor = Colors.Black;
@@ -161,7 +161,7 @@ namespace AppliLeCrocodile
 
             Label facebookInfo = new Label();
             facebookInfo.Text = LanguageManager.Instance.GetText("SUMMARY_FACEBOOK");
-            facebookInfo.FontSize = 18;
+            facebookInfo.FontSize = GetRelativeFontSize(18d);
             facebookInfo.Padding = new Thickness(0d, GetRelativeHeight(5d), 0d, 0d);
             facebookInfo.TextColor = Colors.Black;
             facebookInfo.HorizontalTextAlignment = TextAlignment.Center;

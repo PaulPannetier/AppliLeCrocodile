@@ -83,6 +83,7 @@
 	  <EmbeddedResource Include="Save\fruit_juice.json" />
 	  <EmbeddedResource Include="Save\beers.json" />
 	  <EmbeddedResource Include="Save\snacks.json" />
+	  <EmbeddedResource Include="Save\shooters.json" />
 	  <EmbeddedResource Include="Save\soda.json" />
 	  <EmbeddedResource Include="Save\softs.json" />
 	  <EmbeddedResource Include="Save\cocktails.json" />

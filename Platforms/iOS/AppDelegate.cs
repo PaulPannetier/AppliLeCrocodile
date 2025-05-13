@@ -1,4 +1,9 @@
 ﻿using Foundation;
+using Microsoft.Maui;
+using ObjCRuntime;
+using UIKit;
+using Microsoft.Maui.Hosting;
+using Microsoft.Maui.Controls.Platform;
 
 namespace AppliLeCrocodile
 {

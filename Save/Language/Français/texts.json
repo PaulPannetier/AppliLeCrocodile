@@ -2196,6 +2196,66 @@
         {
             "key": "RED_BULL_PRICE",
             "value": "<RED_BULL_PRICE> €"
+        },
+        {
+            "key": "SHOOTERS_TITLE",
+            "value": "Nos croc'shooters"
+        },
+        {
+            "key": "ONE_SHOOTER_PRICE",
+            "value": "<ONE_SHOOTER_PRICE> € le shooter"
+        },
+        {
+            "key": "FIVE_SHOOTER_PRICE",
+            "value": "<FIVE_SHOOTER_PRICE> € les 5 shooter au choix"
+        },
+        {
+            "key": "TEN_SHOOTER_PRICE",
+            "value": "<TEN_SHOOTER_PRICE> € les 10 shooter au choix"
+        },
+        {
+            "key": "VODKA_KIWI",
+            "value": "Vodka-kiwi"
+        },
+        {
+            "key": "VODKA_FRAISE",
+            "value": "Vodka-fraise"
+        },
+        {
+            "key": "VODKA_FRAMBOISE",
+            "value": "Vodka-framboise"
+        },
+        {
+            "key": "VODKA_SPECULOS",
+            "value": "Vodka-Spéculos"
+        },
+        {
+            "key": "TEQUILA_SHOOT",
+            "value": "Téquila"
+        },
+        {
+            "key": "RHUM_VIEUX_POIRE",
+            "value": "Rhum vieux-poire"
+        },
+        {
+            "key": "VODKA_CARAMEL",
+            "value": "Vodka-caramel"
+        },
+        {
+            "key": "JEIGERMEISTER",
+            "value": "Jeigermeister"
+        },
+        {
+            "key": "GIN_CASSIS",
+            "value": "Gin cassis"
+        },
+        {
+            "key": "B52",
+            "value": "B52"
+        },
+        {
+            "key": "BUY_MENU_CARD",
+            "value": "Pas la peine de voler notre jolie carte avec un sourire et <MENU_CARD_PRICE>€ elle est à vous !!!"
         }
     ]
 }

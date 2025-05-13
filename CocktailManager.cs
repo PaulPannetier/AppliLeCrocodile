@@ -20,6 +20,7 @@ namespace AppliLeCrocodile
         private const string beersPath = "beers.json";
         private const string snacksPath = "snacks.json";
         private const string sodaPath = "soda.json";
+        private const string shootersPath = "shooters.json";
 
         private Cocktail[] cocktails;
         private Cocktail[] softs;
@@ -27,6 +28,7 @@ namespace AppliLeCrocodile
         private Beer[] beers;
         private Snack[] snacks;
         private Soda[] sodas;
+        private Shoother[] shooters;
 
         public Ingredient[] ingredients { get; private set; }
 
@@ -38,6 +40,7 @@ namespace AppliLeCrocodile
             LoadBeers();
             LoadSnacks();
             LoadSodas();
+            LoadShooters();
         }
 
         #region Verification
@@ -176,6 +179,13 @@ namespace AppliLeCrocodile
             sodas = sodaSave.soda;
         }
 
+        private void LoadShooters()
+        {
+            ShootherSave shooterSave = JsonUtility.DeserializeFromSave<ShootherSave>(shootersPath);
+            shooters = shooterSave.shooters;
+        }
+
+
         public Ingredient GetIngredientByID(string nameID) => Array.Find(ingredients, (Ingredient i) => i.nameID == nameID);
 
         public Cocktail[] GetCocktails(CocktailFilter? filter)
@@ -226,6 +236,11 @@ namespace AppliLeCrocodile
         public Soda[] GetSodas()
         {
             return (Soda[])sodas.Clone();
+        }
+
+        public Shoother[] GetShooters()
+        {
+            return (Shoother[])shooters.Clone();
         }
     }
 }

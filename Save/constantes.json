@@ -59,6 +59,22 @@
         {
             "key": "RED_BULL_PRICE",
             "value": "4,50"
+        },
+        {
+            "key": "ONE_SHOOTER_PRICE",
+            "value": "4"
+        },
+        {
+            "key": "FIVE_SHOOTER_PRICE",
+            "value": "15"
+        },
+        {
+            "key": "TEN_SHOOTER_PRICE",
+            "value": "30"
+        },
+        {
+            "key": "MENU_CARD_PRICE",
+            "value": "2"
         }
     ]
 }

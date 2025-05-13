@@ -5,7 +5,7 @@ namespace AppliLeCrocodile
     internal class CocktailsPage : SwipableContent
     {
         public const int nbColumns = 2;
-        public const int nbRows = 11;
+        public const int nbRows = 12;
 
         private Cocktail[] cocktails;
 
@@ -14,49 +14,56 @@ namespace AppliLeCrocodile
             this.cocktails = cocktails;
             title = "CocktailsPage";
 
-            Grid grid = new Grid();
-            grid.BackgroundColor = Colors.White;
-            double horizontalPadding = GetRelativeWidth(25d);
-            grid.Padding = new Thickness(horizontalPadding, GetRelativeHeight(30d), horizontalPadding, 0d);
-            grid.VerticalOptions = LayoutOptions.Fill;
+            HorizontalStackLayout horizontalStack = new HorizontalStackLayout();
+            double horiPadding = GetRelativeWidth(35d);
+            double colSpacing = GetRelativeWidth(25d);
+            double screenSize = DeviceDisplay.MainDisplayInfo.Width / DeviceDisplay.MainDisplayInfo.Density;
+            double columnWidth = (screenSize - colSpacing - (2d * horiPadding)) * 0.5d;
+
+            horizontalStack.HorizontalOptions = LayoutOptions.Center;
+            horizontalStack.VerticalOptions = LayoutOptions.Start;
+            horizontalStack.Padding = new Thickness(horiPadding, GetRelativeHeight(30d), horiPadding, 0d);
+            horizontalStack.Spacing = colSpacing;
 
             for (int j = 0; j < nbColumns; j++)
             {
                 VerticalStackLayout column = new VerticalStackLayout();
                 column.VerticalOptions = LayoutOptions.Center;
-                column.Padding = new Thickness(GetRelativeWidth(10d), 0d, GetRelativeWidth(10d), 0f);
-                column.Spacing = GetRelativeHeight(11d);
+                column.HorizontalOptions = LayoutOptions.Center;
+                column.WidthRequest = columnWidth;
+                column.Spacing = GetRelativeHeight(5d);
 
                 bool end = false;
-                for(int i = 0; i < nbRows; i++)
+                int begCocktailIndex = nbRows * j;
+                int endCocktailIndex = j == nbColumns - 1 ? cocktails.Length : begCocktailIndex + nbRows;
+                for (int i = begCocktailIndex; i < endCocktailIndex; i++)
                 {
-                    int cocktailIndex = i + (j * nbRows);
-                    if(cocktailIndex >= cocktails.Length)
+                    if(i >= cocktails.Length)
                     {
                         end = true;
                         break;
                     }
 
-                    IView view = CreateCocktailView(cocktails[cocktailIndex]);
-                    column.Children.Add(view);
+                    Layout cocktailLayout = CreateCocktailLayout(cocktails[i]);
+                    column.Children.Add(cocktailLayout);
                 }
 
-                grid.Add(column, j, 0);
+                horizontalStack.Children.Add(column);
 
                 if (end)
                     break;
             }
 
-            content = grid;
+            content = horizontalStack;
         }
 
-        private IView CreateCocktailView(in Cocktail cocktail)
+        private Layout CreateCocktailLayout(in Cocktail cocktail)
         {
             VerticalStackLayout views = new VerticalStackLayout();
             Label title = new Label();
             title.Text = LanguageManager.Instance.GetText(cocktail.nameID);
             title.HorizontalOptions = LayoutOptions.Start;
-            title.FontSize = GetRelativeFontSize(17d);
+            title.FontSize = GetRelativeFontSize(16d);
             title.TextColor = Colors.Black;
             title.HorizontalTextAlignment = TextAlignment.Center;
             title.FontAttributes = FontAttributes.Bold;

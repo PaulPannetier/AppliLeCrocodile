@@ -1,4 +1,5 @@
 ﻿using Microsoft.Maui.Layouts;
+using System.Collections.Generic;
 
 namespace AppliLeCrocodile
 {
@@ -25,29 +26,49 @@ namespace AppliLeCrocodile
         public void Start()
         {
             CreatePages(null);
-            LoadPageContent(new LoadPageContentParam(pages[pages.Length - 1], TransitionType.None));
+            LoadPageContent(new LoadPageContentParam(pages[2], TransitionType.None));
         }
 
         private void CreatePages(CocktailFilter? filter)
         {
-            Cocktail[] cocktails = CocktailManager.Instance.GetCocktails(filter);
-            int nbPages = (int)MathF.Ceiling(cocktails.Length / (float)(CocktailsPage.nbColumns * CocktailsPage.nbRows)) + 4; //+3 for the front page + summary page + soft page + last page
-
-            pages = new PageContent[nbPages];
-            pages[0] = new FrontPage(this);
-            pages[1] = new SummaryPage(this);
-            pages[pages.Length - 2] = new SoftPage(this, CocktailManager.Instance.GetSofts(null), CocktailManager.Instance.GetFruitJuice());
-            pages[pages.Length - 1] = new LastPage(this, CocktailManager.Instance.GetBeers(), CocktailManager.Instance.GetSnacks(), CocktailManager.Instance.GetSodas());
-
-            int cocktailIndex = 0;
-            int endIndexPage = nbPages - 3;
-            for (int indexPage = 2; indexPage < nbPages - 2; indexPage++)
+            List<PageContent> currentPages = new List<PageContent>
             {
-                int endIndexCocktail = (int)MathF.Min(cocktailIndex + (CocktailsPage.nbColumns * CocktailsPage.nbRows), cocktails.Length);
-                Cocktail[] pageCocktails = cocktails[cocktailIndex..endIndexCocktail];
-                pages[indexPage] = new CocktailsPage(this, pageCocktails);
-                cocktailIndex = endIndexCocktail;
+                new FrontPage(this),
+                new SummaryPage(this),
+            };
+
+            List<Cocktail> cocktails = CocktailManager.Instance.GetCocktails(filter).ToList();
+            List<List<Cocktail>> pagesCocktails = new List<List<Cocktail>>();
+            while (cocktails.Count > 0)
+            {
+                if(cocktails.Count >= CocktailsPage.nbColumns * CocktailsPage.nbRows)
+                {
+                    pagesCocktails.Add(cocktails[0 .. (CocktailsPage.nbColumns * CocktailsPage.nbRows)].ToList());
+                    cocktails.RemoveRange(0, CocktailsPage.nbColumns * CocktailsPage.nbRows);
+                    continue;
+                }
+
+                if(cocktails.Count == 1)
+                {
+                    pagesCocktails[pagesCocktails.Count - 1].Add(cocktails[0]);
+                    cocktails.Clear();
+                    break;
+                }
+
+                pagesCocktails.Add(cocktails[0..].ToList());
+                cocktails.Clear();
+                break;
             }
+
+            foreach(List<Cocktail> pageCocktail in pagesCocktails)
+            {
+                currentPages.Add(new CocktailsPage(this, pageCocktail.ToArray()));
+            }
+
+            currentPages.Add(new SoftPage(this, CocktailManager.Instance.GetSofts(null), CocktailManager.Instance.GetFruitJuice()));
+            currentPages.Add(new LastPage(this, CocktailManager.Instance.GetBeers(), CocktailManager.Instance.GetSnacks(), CocktailManager.Instance.GetSodas(), CocktailManager.Instance.GetShooters()));
+
+            pages = currentPages.ToArray();
 
             ((SwipableContent)pages[0]).Initialize(null, (SwipableContent)pages[1]);
             ((SwipableContent)pages[pages.Length - 1]).Initialize((SwipableContent)pages[pages.Length - 2], null);

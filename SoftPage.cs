@@ -69,7 +69,7 @@ namespace AppliLeCrocodile
 
             Label fruitJuiceLabel = new Label();
             fruitJuiceLabel.Text = LanguageManager.Instance.GetText("FRUIT_JUICE_TITLE");
-            fruitJuiceLabel.Padding = new Thickness(0d, GetRelativeHeight(30d), 0d, 0d); 
+            fruitJuiceLabel.Padding = new Thickness(0d, GetRelativeHeight(40d), 0d, 0d); 
             fruitJuiceLabel.FontSize = GetRelativeFontSize(30d);
             fruitJuiceLabel.FontAttributes = FontAttributes.Bold;
             fruitJuiceLabel.HorizontalTextAlignment = TextAlignment.Center;
@@ -94,10 +94,12 @@ namespace AppliLeCrocodile
 
             sb.Remove(sb.Length - 2, 2);
             Label juicesLabel = new Label();
-            juicesLabel.Padding = new Thickness(GetRelativeWidth(20d), GetRelativeHeight(0d));
             juicesLabel.Text = sb.ToString();
+            juicesLabel.Padding = new Thickness(GetRelativeWidth(30d), GetRelativeHeight(2d), GetRelativeWidth(30d), 0d);
+            juicesLabel.LineHeight = 1.3d;
             juicesLabel.FontSize = GetRelativeFontSize(14d);
             juicesLabel.HorizontalTextAlignment = TextAlignment.Center;
+            juicesLabel.HorizontalOptions = LayoutOptions.Center;
             juicesLabel.TextColor = Colors.Black;
             views.Children.Add(juicesLabel);
 

@@ -782,7 +782,7 @@
             ]
         },
         {
-            "nameID": "COQUELICOT",
+            "nameID": "COQUELICOT_COCKTAIL",
             "imagePath": "Cocktails/coquelicot.png",
             "ingredientsNameID": [
                 "MARIE_BRIZARD",
