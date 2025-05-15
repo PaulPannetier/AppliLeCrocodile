@@ -116,7 +116,7 @@ namespace AppliLeCrocodile
                     fruitJuiceLst.Add(ingredient);
             }
 
-            int FruitJuiceCompare(Ingredient right, Ingredient left)
+            int FruitJuiceComparer(Ingredient right, Ingredient left)
             {
                 string rightStr = LanguageManager.Instance.GetText(right.nameID);
                 string leftStr = LanguageManager.Instance.GetText(left.nameID);
@@ -124,7 +124,7 @@ namespace AppliLeCrocodile
             }
 
             fruitJuices = fruitJuiceLst.ToArray();
-            Array.Sort(fruitJuices, FruitJuiceCompare);
+            Array.Sort(fruitJuices, FruitJuiceComparer);
         }
 
         private int CompareCocktail(Cocktail right, Cocktail left)
