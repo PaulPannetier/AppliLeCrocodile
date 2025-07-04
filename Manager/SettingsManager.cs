@@ -1,5 +1,4 @@
 ﻿using System.Collections.Frozen;
-using System.Reflection.Metadata;
 
 namespace AppliLeCrocodile
 {
@@ -25,7 +24,7 @@ namespace AppliLeCrocodile
 
         private SettingsManager() 
         {
-            if (!JsonUtility.DeserializeFromAppData<SettingsData>(settingsFilePath, out settingsData))
+            if (!JsonUtility.DeserializeFromAppData(settingsFilePath, out settingsData))
             {
                 settingsData = new SettingsData(LanguageManager.defaultLanguage, true);
             }
@@ -52,7 +51,7 @@ namespace AppliLeCrocodile
         private void OnSleep()
         {
             settingsData.firstTimeLaunch = false;
-            JsonUtility.SerializeToAppData<SettingsData>(settingsData, settingsFilePath);
+            JsonUtility.SerializeToAppData(settingsData, settingsFilePath);
         }
 
         public bool TryGetConstante(string constanteID, out string constant) => constantes.TryGetValue(constanteID, out constant);

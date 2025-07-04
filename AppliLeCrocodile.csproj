@@ -99,10 +99,14 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Folder Include="Resources\Images\Cocktails\" />
 	  <Folder Include="Resources\Images\Ingredients\" />
 	  <Folder Include="Resources\Images\Beers\" />
 	  <Folder Include="Resources\Images\Soft\" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <MauiImage Include="Resources\Images\Cocktails\alaska.jpg" />
+	  <MauiImage Include="Resources\Images\UI\info.png" />
 	</ItemGroup>
 
 </Project>

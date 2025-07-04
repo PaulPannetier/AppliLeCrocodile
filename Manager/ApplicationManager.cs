@@ -1,5 +1,4 @@
-﻿
-namespace AppliLeCrocodile
+﻿namespace AppliLeCrocodile
 {
     internal class ApplicationManager
     {

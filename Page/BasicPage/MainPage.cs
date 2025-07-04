@@ -20,13 +20,22 @@ namespace AppliLeCrocodile
         public MainPage()
         {
             NavigationPage.SetHasNavigationBar(this, false);
-            NavigationPage.SetHasBackButton(this, false);
+            NavigationPage.SetHasBackButton(this, false); 
         }
 
         public void Start()
         {
             CreatePages(null);
-            LoadPageContent(new LoadPageContentParam(pages[2], TransitionType.None)).GetAwaiter().GetResult();
+
+
+
+            List<Cocktail> cocktails = CocktailManager.Instance.GetCocktails(null).ToList();
+            CocktailPage cocktailPage = new CocktailPage(this, cocktails[6]);
+            LoadPageContent(new LoadPageContentParam(cocktailPage, TransitionType.None)).GetAwaiter().GetResult();
+
+
+
+            //LoadPageContent(new LoadPageContentParam(pages[2], TransitionType.None)).GetAwaiter().GetResult();
         }
 
         private void CreatePages(ICocktailFilter? filter)

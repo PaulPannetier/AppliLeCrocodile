@@ -1,4 +1,5 @@
-﻿namespace AppliLeCrocodile
+﻿
+namespace AppliLeCrocodile
 {
     public partial class App : Application
     {

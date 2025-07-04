@@ -1,5 +1,4 @@
 ﻿
-
 namespace AppliLeCrocodile
 {
     internal class PageContent

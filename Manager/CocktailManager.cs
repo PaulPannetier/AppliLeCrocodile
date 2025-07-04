@@ -186,7 +186,7 @@ namespace AppliLeCrocodile
         }
 
 
-        public Ingredient GetIngredientByID(string nameID) => Array.Find(ingredients, (Ingredient i) => i.nameID == nameID);
+        public Ingredient GetIngredientByID(string nameID) => Array.Find(ingredients, (i) => i.nameID == nameID);
 
         public Cocktail[] GetCocktails(ICocktailFilter? filter)
         {

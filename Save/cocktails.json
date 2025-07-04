@@ -2,7 +2,7 @@
     "cocktails": [
         {
             "nameID": "ABBAYE",
-            "imagePath": "Cocktails/abbaye.png",
+            "imagePath": "abbaye.jpg",
             "ingredientsNameID": [
                 "GIN",
                 "ORANGE",
@@ -11,7 +11,7 @@
         },
         {
             "nameID": "ACAPULCO",
-            "imagePath": "Cocktails/acapulco.png",
+            "imagePath": "acapulco.jpg",
             "ingredientsNameID": [
                 "TEQUILA",
                 "RHUM",
@@ -21,7 +21,7 @@
         },
         {
             "nameID": "ACCROCHE_COEUR",
-            "imagePath": "Cocktails/accroche_coeur.png",
+            "imagePath": "accroche_coeur.jpg",
             "ingredientsNameID": [
                 "LIQUEUR_DE_CANNELLE",
                 "CHAMPAGNE"
@@ -29,7 +29,7 @@
         },
         {
             "nameID": "AFFREUX_JOJO",
-            "imagePath": "Cocktails/affreux_jojo.png",
+            "imagePath": "affreux_jojo.jpg",
             "ingredientsNameID": [
                 "LIQUEUR_DE_CAFE",
                 "COGNAC",
@@ -40,7 +40,7 @@
         },
         {
             "nameID": "AHURI",
-            "imagePath": "Cocktails/ahuri.png",
+            "imagePath": "ahuri.jpg",
             "ingredientsNameID": [
                 "LIQUEUR_DE_CAFE",
                 "KIRSCH",
@@ -49,7 +49,7 @@
         },
         {
             "nameID": "ALASKA",
-            "imagePath": "Cocktails/alaska.png",
+            "imagePath": "alaska.jpg",
             "ingredientsNameID": [
                 "CHARTREUSE",
                 "VODKA",
@@ -58,7 +58,7 @@
         },
         {
             "nameID": "ALCHIMISTE",
-            "imagePath": "Cocktails/alchimiste.png",
+            "imagePath": "alchimiste.jpg",
             "ingredientsNameID": [
                 "GIN",
                 "ANANAS",
@@ -67,7 +67,7 @@
         },
         {
             "nameID": "ALEXANDRA",
-            "imagePath": "Cocktails/alexandra.png",
+            "imagePath": "alexandra.jpg",
             "ingredientsNameID": [
                 "COGNAC",
                 "CREME_DE_CACAO",
@@ -76,7 +76,7 @@
         },
         {
             "nameID": "ALIBI",
-            "imagePath": "Cocktails/alibi.png",
+            "imagePath": "alibi.jpg",
             "ingredientsNameID": [
                 "RHUM",
                 "COINTREAU",
@@ -86,7 +86,7 @@
         },
         {
             "nameID": "ALTA_MIRA",
-            "imagePath": "Cocktails/alta_mira.png",
+            "imagePath": "alta_mira.jpg",
             "ingredientsNameID": [
                 "COINTREAU",
                 "CACHACA",
@@ -96,7 +96,7 @@
         },
         {
             "nameID": "AMBASSADOR",
-            "imagePath": "Cocktails/ambassador.png",
+            "imagePath": "ambassador.jpg",
             "ingredientsNameID": [
                 "TEQUILA",
                 "ORANGE",
@@ -105,7 +105,7 @@
         },
         {
             "nameID": "AMERICAN_LEGION",
-            "imagePath": "Cocktails/american_legion.png",
+            "imagePath": "american_legion.jpg",
             "ingredientsNameID": [
                 "TEQUILA",
                 "COINTREAU",
@@ -115,7 +115,7 @@
         },
         {
             "nameID": "AMERICANO",
-            "imagePath": "Cocktails/americano.png",
+            "imagePath": "americano.jpg",
             "ingredientsNameID": [
                 "GIN",
                 "CINZANO",
@@ -125,7 +125,7 @@
         },
         {
             "nameID": "AMOUREUX_TIMIDE",
-            "imagePath": "Cocktails/amoureux_timide.png",
+            "imagePath": "amoureux_timide.jpg",
             "ingredientsNameID": [
                 "CREME_DE_MUROISE",
                 "CHAMPAGNE"
@@ -133,7 +133,7 @@
         },
         {
             "nameID": "ANE_DE_BURIDAN",
-            "imagePath": "Cocktails/ane_de_buridan.png",
+            "imagePath": "ane_de_buridan.jpg",
             "ingredientsNameID": [
                 "PISCO",
                 "CITRON",
@@ -142,7 +142,7 @@
         },
         {
             "nameID": "ANGEVINE",
-            "imagePath": "Cocktails/angevine.png",
+            "imagePath": "angevine.jpg",
             "ingredientsNameID": [
                 "COINTREAU",
                 "ABRICOT"
@@ -150,7 +150,7 @@
         },
         {
             "nameID": "ANTIDOTE",
-            "imagePath": "Cocktails/antidote.png",
+            "imagePath": "antidote.jpg",
             "ingredientsNameID": [
                 "RHUM_VIEUX",
                 "CREME_DE_CACAO",
@@ -160,7 +160,7 @@
         },
         {
             "nameID": "APACHE",
-            "imagePath": "Cocktails/apache.png",
+            "imagePath": "apache.jpg",
             "ingredientsNameID": [
                 "CACHACA",
                 "LIQUEUR_DE_CANNELLE",
@@ -169,7 +169,7 @@
         },
         {
             "nameID": "AURORE",
-            "imagePath": "Cocktails/aurore.png",
+            "imagePath": "aurore.jpg",
             "ingredientsNameID": [
                 "RHUM",
                 "LIQUEUR_DE_MANDARINE",
@@ -178,7 +178,7 @@
         },
         {
             "nameID": "BABICOCO",
-            "imagePath": "Cocktails/babicoco.png",
+            "imagePath": "babicoco.jpg",
             "ingredientsNameID": [
                 "BATIDA_DE_COCO",
                 "ANANAS"
@@ -186,7 +186,7 @@
         },
         {
             "nameID": "BACARDI",
-            "imagePath": "Cocktails/bacardi.png",
+            "imagePath": "bacardi.jpg",
             "ingredientsNameID": [
                 "RHUM",
                 "CITRON",
@@ -196,7 +196,7 @@
         },
         {
             "nameID": "BACHI_BOUZOUK",
-            "imagePath": "Cocktails/bachi_bouzouk.png",
+            "imagePath": "bachi_bouzouk.jpg",
             "ingredientsNameID": [
                 "CHARTREUSE_VERTE",
                 "COINTREAU",
@@ -206,7 +206,7 @@
         },
         {
             "nameID": "BAGUENAUDE",
-            "imagePath": "Cocktails/baguenaude.png",
+            "imagePath": "baguenaude.jpg",
             "ingredientsNameID": [
                 "CREME_DE_MYRTILLE",
                 "POMME",
@@ -215,7 +215,7 @@
         },
         {
             "nameID": "BALALAIKA",
-            "imagePath": "Cocktails/balalaika.png",
+            "imagePath": "balalaika.jpg",
             "ingredientsNameID": [
                 "VODKA",
                 "COINTREAU",
@@ -224,7 +224,7 @@
         },
         {
             "nameID": "BALLET_RUSSE",
-            "imagePath": "Cocktails/ballet_russe.png",
+            "imagePath": "ballet_russe.jpg",
             "ingredientsNameID": [
                 "VODKA",
                 "CREME_DE_CASSIS",
@@ -233,7 +233,7 @@
         },
         {
             "nameID": "BANANA_COW",
-            "imagePath": "Cocktails/banana_cow.png",
+            "imagePath": "banana_cow.jpg",
             "ingredientsNameID": [
                 "LIQUEUR_DE_BANANE",
                 "MALIBU",
@@ -243,7 +243,7 @@
         },
         {
             "nameID": "BANDIT_D'HONNEUR",
-            "imagePath": "Cocktails/bandit_d'honneur.png",
+            "imagePath": "bandit_d'honneur.jpg",
             "ingredientsNameID": [
                 "COGNAC",
                 "LIQUEUR_DE_CAFE",
@@ -253,7 +253,7 @@
         },
         {
             "nameID": "BAOBAB",
-            "imagePath": "Cocktails/baobab.png",
+            "imagePath": "baobab.jpg",
             "ingredientsNameID": [
                 "CHARTREUSE",
                 "VODKA"
@@ -261,7 +261,7 @@
         },
         {
             "nameID": "BARAKA",
-            "imagePath": "Cocktails/baraka.png",
+            "imagePath": "baraka.jpg",
             "ingredientsNameID": [
                 "MALIBU",
                 "PAMPLEMOUSSE"
@@ -269,7 +269,7 @@
         },
         {
             "nameID": "BASKARIA",
-            "imagePath": "Cocktails/baskaria.png",
+            "imagePath": "baskaria.jpg",
             "ingredientsNameID": [
                 "GIN",
                 "LIQUEUR_DABRICOT",
@@ -278,7 +278,7 @@
         },
         {
             "nameID": "BATIDA",
-            "imagePath": "Cocktails/batida.png",
+            "imagePath": "batida.jpg",
             "ingredientsNameID": [
                 "CACHACA",
                 "CITRON",
@@ -288,7 +288,7 @@
         },
         {
             "nameID": "BATIDINHA",
-            "imagePath": "Cocktails/batidinha.png",
+            "imagePath": "batidinha.jpg",
             "ingredientsNameID": [
                 "CACHACA",
                 "CITRON",
@@ -297,7 +297,7 @@
         },
         {
             "nameID": "BEBER_PARA_VIVIR",
-            "imagePath": "Cocktails/beber_para_vivir.png",
+            "imagePath": "beber_para_vivir.jpg",
             "ingredientsNameID": [
                 "CREME_DE_MURE",
                 "TRIPLE_SEC",
@@ -307,7 +307,7 @@
         },
         {
             "nameID": "BENI_OUI_OUI",
-            "imagePath": "Cocktails/beni_oui_oui.png",
+            "imagePath": "beni_oui_oui.jpg",
             "ingredientsNameID": [
                 "CALVADOS",
                 "LIQUEUR_DE_CANNELLE",
@@ -316,7 +316,7 @@
         },
         {
             "nameID": "BEGUIN",
-            "imagePath": "Cocktails/beguin.png",
+            "imagePath": "beguin.jpg",
             "ingredientsNameID": [
                 "CREME_DE_ROSE",
                 "LIQUEUR_DE_VIOLETTE",
@@ -325,7 +325,7 @@
         },
         {
             "nameID": "BIG_DANE",
-            "imagePath": "Cocktails/big_dane.png",
+            "imagePath": "big_dane.jpg",
             "ingredientsNameID": [
                 "AQUAVIT",
                 "PAMPLEMOUSSE",
@@ -334,7 +334,7 @@
         },
         {
             "nameID": "BLACKSON",
-            "imagePath": "Cocktails/blackson.png",
+            "imagePath": "blackson.jpg",
             "ingredientsNameID": [
                 "VODKA",
                 "MARIE_BRIZARD",
@@ -344,7 +344,7 @@
         },
         {
             "nameID": "BLOODY_MARY",
-            "imagePath": "Cocktails/bloody_mary.png",
+            "imagePath": "bloody_mary.jpg",
             "ingredientsNameID": [
                 "VODKA",
                 "TOMATE",
@@ -355,7 +355,7 @@
         },
         {
             "nameID": "BLUE_HAWAIAN",
-            "imagePath": "Cocktails/blue_hawaian.png",
+            "imagePath": "blue_hawaian.jpg",
             "ingredientsNameID": [
                 "RHUM",
                 "CURACAO_BLEU",
@@ -365,7 +365,7 @@
         },
         {
             "nameID": "BLUE_LAGOON",
-            "imagePath": "Cocktails/blue_lagoon.png",
+            "imagePath": "blue_lagoon.jpg",
             "ingredientsNameID": [
                 "COINTREAU",
                 "GIN",
@@ -375,7 +375,7 @@
         },
         {
             "nameID": "BOHEME",
-            "imagePath": "Cocktails/boheme.png",
+            "imagePath": "boheme.jpg",
             "ingredientsNameID": [
                 "RHUM_VIEUX",
                 "CREME_DE_POIRE_WILLIAM",
@@ -384,7 +384,7 @@
         },
         {
             "nameID": "BOISSON_DES_ILES",
-            "imagePath": "Cocktails/boisson_des_iles.png",
+            "imagePath": "boisson_des_iles.jpg",
             "ingredientsNameID": [
                 "MALIBU",
                 "ANANAS"
@@ -392,7 +392,7 @@
         },
         {
             "nameID": "BOOTLEGGER",
-            "imagePath": "Cocktails/bootlegger.png",
+            "imagePath": "bootlegger.jpg",
             "ingredientsNameID": [
                 "VODKA",
                 "FRAISE",
@@ -402,7 +402,7 @@
         },
         {
             "nameID": "BOUGON",
-            "imagePath": "Cocktails/bougon.png",
+            "imagePath": "bougon.jpg",
             "ingredientsNameID": [
                 "CACHACA",
                 "LIQUEUR_DE_BANANE",
@@ -411,7 +411,7 @@
         },
         {
             "nameID": "BOUTE_EN_TRAIN",
-            "imagePath": "Cocktails/boute_en_train.png",
+            "imagePath": "boute_en_train.jpg",
             "ingredientsNameID": [
                 "TEQUILA",
                 "CREME_DE_PECHE_DE_VIGNE",
@@ -420,7 +420,7 @@
         },
         {
             "nameID": "BOUTON_D'OR",
-            "imagePath": "Cocktails/bouton_d'or.png",
+            "imagePath": "bouton_d'or.jpg",
             "ingredientsNameID": [
                 "BOURBON",
                 "ABRICOT"
@@ -428,7 +428,7 @@
         },
         {
             "nameID": "BRIGAND",
-            "imagePath": "Cocktails/brigand.png",
+            "imagePath": "brigand.jpg",
             "ingredientsNameID": [
                 "CACHACA",
                 "LIQUEUR_DE_MANDARINE",
@@ -438,7 +438,7 @@
         },
         {
             "nameID": "BRULE_POURPOINT",
-            "imagePath": "Cocktails/brule_pourpoint.png",
+            "imagePath": "brule_pourpoint.jpg",
             "ingredientsNameID": [
                 "LIQUEUR_DE_CHATAIGNE",
                 "VODKA",
@@ -447,7 +447,7 @@
         },
         {
             "nameID": "CABOCHARD",
-            "imagePath": "Cocktails/cabochard.png",
+            "imagePath": "cabochard.jpg",
             "ingredientsNameID": [
                 "CALVADOS",
                 "TRIPLE_SEC",
@@ -457,7 +457,7 @@
         },
         {
             "nameID": "CABOTIN",
-            "imagePath": "Cocktails/cabotin.png",
+            "imagePath": "cabotin.jpg",
             "ingredientsNameID": [
                 "CREME_DE_MURE",
                 "CANNEBERGE",
@@ -466,7 +466,7 @@
         },
         {
             "nameID": "CAIMAN_I",
-            "imagePath": "Cocktails/caiman_i.png",
+            "imagePath": "caiman_i.jpg",
             "ingredientsNameID": [
                 "LIQUEUR_DE_WHISKY",
                 "WHISKY",
@@ -475,7 +475,7 @@
         },
         {
             "nameID": "CAIMAN_II",
-            "imagePath": "Cocktails/caiman_ii.png",
+            "imagePath": "caiman_ii.jpg",
             "ingredientsNameID": [
                 "LIQUEUR_DE_BOURBON",
                 "BOURBON",
@@ -484,7 +484,7 @@
         },
         {
             "nameID": "CAIPIRISSIMA",
-            "imagePath": "Cocktails/caipirissima.png",
+            "imagePath": "caipirissima.jpg",
             "ingredientsNameID": [
                 "VODKA",
                 "CITRON",
@@ -494,7 +494,7 @@
         },
         {
             "nameID": "CAMOUFLET",
-            "imagePath": "Cocktails/camouflet.png",
+            "imagePath": "camouflet.jpg",
             "ingredientsNameID": [
                 "BAILEYS",
                 "GIN",
@@ -503,7 +503,7 @@
         },
         {
             "nameID": "CAMPARI_GIN",
-            "imagePath": "Cocktails/campari_gin.png",
+            "imagePath": "campari_gin.jpg",
             "ingredientsNameID": [
                 "CAMPARI",
                 "GIN",
@@ -512,7 +512,7 @@
         },
         {
             "nameID": "CANULAR",
-            "imagePath": "Cocktails/canular.png",
+            "imagePath": "canular.jpg",
             "ingredientsNameID": [
                 "LIQUEUR_DANANAS",
                 "CREME_DE_CACAO",
@@ -521,7 +521,7 @@
         },
         {
             "nameID": "CAPHARNAUM",
-            "imagePath": "Cocktails/capharnaum.png",
+            "imagePath": "capharnaum.jpg",
             "ingredientsNameID": [
                 "VODKA",
                 "LIQUEUR_DANANAS",
@@ -531,7 +531,7 @@
         },
         {
             "nameID": "CARACAS_NIGHT",
-            "imagePath": "Cocktails/caracas_night.png",
+            "imagePath": "caracas_night.jpg",
             "ingredientsNameID": [
                 "KIRSCH",
                 "CHERRY",
@@ -540,7 +540,7 @@
         },
         {
             "nameID": "CARDINAL",
-            "imagePath": "Cocktails/cardinal.png",
+            "imagePath": "cardinal.jpg",
             "ingredientsNameID": [
                 "GIN",
                 "VERMOUTH",
@@ -549,7 +549,7 @@
         },
         {
             "nameID": "CARIOCA",
-            "imagePath": "Cocktails/carioca.png",
+            "imagePath": "carioca.jpg",
             "ingredientsNameID": [
                 "CACHACA",
                 "CITRON_VERT",
@@ -558,7 +558,7 @@
         },
         {
             "nameID": "CASSE_COU",
-            "imagePath": "Cocktails/casse_cou.png",
+            "imagePath": "casse_cou.jpg",
             "ingredientsNameID": [
                 "MEZCAL",
                 "CREME_DE_MYRTILLE",
@@ -568,7 +568,7 @@
         },
         {
             "nameID": "CHANTACO",
-            "imagePath": "Cocktails/chantaco.png",
+            "imagePath": "chantaco.jpg",
             "ingredientsNameID": [
                 "VODKA",
                 "ORANGE",
@@ -579,7 +579,7 @@
         },
         {
             "nameID": "CHARABIA",
-            "imagePath": "Cocktails/charabia.png",
+            "imagePath": "charabia.jpg",
             "ingredientsNameID": [
                 "LIQUEUR_DABRICOT",
                 "NOYAU_DE_POISSY",
@@ -588,7 +588,7 @@
         },
         {
             "nameID": "CHALOUPEE",
-            "imagePath": "Cocktails/chaloupee.png",
+            "imagePath": "chaloupee.jpg",
             "ingredientsNameID": [
                 "RHUM_CUBAIN",
                 "LIQUEUR_DE_MELON",
@@ -598,7 +598,7 @@
         },
         {
             "nameID": "CHARANOVA",
-            "imagePath": "Cocktails/charanova.png",
+            "imagePath": "charanova.jpg",
             "ingredientsNameID": [
                 "RHUM",
                 "COINTREAU",
@@ -608,7 +608,7 @@
         },
         {
             "nameID": "CHARENTAISE",
-            "imagePath": "Cocktails/charentaise.png",
+            "imagePath": "charentaise.jpg",
             "ingredientsNameID": [
                 "GRAND_MARNIER",
                 "ABRICOT"
@@ -616,7 +616,7 @@
         },
         {
             "nameID": "CHARIVARI",
-            "imagePath": "Cocktails/charivari.png",
+            "imagePath": "charivari.jpg",
             "ingredientsNameID": [
                 "VODKA",
                 "TRIPLE_SEC",
@@ -625,7 +625,7 @@
         },
         {
             "nameID": "CHARLES_HENRY",
-            "imagePath": "Cocktails/charles_henry.png",
+            "imagePath": "charles_henry.jpg",
             "ingredientsNameID": [
                 "VODKA",
                 "TRIPLE_SEC",
@@ -634,7 +634,7 @@
         },
         {
             "nameID": "CHAT_BOTTE",
-            "imagePath": "Cocktails/chat_botte.png",
+            "imagePath": "chat_botte.jpg",
             "ingredientsNameID": [
                 "CREME_DE_FRAMBOISE",
                 "LIQUEUR_DE_MANGUE",
@@ -643,7 +643,7 @@
         },
         {
             "nameID": "CHAUDRON_DU_DIABLE",
-            "imagePath": "Cocktails/chaudron_du_diable.png",
+            "imagePath": "chaudron_du_diable.jpg",
             "ingredientsNameID": [
                 "BAILEYS",
                 "PIPPERMINT_DOUX",
@@ -652,7 +652,7 @@
         },
         {
             "nameID": "CHEMIN_DE_DAMAS",
-            "imagePath": "Cocktails/chemin_de_damas.png",
+            "imagePath": "chemin_de_damas.jpg",
             "ingredientsNameID": [
                 "VODKA",
                 "NOYAU_DE_POISSY",
@@ -661,7 +661,7 @@
         },
         {
             "nameID": "CHENAPAN",
-            "imagePath": "Cocktails/chenapan.png",
+            "imagePath": "chenapan.jpg",
             "ingredientsNameID": [
                 "LIQUEUR_DE_MANGUE",
                 "MARACUJA",
@@ -670,7 +670,7 @@
         },
         {
             "nameID": "CHERUBIN",
-            "imagePath": "Cocktails/cherubin.png",
+            "imagePath": "cherubin.jpg",
             "ingredientsNameID": [
                 "CREME_DE_PECHE_DE_VIGNE",
                 "LIQUEUR_DE_MARACUJA",
@@ -680,7 +680,7 @@
         },
         {
             "nameID": "CHICANO",
-            "imagePath": "Cocktails/chicano.png",
+            "imagePath": "chicano.jpg",
             "ingredientsNameID": [
                 "MEZCAL",
                 "LIQUEUR_DE_KIWI",
@@ -690,7 +690,7 @@
         },
         {
             "nameID": "CHIMERE",
-            "imagePath": "Cocktails/chimere.png",
+            "imagePath": "chimere.jpg",
             "ingredientsNameID": [
                 "BAILEYS",
                 "ABSINTHE"
@@ -698,7 +698,7 @@
         },
         {
             "nameID": "CHOCOLAT_COINTREAU",
-            "imagePath": "Cocktails/chocolat_cointreau.png",
+            "imagePath": "chocolat_cointreau.jpg",
             "ingredientsNameID": [
                 "CHOCOLAT",
                 "COINTREAU",
@@ -707,7 +707,7 @@
         },
         {
             "nameID": "CIBOULETTE",
-            "imagePath": "Cocktails/ciboulette.png",
+            "imagePath": "ciboulette.jpg",
             "ingredientsNameID": [
                 "TEQUILA",
                 "TRIPLE_SEC",
@@ -718,7 +718,7 @@
         },
         {
             "nameID": "CIEL_DE_PROVENCE",
-            "imagePath": "Cocktails/ciel_de_provence.png",
+            "imagePath": "ciel_de_provence.jpg",
             "ingredientsNameID": [
                 "CURACAO_BLEU",
                 "CHAMPAGNE"
@@ -726,7 +726,7 @@
         },
         {
             "nameID": "CIGALE",
-            "imagePath": "Cocktails/cigale.png",
+            "imagePath": "cigale.jpg",
             "ingredientsNameID": [
                 "LIQUEUR_DE_CHATAIGNE",
                 "PIPPERMINT",
@@ -735,7 +735,7 @@
         },
         {
             "nameID": "CLARIDGE",
-            "imagePath": "Cocktails/claridge.png",
+            "imagePath": "claridge.jpg",
             "ingredientsNameID": [
                 "GIN",
                 "VERMOUTH_DRY",
@@ -745,7 +745,7 @@
         },
         {
             "nameID": "CLE_DES_CHAMPS",
-            "imagePath": "Cocktails/cle_des_champs.png",
+            "imagePath": "cle_des_champs.jpg",
             "ingredientsNameID": [
                 "VODKA",
                 "LIQUEUR_DE_POMME_VERTE",
@@ -755,7 +755,7 @@
         },
         {
             "nameID": "CLOU_ROUILLE",
-            "imagePath": "Cocktails/clou_rouille.png",
+            "imagePath": "clou_rouille.jpg",
             "ingredientsNameID": [
                 "LIQUEUR_DE_WHISKY",
                 "WHISKY"
@@ -763,7 +763,7 @@
         },
         {
             "nameID": "CONQUISTADOR",
-            "imagePath": "Cocktails/conquistador.png",
+            "imagePath": "conquistador.jpg",
             "ingredientsNameID": [
                 "RHUM",
                 "TRIPLE_SEC",
@@ -773,7 +773,7 @@
         },
         {
             "nameID": "CONSUL_DO_BRASIL",
-            "imagePath": "Cocktails/consul_do_brasil.png",
+            "imagePath": "consul_do_brasil.jpg",
             "ingredientsNameID": [
                 "CACHACA",
                 "LIQUEUR_DE_MARACUJA",
@@ -783,7 +783,7 @@
         },
         {
             "nameID": "COQUELICOT_COCKTAIL",
-            "imagePath": "Cocktails/coquelicot.png",
+            "imagePath": "coquelicot.jpg",
             "ingredientsNameID": [
                 "MARIE_BRIZARD",
                 "COINTREAU",
@@ -793,7 +793,7 @@
         },
         {
             "nameID": "COQ_EN_PATE",
-            "imagePath": "Cocktails/coq_en_pate.png",
+            "imagePath": "coq_en_pate.jpg",
             "ingredientsNameID": [
                 "EAU_DE_VIE_DE_POIRE_WILLIAM",
                 "LIQUEUR_DE_POIRE_WILLIAM",
@@ -802,7 +802,7 @@
         },
         {
             "nameID": "CORDE_AU_COU",
-            "imagePath": "Cocktails/corde_au_cou.png",
+            "imagePath": "corde_au_cou.jpg",
             "ingredientsNameID": [
                 "VODKA",
                 "LIQUEUR_DE_PASTEQUE",
@@ -811,7 +811,7 @@
         },
         {
             "nameID": "CROQUE_MITAINE",
-            "imagePath": "Cocktails/croque_mitaine.png",
+            "imagePath": "croque_mitaine.jpg",
             "ingredientsNameID": [
                 "VODKA",
                 "LIQUEUR_DE_LITCHI",
@@ -821,7 +821,7 @@
         },
         {
             "nameID": "CROCODILE",
-            "imagePath": "Cocktails/crocodile.png",
+            "imagePath": "crocodile.jpg",
             "ingredientsNameID": [
                 "GIN",
                 "GUIGNOLET",
@@ -832,7 +832,7 @@
         },
         {
             "nameID": "CUPIDON",
-            "imagePath": "Cocktails/cupidon.png",
+            "imagePath": "cupidon.jpg",
             "ingredientsNameID": [
                 "LIQUEUR_DE_CACAO",
                 "VODKA",
@@ -842,7 +842,7 @@
         },
         {
             "nameID": "DAIKIRI",
-            "imagePath": "Cocktails/daikiri.png",
+            "imagePath": "daikiri.jpg",
             "ingredientsNameID": [
                 "RHUM",
                 "CITRON",
@@ -851,7 +851,7 @@
         },
         {
             "nameID": "DAIKIRI_ORANGE",
-            "imagePath": "Cocktails/daikiri_orange.png",
+            "imagePath": "daikiri_orange.jpg",
             "ingredientsNameID": [
                 "RHUM",
                 "ORANGE",
@@ -860,7 +860,7 @@
         },
         {
             "nameID": "DANDY",
-            "imagePath": "Cocktails/dandy.png",
+            "imagePath": "dandy.jpg",
             "ingredientsNameID": [
                 "LIQUEUR_DE_KIWI",
                 "MARACUJA"
@@ -868,7 +868,7 @@
         },
         {
             "nameID": "DESPERADO",
-            "imagePath": "Cocktails/desperado.png",
+            "imagePath": "desperado.jpg",
             "ingredientsNameID": [
                 "LIQUEUR_DE_FRAISE",
                 "MEZCAL",
@@ -877,7 +877,7 @@
         },
         {
             "nameID": "DEGONFLE",
-            "imagePath": "Cocktails/degonfle.png",
+            "imagePath": "degonfle.jpg",
             "ingredientsNameID": [
                 "LIQUEUR_DE_FRAISE",
                 "FRAISE",
@@ -886,7 +886,7 @@
         },
         {
             "nameID": "DJAHDIEUF",
-            "imagePath": "Cocktails/djahdieuf.png",
+            "imagePath": "djahdieuf.jpg",
             "ingredientsNameID": [
                 "RHUM_BRUN",
                 "LIQUEUR_DE_MANGUE",
@@ -895,7 +895,7 @@
         },
         {
             "nameID": "DON_DU_CIEL",
-            "imagePath": "Cocktails/don_du_ciel.png",
+            "imagePath": "don_du_ciel.jpg",
             "ingredientsNameID": [
                 "LIQUEUR_DE_FRAMBOISE",
                 "CITRON",
@@ -904,7 +904,7 @@
         },
         {
             "nameID": "DOUCEUR_EXOTIQUE",
-            "imagePath": "Cocktails/douceur_exotique.png",
+            "imagePath": "douceur_exotique.jpg",
             "ingredientsNameID": [
                 "RHUM",
                 "MANGUE",
@@ -915,7 +915,7 @@
         },
         {
             "nameID": "DOUX_REVEUR",
-            "imagePath": "Cocktails/doux_reveur.png",
+            "imagePath": "doux_reveur.jpg",
             "ingredientsNameID": [
                 "VODKA",
                 "LIQUEUR_DABRICOT",
@@ -925,7 +925,7 @@
         },
         {
             "nameID": "DRAGON_VERT",
-            "imagePath": "Cocktails/dragon_vert.png",
+            "imagePath": "dragon_vert.jpg",
             "ingredientsNameID": [
                 "VODKA",
                 "PIPPERMINT_DOUX",
@@ -934,7 +934,7 @@
         },
         {
             "nameID": "DUR_A_CUIRE",
-            "imagePath": "Cocktails/dur_a_cuire.png",
+            "imagePath": "dur_a_cuire.jpg",
             "ingredientsNameID": [
                 "CACHACA",
                 "CREME_DE_MYRTILLE",
@@ -944,7 +944,7 @@
         },
         {
             "nameID": "ELIXIR",
-            "imagePath": "Cocktails/elixir.png",
+            "imagePath": "elixir.jpg",
             "ingredientsNameID": [
                 "TEQUILA",
                 "CREME_DE_MURE",
@@ -953,7 +953,7 @@
         },
         {
             "nameID": "EMBRUME",
-            "imagePath": "Cocktails/embrume.png",
+            "imagePath": "embrume.jpg",
             "ingredientsNameID": [
                 "CALVADOS",
                 "POMME",
@@ -962,7 +962,7 @@
         },
         {
             "nameID": "ENFANT_GATE",
-            "imagePath": "Cocktails/enfant_gate.png",
+            "imagePath": "enfant_gate.jpg",
             "ingredientsNameID": [
                 "CACHACA",
                 "LIQUEUR_DE_MANGUE",
@@ -973,7 +973,7 @@
         },
         {
             "nameID": "ENTOURLOUPE",
-            "imagePath": "Cocktails/entourloupe.png",
+            "imagePath": "entourloupe.jpg",
             "ingredientsNameID": [
                 "LIQUEUR_DE_POMME_VERTE",
                 "CALVADOS",
@@ -982,7 +982,7 @@
         },
         {
             "nameID": "ESCALE",
-            "imagePath": "Cocktails/escale.png",
+            "imagePath": "escale.jpg",
             "ingredientsNameID": [
                 "COINTREAU",
                 "AQUAVIT",
@@ -992,7 +992,7 @@
         },
         {
             "nameID": "ESCOGRIFFE",
-            "imagePath": "Cocktails/escogriffe.png",
+            "imagePath": "escogriffe.jpg",
             "ingredientsNameID": [
                 "MEZCAL",
                 "LIQUEUR_DE_CITRON",
@@ -1001,7 +1001,7 @@
         },
         {
             "nameID": "ESPADON",
-            "imagePath": "Cocktails/espadon.png",
+            "imagePath": "espadon.jpg",
             "ingredientsNameID": [
                 "LIQUEUR_DE_MANDARINE",
                 "CHAMPAGNE"
@@ -1009,7 +1009,7 @@
         },
         {
             "nameID": "FAIR_PLAY",
-            "imagePath": "Cocktails/fair_play.png",
+            "imagePath": "fair_play.jpg",
             "ingredientsNameID": [
                 "LIQUEUR_DE_POIRE_WILLIAM",
                 "CHAMPAGNE"
@@ -1017,7 +1017,7 @@
         },
         {
             "nameID": "FAKIR",
-            "imagePath": "Cocktails/fakir.png",
+            "imagePath": "fakir.jpg",
             "ingredientsNameID": [
                 "CALVADOS",
                 "LIQUEUR_DE_MANGUE",
@@ -1027,7 +1027,7 @@
         },
         {
             "nameID": "FALBALA",
-            "imagePath": "Cocktails/falbala.png",
+            "imagePath": "falbala.jpg",
             "ingredientsNameID": [
                 "BOUKHA",
                 "CURACAO_BLEU",
@@ -1036,7 +1036,7 @@
         },
         {
             "nameID": "FANFARON",
-            "imagePath": "Cocktails/fanfaron.png",
+            "imagePath": "fanfaron.jpg",
             "ingredientsNameID": [
                 "LIQUEUR_DE_GINGEMBRE",
                 "GIN",
@@ -1046,7 +1046,7 @@
         },
         {
             "nameID": "FARFADET",
-            "imagePath": "Cocktails/farfadet.png",
+            "imagePath": "farfadet.jpg",
             "ingredientsNameID": [
                 "BAILEYS",
                 "MALIBU",
@@ -1055,7 +1055,7 @@
         },
         {
             "nameID": "FAVELA",
-            "imagePath": "Cocktails/favela.png",
+            "imagePath": "favela.jpg",
             "ingredientsNameID": [
                 "CACHACA",
                 "CREME_DE_CASSIS",
@@ -1064,7 +1064,7 @@
         },
         {
             "nameID": "FEU_FOLLET",
-            "imagePath": "Cocktails/feu_follet.png",
+            "imagePath": "feu_follet.jpg",
             "ingredientsNameID": [
                 "CREME_DE_PECHE_DE_VIGNE",
                 "CREME_DE_FRAMBOISE",
@@ -1073,7 +1073,7 @@
         },
         {
             "nameID": "FLIBUSTIER",
-            "imagePath": "Cocktails/flibustier.png",
+            "imagePath": "flibustier.jpg",
             "ingredientsNameID": [
                 "LIQUEUR_DE_VANILLE",
                 "LIQUEUR_DE_CAFE",
@@ -1082,7 +1082,7 @@
         },
         {
             "nameID": "FLIRT",
-            "imagePath": "Cocktails/flirt.png",
+            "imagePath": "flirt.jpg",
             "ingredientsNameID": [
                 "LIQUEUR_DE_CARAMEL",
                 "VODKA",
@@ -1091,7 +1091,7 @@
         },
         {
             "nameID": "FOLLE_DE_CHAILLOT",
-            "imagePath": "Cocktails/folle_de_chaillot.png",
+            "imagePath": "folle_de_chaillot.jpg",
             "ingredientsNameID": [
                 "CREME_DE_FRAMBOISE",
                 "CHAMPAGNE"
@@ -1099,7 +1099,7 @@
         },
         {
             "nameID": "FOND_DE_CULOTTE",
-            "imagePath": "Cocktails/fond_de_culotte.png",
+            "imagePath": "fond_de_culotte.jpg",
             "ingredientsNameID": [
                 "SUZE",
                 "CREME_DE_CASSIS"
@@ -1107,7 +1107,7 @@
         },
         {
             "nameID": "FONDU",
-            "imagePath": "Cocktails/fondu.png",
+            "imagePath": "fondu.jpg",
             "ingredientsNameID": [
                 "LIQUEUR_DE_MANDARINE",
                 "GIN",
@@ -1116,7 +1116,7 @@
         },
         {
             "nameID": "FORMULE_3",
-            "imagePath": "Cocktails/formule_3.png",
+            "imagePath": "formule_3.jpg",
             "ingredientsNameID": [
                 "KIRSCH",
                 "VODKA",
@@ -1126,7 +1126,7 @@
         },
         {
             "nameID": "FORMULE_2",
-            "imagePath": "Cocktails/formule_2.png",
+            "imagePath": "formule_2.jpg",
             "ingredientsNameID": [
                 "KIRSCH",
                 "CREME_DE_FRAMBOISE",
@@ -1135,7 +1135,7 @@
         },
         {
             "nameID": "FORMULE_1",
-            "imagePath": "Cocktails/formule_1.png",
+            "imagePath": "formule_1.jpg",
             "ingredientsNameID": [
                 "KIRSCH",
                 "GIN",
@@ -1144,7 +1144,7 @@
         },
         {
             "nameID": "FOULIVET",
-            "imagePath": "Cocktails/foulivet.png",
+            "imagePath": "foulivet.jpg",
             "ingredientsNameID": [
                 "VODKA",
                 "PISANG"
@@ -1152,7 +1152,7 @@
         },
         {
             "nameID": "FRANCISCO",
-            "imagePath": "Cocktails/francisco.png",
+            "imagePath": "francisco.jpg",
             "ingredientsNameID": [
                 "CREME_DE_FRAMBOISE",
                 "VODKA",
@@ -1161,7 +1161,7 @@
         },
         {
             "nameID": "FRELUQUET",
-            "imagePath": "Cocktails/freluquet.png",
+            "imagePath": "freluquet.jpg",
             "ingredientsNameID": [
                 "TEQUILA",
                 "CREME_DE_ROSE",
@@ -1170,7 +1170,7 @@
         },
         {
             "nameID": "FRIPOUILLE",
-            "imagePath": "Cocktails/fripouille.png",
+            "imagePath": "fripouille.jpg",
             "ingredientsNameID": [
                 "CREME_DE_PECHE_DE_VIGNE",
                 "VODKA",
@@ -1179,7 +1179,7 @@
         },
         {
             "nameID": "FRUIT_DEFENDU",
-            "imagePath": "Cocktails/fruit_defendu.png",
+            "imagePath": "fruit_defendu.jpg",
             "ingredientsNameID": [
                 "PISCO",
                 "LIQUEUR_DE_CAFE",
@@ -1188,7 +1188,7 @@
         },
         {
             "nameID": "FUNAMBULE",
-            "imagePath": "Cocktails/funambule.png",
+            "imagePath": "funambule.jpg",
             "ingredientsNameID": [
                 "VODKA",
                 "LIQUEUR_DE_PIMENT",
@@ -1197,7 +1197,7 @@
         },
         {
             "nameID": "GAGNE_PETIT",
-            "imagePath": "Cocktails/gagne_petit.png",
+            "imagePath": "gagne_petit.jpg",
             "ingredientsNameID": [
                 "ZUBROWKA",
                 "LIQUEUR_DE_PIMENT",
@@ -1206,7 +1206,7 @@
         },
         {
             "nameID": "GALEJADE",
-            "imagePath": "Cocktails/galejade.png",
+            "imagePath": "galejade.jpg",
             "ingredientsNameID": [
                 "RHUM_CUBAIN",
                 "LIQUEUR_DE_MARACUJA",
@@ -1215,7 +1215,7 @@
         },
         {
             "nameID": "GALERIEN",
-            "imagePath": "Cocktails/galerien.png",
+            "imagePath": "galerien.jpg",
             "ingredientsNameID": [
                 "RHUM",
                 "PISANG",
@@ -1226,7 +1226,7 @@
         },
         {
             "nameID": "GALIPETTE",
-            "imagePath": "Cocktails/galipette.png",
+            "imagePath": "galipette.jpg",
             "ingredientsNameID": [
                 "BATIDA_DE_COCO",
                 "LIQUEUR_DE_PIMENT",
@@ -1235,7 +1235,7 @@
         },
         {
             "nameID": "GALOUPIOT",
-            "imagePath": "Cocktails/galoupiot.png",
+            "imagePath": "galoupiot.jpg",
             "ingredientsNameID": [
                 "VODKA",
                 "CREME_DE_MUROISE",
@@ -1245,7 +1245,7 @@
         },
         {
             "nameID": "GARGOUILLE",
-            "imagePath": "Cocktails/gargouille.png",
+            "imagePath": "gargouille.jpg",
             "ingredientsNameID": [
                 "MALIBU",
                 "MELON"
@@ -1253,7 +1253,7 @@
         },
         {
             "nameID": "GAVROCHE",
-            "imagePath": "Cocktails/gavroche.png",
+            "imagePath": "gavroche.jpg",
             "ingredientsNameID": [
                 "RHUM",
                 "LIQUEUR_DE_FRUITS_EXOTIQUES",
@@ -1264,7 +1264,7 @@
         },
         {
             "nameID": "GIMMICK",
-            "imagePath": "Cocktails/gimmick.png",
+            "imagePath": "gimmick.jpg",
             "ingredientsNameID": [
                 "VODKA",
                 "LIQUEUR_DE_BANANE",
@@ -1274,7 +1274,7 @@
         },
         {
             "nameID": "GIN_FIZZ",
-            "imagePath": "Cocktails/gin_fizz.png",
+            "imagePath": "gin_fizz.jpg",
             "ingredientsNameID": [
                 "GIN",
                 "CITRON",
@@ -1283,7 +1283,7 @@
         },
         {
             "nameID": "GIROUETTE",
-            "imagePath": "Cocktails/girouette.png",
+            "imagePath": "girouette.jpg",
             "ingredientsNameID": [
                 "LIQUEUR_DE_MANGUE",
                 "LIQUEUR_DE_LITCHI",
@@ -1292,7 +1292,7 @@
         },
         {
             "nameID": "GITAN",
-            "imagePath": "Cocktails/gitan.png",
+            "imagePath": "gitan.jpg",
             "ingredientsNameID": [
                 "LIQUEUR_DE_POIRE_WILLIAM",
                 "CALVADOS",
@@ -1302,7 +1302,7 @@
         },
         {
             "nameID": "GODELUREAU",
-            "imagePath": "Cocktails/godelureau.png",
+            "imagePath": "godelureau.jpg",
             "ingredientsNameID": [
                 "CALVADOS",
                 "COINTREAU",
@@ -1312,7 +1312,7 @@
         },
         {
             "nameID": "GOUGNAFIER",
-            "imagePath": "Cocktails/gougnafier.png",
+            "imagePath": "gougnafier.jpg",
             "ingredientsNameID": [
                 "LIQUEUR_DE_CARAMEL",
                 "VODKA",
@@ -1321,7 +1321,7 @@
         },
         {
             "nameID": "GOUROU",
-            "imagePath": "Cocktails/gourou.png",
+            "imagePath": "gourou.jpg",
             "ingredientsNameID": [
                 "RHUM",
                 "CREME_DE_PECHE_DE_VIGNE",
@@ -1331,7 +1331,7 @@
         },
         {
             "nameID": "GRAND_LARGE",
-            "imagePath": "Cocktails/grand_large.png",
+            "imagePath": "grand_large.jpg",
             "ingredientsNameID": [
                 "RHUM_VIEUX",
                 "LIQUEUR_DE_CANNELLE",
@@ -1340,7 +1340,7 @@
         },
         {
             "nameID": "GRAND_MARNIER_TONIC",
-            "imagePath": "Cocktails/grand_marnier_tonic.png",
+            "imagePath": "grand_marnier_tonic.jpg",
             "ingredientsNameID": [
                 "GRAND_MARNIER",
                 "TONIC",
@@ -1349,7 +1349,7 @@
         },
         {
             "nameID": "GRASSHOPPER",
-            "imagePath": "Cocktails/grasshopper.png",
+            "imagePath": "grasshopper.jpg",
             "ingredientsNameID": [
                 "PIPPERMINT",
                 "CREME_DE_CACAO",
@@ -1358,7 +1358,7 @@
         },
         {
             "nameID": "GRENOUILLE_DE_BENITIER",
-            "imagePath": "Cocktails/grenouille_de_benitier.png",
+            "imagePath": "grenouille_de_benitier.jpg",
             "ingredientsNameID": [
                 "CHARTREUSE",
                 "CHAMPAGNE"
@@ -1366,7 +1366,7 @@
         },
         {
             "nameID": "GRI_GRI",
-            "imagePath": "Cocktails/gri_gri.png",
+            "imagePath": "gri_gri.jpg",
             "ingredientsNameID": [
                 "RHUM_VIEUX",
                 "AMARETTO",
@@ -1375,7 +1375,7 @@
         },
         {
             "nameID": "GRINGO",
-            "imagePath": "Cocktails/gringo.png",
+            "imagePath": "gringo.jpg",
             "ingredientsNameID": [
                 "LIQUEUR_DE_CARAMEL",
                 "LIQUEUR_DE_CAFE",
@@ -1384,7 +1384,7 @@
         },
         {
             "nameID": "GRIPPE_SOU",
-            "imagePath": "Cocktails/grippe_sou.png",
+            "imagePath": "grippe_sou.jpg",
             "ingredientsNameID": [
                 "LIQUEUR_DABRICOT",
                 "TEQUILA",
@@ -1393,7 +1393,7 @@
         },
         {
             "nameID": "GUINGUETTE",
-            "imagePath": "Cocktails/guinguette.png",
+            "imagePath": "guinguette.jpg",
             "ingredientsNameID": [
                 "EAU_DE_VIE_DE_POIRE_WILLIAM",
                 "CREME_DE_PECHE_DE_VIGNE",
@@ -1402,7 +1402,7 @@
         },
         {
             "nameID": "HALLALI",
-            "imagePath": "Cocktails/hallali.png",
+            "imagePath": "hallali.jpg",
             "ingredientsNameID": [
                 "VODKA",
                 "LIQUEUR_DE_COQUELICOT",
@@ -1411,7 +1411,7 @@
         },
         {
             "nameID": "HAS_BEEN",
-            "imagePath": "Cocktails/has_been.png",
+            "imagePath": "has_been.jpg",
             "ingredientsNameID": [
                 "TEQUILA",
                 "LIQUEUR_DE_MARACUJA",
@@ -1421,7 +1421,7 @@
         },
         {
             "nameID": "HURLUBERLU",
-            "imagePath": "Cocktails/hurluberlu.png",
+            "imagePath": "hurluberlu.jpg",
             "ingredientsNameID": [
                 "BAILEYS",
                 "LIQUEUR_DE_VANILLE",
@@ -1430,7 +1430,7 @@
         },
         {
             "nameID": "IMPERTINENT",
-            "imagePath": "Cocktails/impertinent.png",
+            "imagePath": "impertinent.jpg",
             "ingredientsNameID": [
                 "VODKA",
                 "CREME_DE_MUROISE",
@@ -1439,7 +1439,7 @@
         },
         {
             "nameID": "INDECIS",
-            "imagePath": "Cocktails/indecis.png",
+            "imagePath": "indecis.jpg",
             "ingredientsNameID": [
                 "CACHACA",
                 "LIQUEUR_DE_MARACUJA",
@@ -1449,7 +1449,7 @@
         },
         {
             "nameID": "INDISCRET",
-            "imagePath": "Cocktails/indiscret.png",
+            "imagePath": "indiscret.jpg",
             "ingredientsNameID": [
                 "GIN",
                 "COINTREAU",
@@ -1459,7 +1459,7 @@
         },
         {
             "nameID": "JACARE",
-            "imagePath": "Cocktails/jacare.png",
+            "imagePath": "jacare.jpg",
             "ingredientsNameID": [
                 "MEZCAL",
                 "TRIPLE_SEC",
@@ -1470,7 +1470,7 @@
         },
         {
             "nameID": "JACK_ROSE",
-            "imagePath": "Cocktails/jack_rose.png",
+            "imagePath": "jack_rose.jpg",
             "ingredientsNameID": [
                 "CALVADOS",
                 "GRENADINE",
@@ -1480,7 +1480,7 @@
         },
         {
             "nameID": "JOBARD",
-            "imagePath": "Cocktails/jobard.png",
+            "imagePath": "jobard.jpg",
             "ingredientsNameID": [
                 "LIQUEUR_DE_MELON",
                 "PAPAYE"
@@ -1488,7 +1488,7 @@
         },
         {
             "nameID": "JOLIE_MOME",
-            "imagePath": "Cocktails/jolie_mome.png",
+            "imagePath": "jolie_mome.jpg",
             "ingredientsNameID": [
                 "LIQUEUR_DE_VIOLETTE",
                 "LIQUEUR_DE_LITCHI",
@@ -1497,7 +1497,7 @@
         },
         {
             "nameID": "KAMIKAZE",
-            "imagePath": "Cocktails/kamikaze.png",
+            "imagePath": "kamikaze.jpg",
             "ingredientsNameID": [
                 "COINTREAU",
                 "VODKA",
@@ -1506,7 +1506,7 @@
         },
         {
             "nameID": "KHAN",
-            "imagePath": "Cocktails/khan.png",
+            "imagePath": "khan.jpg",
             "ingredientsNameID": [
                 "POMMEAU",
                 "LIQUEUR_DE_MERISE",
@@ -1515,7 +1515,7 @@
         },
         {
             "nameID": "KING_ALFONSO",
-            "imagePath": "Cocktails/king_alfonso.png",
+            "imagePath": "king_alfonso.jpg",
             "ingredientsNameID": [
                 "COGNAC",
                 "LIQUEUR_DE_CAFE",
@@ -1524,7 +1524,7 @@
         },
         {
             "nameID": "LAION",
-            "imagePath": "Cocktails/laion.png",
+            "imagePath": "laion.jpg",
             "ingredientsNameID": [
                 "VODKA",
                 "ORANGE",
@@ -1534,7 +1534,7 @@
         },
         {
             "nameID": "LAION_CASSIS",
-            "imagePath": "Cocktails/laion_cassis.png",
+            "imagePath": "laion_cassis.jpg",
             "ingredientsNameID": [
                 "GIN",
                 "CREME_DE_CASSIS"
@@ -1542,7 +1542,7 @@
         },
         {
             "nameID": "LARENJEIRA",
-            "imagePath": "Cocktails/larenjeira.png",
+            "imagePath": "larenjeira.jpg",
             "ingredientsNameID": [
                 "CACHACA",
                 "PAMPLEMOUSSE",
@@ -1552,7 +1552,7 @@
         },
         {
             "nameID": "LAZY_RIVER",
-            "imagePath": "Cocktails/lazy_river.png",
+            "imagePath": "lazy_river.jpg",
             "ingredientsNameID": [
                 "GRAND_MARNIER",
                 "CHAMPAGNE",
@@ -1561,7 +1561,7 @@
         },
         {
             "nameID": "LEA_DOUDOU",
-            "imagePath": "Cocktails/lea_doudou.png",
+            "imagePath": "lea_doudou.jpg",
             "ingredientsNameID": [
                 "RHUM",
                 "LIQUEUR_DE_CITRON",
@@ -1572,7 +1572,7 @@
         },
         {
             "nameID": "LIBELLULE",
-            "imagePath": "Cocktails/libellule.png",
+            "imagePath": "libellule.jpg",
             "ingredientsNameID": [
                 "LIQUEUR_DE_MANGUE",
                 "LIQUEUR_DE_MARACUJA",
@@ -1581,7 +1581,7 @@
         },
         {
             "nameID": "LIBERTIN",
-            "imagePath": "Cocktails/libertin.png",
+            "imagePath": "libertin.jpg",
             "ingredientsNameID": [
                 "LIQUEUR_DE_LITCHI",
                 "LIQUEUR_DE_MARACUJA",
@@ -1591,7 +1591,7 @@
         },
         {
             "nameID": "LOUP_DE_MER",
-            "imagePath": "Cocktails/loup_de_mer.png",
+            "imagePath": "loup_de_mer.jpg",
             "ingredientsNameID": [
                 "RHUM",
                 "CREME_DE_FRAISE_DES_BOIS",
@@ -1601,7 +1601,7 @@
         },
         {
             "nameID": "LOUPEDADE",
-            "imagePath": "Cocktails/loupedade.png",
+            "imagePath": "loupedade.jpg",
             "ingredientsNameID": [
                 "BAILEYS",
                 "COINTREAU",
@@ -1610,7 +1610,7 @@
         },
         {
             "nameID": "LOUP_GAROU",
-            "imagePath": "Cocktails/loup_garou.png",
+            "imagePath": "loup_garou.jpg",
             "ingredientsNameID": [
                 "BAILEYS",
                 "COGNAC",
@@ -1619,7 +1619,7 @@
         },
         {
             "nameID": "LUCIOLE",
-            "imagePath": "Cocktails/luciole.png",
+            "imagePath": "luciole.jpg",
             "ingredientsNameID": [
                 "BAILEYS",
                 "VODKA",
@@ -1628,7 +1628,7 @@
         },
         {
             "nameID": "MAEVA",
-            "imagePath": "Cocktails/maeva.png",
+            "imagePath": "maeva.jpg",
             "ingredientsNameID": [
                 "VODKA",
                 "LIQUEUR_DE_VANILLE",
@@ -1637,7 +1637,7 @@
         },
         {
             "nameID": "MAI_TAI",
-            "imagePath": "Cocktails/mai_tai.png",
+            "imagePath": "mai_tai.jpg",
             "ingredientsNameID": [
                 "RHUM_VIEUX",
                 "RHUM",
@@ -1648,7 +1648,7 @@
         },
         {
             "nameID": "MANHATTAN",
-            "imagePath": "Cocktails/manhattan.png",
+            "imagePath": "manhattan.jpg",
             "ingredientsNameID": [
                 "BOURBON",
                 "VERMOUTH_DRY"
@@ -1656,7 +1656,7 @@
         },
         {
             "nameID": "MARGARITA",
-            "imagePath": "Cocktails/margarita.png",
+            "imagePath": "margarita.jpg",
             "ingredientsNameID": [
                 "TEQUILA",
                 "TRIPLE_SEC",
@@ -1666,7 +1666,7 @@
         },
         {
             "nameID": "MARGOULIN",
-            "imagePath": "Cocktails/margoulin.png",
+            "imagePath": "margoulin.jpg",
             "ingredientsNameID": [
                 "VODKA",
                 "PISANG",
@@ -1675,7 +1675,7 @@
         },
         {
             "nameID": "MARINA",
-            "imagePath": "Cocktails/marina.png",
+            "imagePath": "marina.jpg",
             "ingredientsNameID": [
                 "WHISKY",
                 "LIQUEUR_DE_BANANE",
@@ -1684,7 +1684,7 @@
         },
         {
             "nameID": "MARTINI_DRY_COCKTAIL",
-            "imagePath": "Cocktails/martini_dry.png",
+            "imagePath": "martini_dry.jpg",
             "ingredientsNameID": [
                 "MARTINI_DOUX",
                 "MARTINI_DRY",
@@ -1694,7 +1694,7 @@
         },
         {
             "nameID": "MASCOTTE",
-            "imagePath": "Cocktails/mascotte.png",
+            "imagePath": "mascotte.jpg",
             "ingredientsNameID": [
                 "LIQUEUR_DE_MARACUJA",
                 "ANANAS",
@@ -1705,7 +1705,7 @@
         },
         {
             "nameID": "M'AS_TU_VU",
-            "imagePath": "Cocktails/m'as_tu_vu.png",
+            "imagePath": "m'as_tu_vu.jpg",
             "ingredientsNameID": [
                 "COGNAC",
                 "CHAMPAGNE",
@@ -1714,7 +1714,7 @@
         },
         {
             "nameID": "MEA_CULPA",
-            "imagePath": "Cocktails/mea_culpa.png",
+            "imagePath": "mea_culpa.jpg",
             "ingredientsNameID": [
                 "LIQUEUR_DE_CARAMEL",
                 "VODKA",
@@ -1723,7 +1723,7 @@
         },
         {
             "nameID": "MEK_TOUB",
-            "imagePath": "Cocktails/mek_toub.png",
+            "imagePath": "mek_toub.jpg",
             "ingredientsNameID": [
                 "LIQUEUR_DE_CARAMEL",
                 "VODKA",
@@ -1732,7 +1732,7 @@
         },
         {
             "nameID": "MEXICAIN",
-            "imagePath": "Cocktails/mexicain.png",
+            "imagePath": "mexicain.jpg",
             "ingredientsNameID": [
                 "TEQUILA",
                 "LIQUEUR_DE_CAFE"
@@ -1740,7 +1740,7 @@
         },
         {
             "nameID": "MIDINETTE",
-            "imagePath": "Cocktails/midinette.png",
+            "imagePath": "midinette.jpg",
             "ingredientsNameID": [
                 "LIQUEUR_DE_MELON",
                 "ORANGE"
@@ -1748,7 +1748,7 @@
         },
         {
             "nameID": "MIRAGE",
-            "imagePath": "Cocktails/mirage.png",
+            "imagePath": "mirage.jpg",
             "ingredientsNameID": [
                 "LIQUEUR_DE_LITCHI",
                 "FRAISE",
@@ -1757,7 +1757,7 @@
         },
         {
             "nameID": "MISANTHROPE",
-            "imagePath": "Cocktails/misanthrope.png",
+            "imagePath": "misanthrope.jpg",
             "ingredientsNameID": [
                 "TEQUILA",
                 "CREME_DE_GRIOTTE",
@@ -1767,7 +1767,7 @@
         },
         {
             "nameID": "MISS_BA",
-            "imagePath": "Cocktails/miss_ba.png",
+            "imagePath": "miss_ba.jpg",
             "ingredientsNameID": [
                 "LIQUEUR_DE_NOISETTE",
                 "COGNAC",
@@ -1777,7 +1777,7 @@
         },
         {
             "nameID": "MISTIGRI",
-            "imagePath": "Cocktails/mistigri.png",
+            "imagePath": "mistigri.jpg",
             "ingredientsNameID": [
                 "LIQUEUR_DE_BANANE",
                 "GIN",
@@ -1786,7 +1786,7 @@
         },
         {
             "nameID": "MOHICAN",
-            "imagePath": "Cocktails/mohican.png",
+            "imagePath": "mohican.jpg",
             "ingredientsNameID": [
                 "BAILEYS",
                 "CALVADOS",
@@ -1795,7 +1795,7 @@
         },
         {
             "nameID": "MUCARA",
-            "imagePath": "Cocktails/mucara.png",
+            "imagePath": "mucara.jpg",
             "ingredientsNameID": [
                 "RHUM_VIEUX",
                 "LIQUEUR_DE_CAFE",
@@ -1805,7 +1805,7 @@
         },
         {
             "nameID": "MUTIN",
-            "imagePath": "Cocktails/mutin.png",
+            "imagePath": "mutin.jpg",
             "ingredientsNameID": [
                 "CREME_DE_CACAO",
                 "RHUM_VIEUX",
@@ -1814,7 +1814,7 @@
         },
         {
             "nameID": "MUSE",
-            "imagePath": "Cocktails/muse.png",
+            "imagePath": "muse.jpg",
             "ingredientsNameID": [
                 "LIQUEUR_DE_MARACUJA",
                 "ANANAS"
@@ -1822,7 +1822,7 @@
         },
         {
             "nameID": "NABAB",
-            "imagePath": "Cocktails/nabab.png",
+            "imagePath": "nabab.jpg",
             "ingredientsNameID": [
                 "LIQUEUR_DE_PIMENT",
                 "CHAMPAGNE"
@@ -1830,7 +1830,7 @@
         },
         {
             "nameID": "NEFERTITI",
-            "imagePath": "Cocktails/nefertiti.png",
+            "imagePath": "nefertiti.jpg",
             "ingredientsNameID": [
                 "BAILEYS",
                 "GRAND_MARNIER",
@@ -1839,7 +1839,7 @@
         },
         {
             "nameID": "NIRVANA",
-            "imagePath": "Cocktails/nirvana.png",
+            "imagePath": "nirvana.jpg",
             "ingredientsNameID": [
                 "VODKA",
                 "LIQUEUR_DE_MANGUE",
@@ -1849,7 +1849,7 @@
         },
         {
             "nameID": "NUNUCHE",
-            "imagePath": "Cocktails/nunuche.png",
+            "imagePath": "nunuche.jpg",
             "ingredientsNameID": [
                 "CREME_DE_PECHE_DE_VIGNE",
                 "LIQUEUR_DE_MELON",
@@ -1859,7 +1859,7 @@
         },
         {
             "nameID": "NYMPHE",
-            "imagePath": "Cocktails/nymphe.png",
+            "imagePath": "nymphe.jpg",
             "ingredientsNameID": [
                 "GIN",
                 "LIQUEUR_DE_FRAISE_DES_BOIS",
@@ -1869,7 +1869,7 @@
         },
         {
             "nameID": "OISEAU_BLEU",
-            "imagePath": "Cocktails/oiseau_bleu.png",
+            "imagePath": "oiseau_bleu.jpg",
             "ingredientsNameID": [
                 "COINTREAU",
                 "CURACAO_BLEU",
@@ -1878,7 +1878,7 @@
         },
         {
             "nameID": "OLIBRIUS",
-            "imagePath": "Cocktails/olibrius.png",
+            "imagePath": "olibrius.jpg",
             "ingredientsNameID": [
                 "PISANG",
                 "LIQUEUR_DE_PIMENT",
@@ -1888,7 +1888,7 @@
         },
         {
             "nameID": "OMBRAGE",
-            "imagePath": "Cocktails/ombrage.png",
+            "imagePath": "ombrage.jpg",
             "ingredientsNameID": [
                 "SIROP_DORGEAT",
                 "GIN",
@@ -1898,7 +1898,7 @@
         },
         {
             "nameID": "ONCLE_TOM",
-            "imagePath": "Cocktails/oncle_tom.png",
+            "imagePath": "oncle_tom.jpg",
             "ingredientsNameID": [
                 "TEQUILA",
                 "CITRON",
@@ -1907,7 +1907,7 @@
         },
         {
             "nameID": "OUBLI",
-            "imagePath": "Cocktails/oubli.png",
+            "imagePath": "oubli.jpg",
             "ingredientsNameID": [
                 "GIN",
                 "CREME_DE_MURE",
@@ -1917,7 +1917,7 @@
         },
         {
             "nameID": "OUED",
-            "imagePath": "Cocktails/oued.png",
+            "imagePath": "oued.jpg",
             "ingredientsNameID": [
                 "BOUKHA",
                 "PAPAYE"
@@ -1925,7 +1925,7 @@
         },
         {
             "nameID": "QUISTITI",
-            "imagePath": "Cocktails/quistiti.png",
+            "imagePath": "quistiti.jpg",
             "ingredientsNameID": [
                 "LIQUEUR_DE_MANGUE",
                 "BANANE",
@@ -1934,7 +1934,7 @@
         },
         {
             "nameID": "OULAN_BATOR",
-            "imagePath": "Cocktails/oulan_bator.png",
+            "imagePath": "oulan_bator.jpg",
             "ingredientsNameID": [
                 "RHUM_CUBAIN",
                 "PISANG",
@@ -1944,7 +1944,7 @@
         },
         {
             "nameID": "PACTOLE",
-            "imagePath": "Cocktails/pactole.png",
+            "imagePath": "pactole.jpg",
             "ingredientsNameID": [
                 "PISANG",
                 "ORANGE"
@@ -1952,7 +1952,7 @@
         },
         {
             "nameID": "PAILLOTTE",
-            "imagePath": "Cocktails/paillotte.png",
+            "imagePath": "paillotte.jpg",
             "ingredientsNameID": [
                 "RHUM",
                 "GRAND_MARNIER",
@@ -1962,7 +1962,7 @@
         },
         {
             "nameID": "PALTOQUET",
-            "imagePath": "Cocktails/paltoquet.png",
+            "imagePath": "paltoquet.jpg",
             "ingredientsNameID": [
                 "AMARETTO",
                 "CHAMPAGNE"
@@ -1970,7 +1970,7 @@
         },
         {
             "nameID": "PAPA_COLLINS",
-            "imagePath": "Cocktails/papa_collins.png",
+            "imagePath": "papa_collins.jpg",
             "ingredientsNameID": [
                 "RHUM",
                 "CITRON",
@@ -1979,7 +1979,7 @@
         },
         {
             "nameID": "PAPOOSE",
-            "imagePath": "Cocktails/papoose.png",
+            "imagePath": "papoose.jpg",
             "ingredientsNameID": [
                 "LIQUEUR_DE_LITCHI",
                 "LIQUEUR_DE_KIWI",
@@ -1988,7 +1988,7 @@
         },
         {
             "nameID": "PARADISE_ABRICOT",
-            "imagePath": "Cocktails/paradise_abricot.png",
+            "imagePath": "paradise_abricot.jpg",
             "ingredientsNameID": [
                 "LIQUEUR_DABRICOT",
                 "GIN",
@@ -1998,7 +1998,7 @@
         },
         {
             "nameID": "PARADISE_BANANE",
-            "imagePath": "Cocktails/paradise_banane.png",
+            "imagePath": "paradise_banane.jpg",
             "ingredientsNameID": [
                 "LIQUEUR_DE_BANANE",
                 "GIN",
@@ -2008,7 +2008,7 @@
         },
         {
             "nameID": "PARADISE_CASSIS",
-            "imagePath": "Cocktails/paradise_cassis.png",
+            "imagePath": "paradise_cassis.jpg",
             "ingredientsNameID": [
                 "CREME_DE_CASSIS",
                 "GIN",
@@ -2018,7 +2018,7 @@
         },
         {
             "nameID": "PARADISE_FRAISE",
-            "imagePath": "Cocktails/paradise_fraise.png",
+            "imagePath": "paradise_fraise.jpg",
             "ingredientsNameID": [
                 "CREME_DE_FRAISE_DES_BOIS",
                 "GIN",
@@ -2028,7 +2028,7 @@
         },
         {
             "nameID": "PARADISE_FRAMBOISE",
-            "imagePath": "Cocktails/paradise_framboise.png",
+            "imagePath": "paradise_framboise.jpg",
             "ingredientsNameID": [
                 "CREME_DE_FRAMBOISE",
                 "GIN",
@@ -2038,7 +2038,7 @@
         },
         {
             "nameID": "PARADISE_GRIOTTE",
-            "imagePath": "Cocktails/paradise_griotte.png",
+            "imagePath": "paradise_griotte.jpg",
             "ingredientsNameID": [
                 "CREME_DE_GRIOTTE",
                 "GIN",
@@ -2048,7 +2048,7 @@
         },
         {
             "nameID": "PARADISE_LITCHI",
-            "imagePath": "Cocktails/paradise_litchi.png",
+            "imagePath": "paradise_litchi.jpg",
             "ingredientsNameID": [
                 "LIQUEUR_DE_LITCHI",
                 "GIN",
@@ -2058,7 +2058,7 @@
         },
         {
             "nameID": "PARADISE_MANGUE",
-            "imagePath": "Cocktails/paradise_mangue.png",
+            "imagePath": "paradise_mangue.jpg",
             "ingredientsNameID": [
                 "LIQUEUR_DE_MANGUE",
                 "GIN",
@@ -2068,7 +2068,7 @@
         },
         {
             "nameID": "PARADISE_MANDARINE",
-            "imagePath": "Cocktails/paradise_mandarine.png",
+            "imagePath": "paradise_mandarine.jpg",
             "ingredientsNameID": [
                 "LIQUEUR_DE_MANDARINE",
                 "GIN",
@@ -2079,7 +2079,7 @@
         },
         {
             "nameID": "PARADISE_MELON",
-            "imagePath": "Cocktails/paradise_melon.png",
+            "imagePath": "paradise_melon.jpg",
             "ingredientsNameID": [
                 "LIQUEUR_DE_MELON",
                 "GIN",
@@ -2089,7 +2089,7 @@
         },
         {
             "nameID": "PARADISE_MURE",
-            "imagePath": "Cocktails/paradise_mure.png",
+            "imagePath": "paradise_mure.jpg",
             "ingredientsNameID": [
                 "CREME_DE_MURE",
                 "GIN",
@@ -2099,7 +2099,7 @@
         },
         {
             "nameID": "PARADISE_MUROISE",
-            "imagePath": "Cocktails/paradise_muroise.png",
+            "imagePath": "paradise_muroise.jpg",
             "ingredientsNameID": [
                 "CREME_DE_MUROISE",
                 "GIN",
@@ -2109,7 +2109,7 @@
         },
         {
             "nameID": "PARADISE_MYRTILLE",
-            "imagePath": "Cocktails/paradise_myrtille.png",
+            "imagePath": "paradise_myrtille.jpg",
             "ingredientsNameID": [
                 "CREME_DE_MYRTILLE",
                 "GIN",
@@ -2119,7 +2119,7 @@
         },
         {
             "nameID": "PARADISE_PECHE",
-            "imagePath": "Cocktails/paradise_peche.png",
+            "imagePath": "paradise_peche.jpg",
             "ingredientsNameID": [
                 "CREME_DE_PECHE_DE_VIGNE",
                 "GIN",
@@ -2129,7 +2129,7 @@
         },
         {
             "nameID": "PARADISE_PISANG",
-            "imagePath": "Cocktails/paradise_pisang.png",
+            "imagePath": "paradise_pisang.jpg",
             "ingredientsNameID": [
                 "PISANG",
                 "GIN",
@@ -2139,7 +2139,7 @@
         },
         {
             "nameID": "PARIA",
-            "imagePath": "Cocktails/paria.png",
+            "imagePath": "paria.jpg",
             "ingredientsNameID": [
                 "RHUM_VIEUX",
                 "CREME_DE_CACAO",
@@ -2148,7 +2148,7 @@
         },
         {
             "nameID": "PARENTHESE",
-            "imagePath": "Cocktails/parenthese.png",
+            "imagePath": "parenthese.jpg",
             "ingredientsNameID": [
                 "BATIDA_DE_COCO",
                 "PISCO",
@@ -2158,7 +2158,7 @@
         },
         {
             "nameID": "PASSE_MURAILLE",
-            "imagePath": "Cocktails/passe_muraille.png",
+            "imagePath": "passe_muraille.jpg",
             "ingredientsNameID": [
                 "CALVADOS",
                 "CREME_DE_MYRTILLE",
@@ -2167,7 +2167,7 @@
         },
         {
             "nameID": "PATATRAC",
-            "imagePath": "Cocktails/patatrac.png",
+            "imagePath": "patatrac.jpg",
             "ingredientsNameID": [
                 "VODKA",
                 "LIQUEUR_DE_COQUELICOT",
@@ -2176,7 +2176,7 @@
         },
         {
             "nameID": "PECHE_KOBA",
-            "imagePath": "Cocktails/peche_koba.png",
+            "imagePath": "peche_koba.jpg",
             "ingredientsNameID": [
                 "CREME_DE_PECHE_DE_VIGNE",
                 "CHAMPAGNE"
@@ -2184,7 +2184,7 @@
         },
         {
             "nameID": "PERLIMPINPIN",
-            "imagePath": "Cocktails/perlimpinpin.png",
+            "imagePath": "perlimpinpin.jpg",
             "ingredientsNameID": [
                 "LIQUEUR_DE_MANDARINE",
                 "BATIDA_DE_COCO"
@@ -2192,7 +2192,7 @@
         },
         {
             "nameID": "PETIT_CHOSE",
-            "imagePath": "Cocktails/petit_chose.png",
+            "imagePath": "petit_chose.jpg",
             "ingredientsNameID": [
                 "VODKA",
                 "LIQUEUR_DE_BANANE",
@@ -2201,7 +2201,7 @@
         },
         {
             "nameID": "PHILTRE",
-            "imagePath": "Cocktails/philtre.png",
+            "imagePath": "philtre.jpg",
             "ingredientsNameID": [
                 "LIQUEUR_DE_POMME_VERTE",
                 "LIQUEUR_DANANAS",
@@ -2210,7 +2210,7 @@
         },
         {
             "nameID": "PIERRE_VERT",
-            "imagePath": "Cocktails/pierre_vert.png",
+            "imagePath": "pierre_vert.jpg",
             "ingredientsNameID": [
                 "PISANG",
                 "MARIE_BRIZARD",
@@ -2219,7 +2219,7 @@
         },
         {
             "nameID": "PIMS_COCKTAIL",
-            "imagePath": "Cocktails/pim's.png",
+            "imagePath": "pim's.jpg",
             "ingredientsNameID": [
                 "PIMS",
                 "CHERRY",
@@ -2228,7 +2228,7 @@
         },
         {
             "nameID": "PINA_COLADA",
-            "imagePath": "Cocktails/pina_colada.png",
+            "imagePath": "pina_colada.jpg",
             "ingredientsNameID": [
                 "RHUM",
                 "MALIBU",
@@ -2239,7 +2239,7 @@
         },
         {
             "nameID": "PINCE_SANS_RIRE",
-            "imagePath": "Cocktails/pince_sans_rire.png",
+            "imagePath": "pince_sans_rire.jpg",
             "ingredientsNameID": [
                 "LIQUEUR_DE_NOISETTE",
                 "CHAMPAGNE"
@@ -2247,7 +2247,7 @@
         },
         {
             "nameID": "PINK_PUSSY",
-            "imagePath": "Cocktails/pink_pussy.png",
+            "imagePath": "pink_pussy.jpg",
             "ingredientsNameID": [
                 "CREME_DE_PECHE_DE_VIGNE",
                 "CAMPARI"
@@ -2255,7 +2255,7 @@
         },
         {
             "nameID": "PIROUETTE",
-            "imagePath": "Cocktails/pirouette.png",
+            "imagePath": "pirouette.jpg",
             "ingredientsNameID": [
                 "AMARETTO",
                 "COGNAC",
@@ -2265,7 +2265,7 @@
         },
         {
             "nameID": "PISKINHA",
-            "imagePath": "Cocktails/piskinha.png",
+            "imagePath": "piskinha.jpg",
             "ingredientsNameID": [
                 "PISCO",
                 "CITRON_VERT",
@@ -2274,7 +2274,7 @@
         },
         {
             "nameID": "PISKITA",
-            "imagePath": "Cocktails/piskita.png",
+            "imagePath": "piskita.jpg",
             "ingredientsNameID": [
                 "PISCO",
                 "TRIPLE_SEC",
@@ -2284,7 +2284,7 @@
         },
         {
             "nameID": "PITCHOUNE",
-            "imagePath": "Cocktails/pitchoune.png",
+            "imagePath": "pitchoune.jpg",
             "ingredientsNameID": [
                 "RHUM_VIEUX",
                 "COINTREAU",
@@ -2293,7 +2293,7 @@
         },
         {
             "nameID": "PLANTEUR",
-            "imagePath": "Cocktails/planteur.png",
+            "imagePath": "planteur.jpg",
             "ingredientsNameID": [
                 "RHUM",
                 "CHERRY",
@@ -2304,7 +2304,7 @@
         },
         {
             "nameID": "PLOUC",
-            "imagePath": "Cocktails/plouc.png",
+            "imagePath": "plouc.jpg",
             "ingredientsNameID": [
                 "PORTO",
                 "LIQUEUR_DE_MELON"
@@ -2312,7 +2312,7 @@
         },
         {
             "nameID": "POLSKA_BANANE",
-            "imagePath": "Cocktails/polska_banane.png",
+            "imagePath": "polska_banane.jpg",
             "ingredientsNameID": [
                 "VODKA",
                 "LIQUEUR_DE_BANANE",
@@ -2321,7 +2321,7 @@
         },
         {
             "nameID": "POLTRON",
-            "imagePath": "Cocktails/poltron.png",
+            "imagePath": "poltron.jpg",
             "ingredientsNameID": [
                 "LIQUEUR_DE_LITCHI",
                 "GOYAVE"
@@ -2329,7 +2329,7 @@
         },
         {
             "nameID": "PONDICHERRY",
-            "imagePath": "Cocktails/pondicherry.png",
+            "imagePath": "pondicherry.jpg",
             "ingredientsNameID": [
                 "LIQUEUR_DE_COQUELICOT",
                 "CHAMPAGNE"
@@ -2337,7 +2337,7 @@
         },
         {
             "nameID": "PORTO_FLIP",
-            "imagePath": "Cocktails/porto_flip.png",
+            "imagePath": "porto_flip.jpg",
             "ingredientsNameID": [
                 "PORTO",
                 "JAUNE_DOEUF",
@@ -2346,7 +2346,7 @@
         },
         {
             "nameID": "POULBOT",
-            "imagePath": "Cocktails/poulbot.png",
+            "imagePath": "poulbot.jpg",
             "ingredientsNameID": [
                 "BAILEYS",
                 "RHUM_CUBAIN",
@@ -2355,7 +2355,7 @@
         },
         {
             "nameID": "P'TIT_QUINQUIN",
-            "imagePath": "Cocktails/p'tit_quinquin.png",
+            "imagePath": "p'tit_quinquin.jpg",
             "ingredientsNameID": [
                 "BAILEYS",
                 "GRAND_MARNIER",
@@ -2364,7 +2364,7 @@
         },
         {
             "nameID": "P'TITE_SIRENE",
-            "imagePath": "Cocktails/p'tite_sirene.png",
+            "imagePath": "p'tite_sirene.jpg",
             "ingredientsNameID": [
                 "AQUAVIT",
                 "PIPPERMINT",
@@ -2373,7 +2373,7 @@
         },
         {
             "nameID": "PUDIBOND",
-            "imagePath": "Cocktails/pudibond.png",
+            "imagePath": "pudibond.jpg",
             "ingredientsNameID": [
                 "BATIDA_DE_COCO",
                 "LIQUEUR_DE_KIWI"
@@ -2381,7 +2381,7 @@
         },
         {
             "nameID": "PUNCH",
-            "imagePath": "Cocktails/punch.png",
+            "imagePath": "punch.jpg",
             "ingredientsNameID": [
                 "RHUM",
                 "CHERRY",
@@ -2390,7 +2390,7 @@
         },
         {
             "nameID": "QUI_QU'EN_GROGNE",
-            "imagePath": "Cocktails/qui_qu'en_grogne.png",
+            "imagePath": "qui_qu'en_grogne.jpg",
             "ingredientsNameID": [
                 "BAILEYS",
                 "COGNAC",
@@ -2399,7 +2399,7 @@
         },
         {
             "nameID": "RAS_LE_BOL",
-            "imagePath": "Cocktails/ras_le_bol.png",
+            "imagePath": "ras_le_bol.jpg",
             "ingredientsNameID": [
                 "LIQUEUR_DE_POMME_VERTE",
                 "PAMPLEMOUSSE_ROSE"
@@ -2407,7 +2407,7 @@
         },
         {
             "nameID": "RAYA",
-            "imagePath": "Cocktails/raya.png",
+            "imagePath": "raya.jpg",
             "ingredientsNameID": [
                 "VODKA",
                 "LIQUEUR_DE_CARAMBOLE",
@@ -2416,7 +2416,7 @@
         },
         {
             "nameID": "REGAIN",
-            "imagePath": "Cocktails/regain.png",
+            "imagePath": "regain.jpg",
             "ingredientsNameID": [
                 "LIQUEUR_DE_MERISE",
                 "CHAMPAGNE"
@@ -2424,7 +2424,7 @@
         },
         {
             "nameID": "REINE_DES_CARAIBES",
-            "imagePath": "Cocktails/reine_des_caraibes.png",
+            "imagePath": "reine_des_caraibes.jpg",
             "ingredientsNameID": [
                 "PISANG",
                 "LIQUEUR_DE_BANANE",
@@ -2434,7 +2434,7 @@
         },
         {
             "nameID": "RIBOULDINGUE",
-            "imagePath": "Cocktails/ribouldingue.png",
+            "imagePath": "ribouldingue.jpg",
             "ingredientsNameID": [
                 "RHUM",
                 "LIQUEUR_DE_BANANE",
@@ -2443,7 +2443,7 @@
         },
         {
             "nameID": "RIFIFI",
-            "imagePath": "Cocktails/rififi.png",
+            "imagePath": "rififi.jpg",
             "ingredientsNameID": [
                 "GIN",
                 "LIQUEUR_DE_POIRE_WILLIAM",
@@ -2452,7 +2452,7 @@
         },
         {
             "nameID": "RIGOLO",
-            "imagePath": "Cocktails/rigolo.png",
+            "imagePath": "rigolo.jpg",
             "ingredientsNameID": [
                 "COINTREAU",
                 "MELON"
@@ -2460,7 +2460,7 @@
         },
         {
             "nameID": "RIO_GRANDE",
-            "imagePath": "Cocktails/rio_grande.png",
+            "imagePath": "rio_grande.jpg",
             "ingredientsNameID": [
                 "GIN",
                 "TEQUILA",
@@ -2472,7 +2472,7 @@
         },
         {
             "nameID": "ROMAINE",
-            "imagePath": "Cocktails/romaine.png",
+            "imagePath": "romaine.jpg",
             "ingredientsNameID": [
                 "SIROP_DORGEAT",
                 "RHUM",
@@ -2482,7 +2482,7 @@
         },
         {
             "nameID": "ROND_DE_CUIR",
-            "imagePath": "Cocktails/rond_de_cuir.png",
+            "imagePath": "rond_de_cuir.jpg",
             "ingredientsNameID": [
                 "WHISKY",
                 "AMARETTO",
@@ -2491,7 +2491,7 @@
         },
         {
             "nameID": "ROSE",
-            "imagePath": "Cocktails/rose.png",
+            "imagePath": "rose.jpg",
             "ingredientsNameID": [
                 "RHUM",
                 "VERMOUTH_DRY",
@@ -2500,7 +2500,7 @@
         },
         {
             "nameID": "ROYAL_PUNCH_COCO",
-            "imagePath": "Cocktails/royal_punch_coco.png",
+            "imagePath": "royal_punch_coco.jpg",
             "ingredientsNameID": [
                 "RHUM",
                 "MALIBU",
@@ -2510,7 +2510,7 @@
         },
         {
             "nameID": "RUSSIE_BLANCHE",
-            "imagePath": "Cocktails/russie_blanche.png",
+            "imagePath": "russie_blanche.jpg",
             "ingredientsNameID": [
                 "LIQUEUR_DE_CAFE",
                 "VODKA",
@@ -2519,7 +2519,7 @@
         },
         {
             "nameID": "RUSSIE_NOIRE",
-            "imagePath": "Cocktails/russie_noire.png",
+            "imagePath": "russie_noire.jpg",
             "ingredientsNameID": [
                 "LIQUEUR_DE_CAFE",
                 "VODKA"
@@ -2527,7 +2527,7 @@
         },
         {
             "nameID": "SACRIPANT",
-            "imagePath": "Cocktails/sacripant.png",
+            "imagePath": "sacripant.jpg",
             "ingredientsNameID": [
                 "AQUAVIT",
                 "LIQUEUR_DE_LITCHI",
@@ -2536,7 +2536,7 @@
         },
         {
             "nameID": "SAGOUIN",
-            "imagePath": "Cocktails/sagouin.png",
+            "imagePath": "sagouin.jpg",
             "ingredientsNameID": [
                 "VODKA",
                 "LIQUEUR_DE_POMME_VERTE",
@@ -2545,7 +2545,7 @@
         },
         {
             "nameID": "SALE_GOSSE",
-            "imagePath": "Cocktails/sale_gosse.png",
+            "imagePath": "sale_gosse.jpg",
             "ingredientsNameID": [
                 "LIQUEUR_DE_CHATAIGNE",
                 "CHAMPAGNE"
@@ -2553,7 +2553,7 @@
         },
         {
             "nameID": "SALTIMBANQUE",
-            "imagePath": "Cocktails/saltimbanque.png",
+            "imagePath": "saltimbanque.jpg",
             "ingredientsNameID": [
                 "LIQUEUR_DE_CACAO",
                 "EAU_DE_VIE_DE_POIRE_WILLIAM",
@@ -2562,7 +2562,7 @@
         },
         {
             "nameID": "SAN_CRISTOBAL",
-            "imagePath": "Cocktails/san_cristobal.png",
+            "imagePath": "san_cristobal.jpg",
             "ingredientsNameID": [
                 "RHUM",
                 "MALIBU",
@@ -2573,7 +2573,7 @@
         },
         {
             "nameID": "SANS_GENE",
-            "imagePath": "Cocktails/sans_gene.png",
+            "imagePath": "sans_gene.jpg",
             "ingredientsNameID": [
                 "TEQUILA",
                 "LIQUEUR_DE_MELON",
@@ -2583,7 +2583,7 @@
         },
         {
             "nameID": "SANS_SOUCI",
-            "imagePath": "Cocktails/sans_souci.png",
+            "imagePath": "sans_souci.jpg",
             "ingredientsNameID": [
                 "LIQUEUR_DE_CACAO",
                 "COCO"
@@ -2591,7 +2591,7 @@
         },
         {
             "nameID": "SAUDADE",
-            "imagePath": "Cocktails/saudade.png",
+            "imagePath": "saudade.jpg",
             "ingredientsNameID": [
                 "BAILEYS",
                 "BATIDA_DE_COCO",
@@ -2600,7 +2600,7 @@
         },
         {
             "nameID": "SCOUBIDOU",
-            "imagePath": "Cocktails/scoubidou.png",
+            "imagePath": "scoubidou.jpg",
             "ingredientsNameID": [
                 "TEQUILA",
                 "LIQUEUR_DE_MELON",
@@ -2610,7 +2610,7 @@
         },
         {
             "nameID": "SHOSHONEE",
-            "imagePath": "Cocktails/shoshonee.png",
+            "imagePath": "shoshonee.jpg",
             "ingredientsNameID": [
                 "CREME_DE_CASSIS",
                 "RHUM",
@@ -2619,7 +2619,7 @@
         },
         {
             "nameID": "SIDE_CAR",
-            "imagePath": "Cocktails/side_car.png",
+            "imagePath": "side_car.jpg",
             "ingredientsNameID": [
                 "COINTREAU",
                 "GIN",
@@ -2628,7 +2628,7 @@
         },
         {
             "nameID": "SIMPLET",
-            "imagePath": "Cocktails/simplet.png",
+            "imagePath": "simplet.jpg",
             "ingredientsNameID": [
                 "PISANG",
                 "ANANAS"
@@ -2636,7 +2636,7 @@
         },
         {
             "nameID": "SINGAPORE_SLING",
-            "imagePath": "Cocktails/singapore_sling.png",
+            "imagePath": "singapore_sling.jpg",
             "ingredientsNameID": [
                 "GIN_CHERRY",
                 "CITRON",
@@ -2645,7 +2645,7 @@
         },
         {
             "nameID": "SINOQUE",
-            "imagePath": "Cocktails/sinoque.png",
+            "imagePath": "sinoque.jpg",
             "ingredientsNameID": [
                 "MEZCAL",
                 "LIQUEUR_DE_MARACUJA",
@@ -2654,7 +2654,7 @@
         },
         {
             "nameID": "SMILING",
-            "imagePath": "Cocktails/smiling.png",
+            "imagePath": "smiling.jpg",
             "ingredientsNameID": [
                 "GIN",
                 "LIQUEUR_DE_MANDARINE",
@@ -2663,7 +2663,7 @@
         },
         {
             "nameID": "SO_BRITISH",
-            "imagePath": "Cocktails/so_british.png",
+            "imagePath": "so_british.jpg",
             "ingredientsNameID": [
                 "LIQUEUR_DE_CHATAIGNE",
                 "GIN",
@@ -2672,7 +2672,7 @@
         },
         {
             "nameID": "SORTILEGE",
-            "imagePath": "Cocktails/sortilege.png",
+            "imagePath": "sortilege.jpg",
             "ingredientsNameID": [
                 "BAILEYS",
                 "LIQUEUR_DE_CHATAIGNE",
@@ -2681,7 +2681,7 @@
         },
         {
             "nameID": "SOUPIRANT",
-            "imagePath": "Cocktails/soupirant.png",
+            "imagePath": "soupirant.jpg",
             "ingredientsNameID": [
                 "LIQUEUR_DE_POMME_VERTE",
                 "EAU_DE_VIE_DE_POIRE_WILLIAM",
@@ -2692,7 +2692,7 @@
         },
         {
             "nameID": "TABARLY",
-            "imagePath": "Cocktails/tabarly.png",
+            "imagePath": "tabarly.jpg",
             "ingredientsNameID": [
                 "GIN",
                 "CHERRY",
@@ -2701,7 +2701,7 @@
         },
         {
             "nameID": "TAJ_MAHAL",
-            "imagePath": "Cocktails/taj_mahal.png",
+            "imagePath": "taj_mahal.jpg",
             "ingredientsNameID": [
                 "RHUM",
                 "LIQUEUR_DE_MANGUE",
@@ -2710,7 +2710,7 @@
         },
         {
             "nameID": "TARTEMPION",
-            "imagePath": "Cocktails/tartempion.png",
+            "imagePath": "tartempion.jpg",
             "ingredientsNameID": [
                 "LIQUEUR_DE_CARAMEL",
                 "CREME_DE_CACAO",
@@ -2719,7 +2719,7 @@
         },
         {
             "nameID": "TEQUILA_FIZZ",
-            "imagePath": "Cocktails/tequila_fizz.png",
+            "imagePath": "tequila_fizz.jpg",
             "ingredientsNameID": [
                 "TEQUILA",
                 "CITRON",
@@ -2728,7 +2728,7 @@
         },
         {
             "nameID": "TEQUILA_SUNRISE",
-            "imagePath": "Cocktails/tequila_sunrise.png",
+            "imagePath": "tequila_sunrise.jpg",
             "ingredientsNameID": [
                 "TEQUILA",
                 "ORANGE",
@@ -2738,7 +2738,7 @@
         },
         {
             "nameID": "TETARD",
-            "imagePath": "Cocktails/tetard.png",
+            "imagePath": "tetard.jpg",
             "ingredientsNameID": [
                 "LIQUEUR_DE_KIWI",
                 "PAMPLEMOUSSE"
@@ -2746,7 +2746,7 @@
         },
         {
             "nameID": "TETE_A_TETE",
-            "imagePath": "Cocktails/tete_a_tete.png",
+            "imagePath": "tete_a_tete.jpg",
             "ingredientsNameID": [
                 "LIQUEUR_DE_MARACUJA",
                 "PHYSALIS"
@@ -2754,7 +2754,7 @@
         },
         {
             "nameID": "TETE_DE_LINOTTE",
-            "imagePath": "Cocktails/tete_de_linotte.png",
+            "imagePath": "tete_de_linotte.jpg",
             "ingredientsNameID": [
                 "LIQUEUR_DE_KIWI",
                 "LIQUEUR_DE_PASTEQUE",
@@ -2763,7 +2763,7 @@
         },
         {
             "nameID": "TEXAS",
-            "imagePath": "Cocktails/texas.png",
+            "imagePath": "texas.jpg",
             "ingredientsNameID": [
                 "TEQUILA",
                 "PAMPLEMOUSSE",
@@ -2772,7 +2772,7 @@
         },
         {
             "nameID": "THOMASSINO",
-            "imagePath": "Cocktails/thomassino.png",
+            "imagePath": "thomassino.jpg",
             "ingredientsNameID": [
                 "LIQUEUR_DE_FRAMBOISE",
                 "MEZCAL",
@@ -2781,7 +2781,7 @@
         },
         {
             "nameID": "TINTAMARRE",
-            "imagePath": "Cocktails/tintamarre.png",
+            "imagePath": "tintamarre.jpg",
             "ingredientsNameID": [
                 "ABSINTHE",
                 "LIQUEUR_DE_LITCHI",
@@ -2790,7 +2790,7 @@
         },
         {
             "nameID": "TI'PUNCH",
-            "imagePath": "Cocktails/ti'punch.png",
+            "imagePath": "ti'punch.jpg",
             "ingredientsNameID": [
                 "RHUM",
                 "CITRON_VERT",
@@ -2799,7 +2799,7 @@
         },
         {
             "nameID": "TIRE_AU_FLANC",
-            "imagePath": "Cocktails/tire_au_flanc.png",
+            "imagePath": "tire_au_flanc.jpg",
             "ingredientsNameID": [
                 "LIQUEUR_DE_CHATAIGNE",
                 "LIQUEUR_DE_VANILLE",
@@ -2809,7 +2809,7 @@
         },
         {
             "nameID": "TOCADE",
-            "imagePath": "Cocktails/tocade.png",
+            "imagePath": "tocade.jpg",
             "ingredientsNameID": [
                 "PISCO",
                 "CINZANO",
@@ -2818,7 +2818,7 @@
         },
         {
             "nameID": "TOHU_BOHU",
-            "imagePath": "Cocktails/tohu_bohu.png",
+            "imagePath": "tohu_bohu.jpg",
             "ingredientsNameID": [
                 "CREME_DE_PECHE_DE_VIGNE",
                 "VODKA",
@@ -2828,7 +2828,7 @@
         },
         {
             "nameID": "TOM_COLLLINS",
-            "imagePath": "Cocktails/tom_colllins.png",
+            "imagePath": "tom_colllins.jpg",
             "ingredientsNameID": [
                 "GIN",
                 "CITRON",
@@ -2837,7 +2837,7 @@
         },
         {
             "nameID": "TOM_JUNIOR",
-            "imagePath": "Cocktails/tom_junior.png",
+            "imagePath": "tom_junior.jpg",
             "ingredientsNameID": [
                 "VODKA",
                 "CITRON",
@@ -2846,7 +2846,7 @@
         },
         {
             "nameID": "TONKINOIS",
-            "imagePath": "Cocktails/tonkinois.png",
+            "imagePath": "tonkinois.jpg",
             "ingredientsNameID": [
                 "LIQUEUR_DE_LITCHI",
                 "ABRICOT",
@@ -2855,7 +2855,7 @@
         },
         {
             "nameID": "TRAINE_SAVATES",
-            "imagePath": "Cocktails/traine_savates.png",
+            "imagePath": "traine_savates.jpg",
             "ingredientsNameID": [
                 "LIQUEUR_DE_CACAO",
                 "LIQUEUR_DE_BANANE",
@@ -2865,7 +2865,7 @@
         },
         {
             "nameID": "TRAIT_D'UNION",
-            "imagePath": "Cocktails/trait_d'union.png",
+            "imagePath": "trait_d'union.jpg",
             "ingredientsNameID": [
                 "LIQUEUR_DE_VANILLE",
                 "CAFE",
@@ -2874,7 +2874,7 @@
         },
         {
             "nameID": "TRALALA",
-            "imagePath": "Cocktails/tralala.png",
+            "imagePath": "tralala.jpg",
             "ingredientsNameID": [
                 "LIQUEUR_DE_NOISETTE",
                 "POMME",
@@ -2883,7 +2883,7 @@
         },
         {
             "nameID": "TRAQUENARD",
-            "imagePath": "Cocktails/traquenard.png",
+            "imagePath": "traquenard.jpg",
             "ingredientsNameID": [
                 "VODKA",
                 "LIQUEUR_DE_MARACUJA",
@@ -2893,7 +2893,7 @@
         },
         {
             "nameID": "TREMOLO",
-            "imagePath": "Cocktails/tremolo.png",
+            "imagePath": "tremolo.jpg",
             "ingredientsNameID": [
                 "LIQUEUR_DE_GINGEMBRE",
                 "CHAMPAGNE"
@@ -2901,7 +2901,7 @@
         },
         {
             "nameID": "333",
-            "imagePath": "Cocktails/333.png",
+            "imagePath": "333.jpg",
             "ingredientsNameID": [
                 "COINTREAU",
                 "CALVADOS",
@@ -2910,7 +2910,7 @@
         },
         {
             "nameID": "TROLL",
-            "imagePath": "Cocktails/troll.png",
+            "imagePath": "troll.jpg",
             "ingredientsNameID": [
                 "AQUAVIT",
                 "CITRON",
@@ -2919,7 +2919,7 @@
         },
         {
             "nameID": "TROUBADOUR",
-            "imagePath": "Cocktails/troubadour.png",
+            "imagePath": "troubadour.jpg",
             "ingredientsNameID": [
                 "LIQUEUR_DE_POIRE_WILLIAM",
                 "CALVADOS",
@@ -2928,7 +2928,7 @@
         },
         {
             "nameID": "TROUBLE_FETE",
-            "imagePath": "Cocktails/trouble_fete.png",
+            "imagePath": "trouble_fete.jpg",
             "ingredientsNameID": [
                 "MEZCAL",
                 "PISANG",
@@ -2937,7 +2937,7 @@
         },
         {
             "nameID": "TRUBLION",
-            "imagePath": "Cocktails/trublion.png",
+            "imagePath": "trublion.jpg",
             "ingredientsNameID": [
                 "CREME_DE_FRAMBOISE",
                 "POMME_VERTE"
@@ -2945,7 +2945,7 @@
         },
         {
             "nameID": "TYPHON",
-            "imagePath": "Cocktails/typhon.png",
+            "imagePath": "typhon.jpg",
             "ingredientsNameID": [
                 "EAU_DE_VIE_DE_POIRE_WILLIAM",
                 "CREME_DE_PECHE_DE_VIGNE",
@@ -2954,7 +2954,7 @@
         },
         {
             "nameID": "UPPERCUT",
-            "imagePath": "Cocktails/uppercut.png",
+            "imagePath": "uppercut.jpg",
             "ingredientsNameID": [
                 "CALVADOS",
                 "CHAMPAGNE",
@@ -2963,7 +2963,7 @@
         },
         {
             "nameID": "VAGABOND",
-            "imagePath": "Cocktails/vagabond.png",
+            "imagePath": "vagabond.jpg",
             "ingredientsNameID": [
                 "CREME_DE_FRAMBOISE",
                 "LIQUEUR_DE_POMME_VERTE",
@@ -2973,7 +2973,7 @@
         },
         {
             "nameID": "VAGUE_A_L'AME",
-            "imagePath": "Cocktails/vague_a_l'ame.png",
+            "imagePath": "vague_a_l'ame.jpg",
             "ingredientsNameID": [
                 "TEQUILA",
                 "LIQUEUR_DE_MERISE",
@@ -2982,7 +2982,7 @@
         },
         {
             "nameID": "VAHINE",
-            "imagePath": "Cocktails/vahine.png",
+            "imagePath": "vahine.jpg",
             "ingredientsNameID": [
                 "RHUM",
                 "LIQUEUR_DANANAS",
@@ -2991,7 +2991,7 @@
         },
         {
             "nameID": "VA_NU_PIED",
-            "imagePath": "Cocktails/va_nu_pied.png",
+            "imagePath": "va_nu_pied.jpg",
             "ingredientsNameID": [
                 "LIQUEUR_DE_FRUITS_EXOTIQUES",
                 "LIQUEUR_DE_CITRON",
@@ -3000,7 +3000,7 @@
         },
         {
             "nameID": "VEAU_QUI_TETE",
-            "imagePath": "Cocktails/veau_qui_tete.png",
+            "imagePath": "veau_qui_tete.jpg",
             "ingredientsNameID": [
                 "LIQUEUR_DE_POMME_VERTE",
                 "CALVADOS",
@@ -3011,7 +3011,7 @@
         },
         {
             "nameID": "VENDETTA",
-            "imagePath": "Cocktails/vendetta.png",
+            "imagePath": "vendetta.jpg",
             "ingredientsNameID": [
                 "BAILEYS",
                 "CALVADOS",
@@ -3020,7 +3020,7 @@
         },
         {
             "nameID": "VERT_GALANT",
-            "imagePath": "Cocktails/vert_galant.png",
+            "imagePath": "vert_galant.jpg",
             "ingredientsNameID": [
                 "RHUM",
                 "PISANG",
@@ -3029,7 +3029,7 @@
         },
         {
             "nameID": "VIKING",
-            "imagePath": "Cocktails/viking.png",
+            "imagePath": "viking.jpg",
             "ingredientsNameID": [
                 "LIQUEUR_DE_MELON",
                 "CALVADOS",
@@ -3038,7 +3038,7 @@
         },
         {
             "nameID": "VODKA_LEMON",
-            "imagePath": "Cocktails/vodka_lemon.png",
+            "imagePath": "vodka_lemon.jpg",
             "ingredientsNameID": [
                 "VODKA",
                 "CITRON",
@@ -3047,7 +3047,7 @@
         },
         {
             "nameID": "VODKA_ORANGE",
-            "imagePath": "Cocktails/vodka_orange.png",
+            "imagePath": "vodka_orange.jpg",
             "ingredientsNameID": [
                 "VODKA",
                 "ORANGE",
@@ -3056,7 +3056,7 @@
         },
         {
             "nameID": "WHISKY_SOUR",
-            "imagePath": "Cocktails/whisky_sour.png",
+            "imagePath": "whisky_sour.jpg",
             "ingredientsNameID": [
                 "WHISKY",
                 "CITRON",
@@ -3065,7 +3065,7 @@
         },
         {
             "nameID": "WHITE_LADY",
-            "imagePath": "Cocktails/white_lady.png",
+            "imagePath": "white_lady.jpg",
             "ingredientsNameID": [
                 "COINTREAU",
                 "COGNAC",
@@ -3074,7 +3074,7 @@
         },
         {
             "nameID": "YOYO_VERDE",
-            "imagePath": "Cocktails/yoyo_verde.png",
+            "imagePath": "yoyo_verde.jpg",
             "ingredientsNameID": [
                 "TEQUILA",
                 "CURACAO_BLEU",
@@ -3084,7 +3084,7 @@
         },
         {
             "nameID": "YUCATAN",
-            "imagePath": "Cocktails/yucatan.png",
+            "imagePath": "yucatan.jpg",
             "ingredientsNameID": [
                 "TEQUILA",
                 "PISANG",
@@ -3094,7 +3094,7 @@
         },
         {
             "nameID": "ZAZOU",
-            "imagePath": "Cocktails/zazou.png",
+            "imagePath": "zazou.jpg",
             "ingredientsNameID": [
                 "CREME_DE_GRIOTTE",
                 "CHAMPAGNE",
@@ -3103,7 +3103,7 @@
         },
         {
             "nameID": "ZEBULON",
-            "imagePath": "Cocktails/zebulon.png",
+            "imagePath": "zebulon.jpg",
             "ingredientsNameID": [
                 "VODKA",
                 "CREME_DE_FRAISE_DES_BOIS",
@@ -3113,7 +3113,7 @@
         },
         {
             "nameID": "ZEPHYR",
-            "imagePath": "Cocktails/zephyr.png",
+            "imagePath": "zephyr.jpg",
             "ingredientsNameID": [
                 "GIN",
                 "CREME_DE_FRAMBOISE",

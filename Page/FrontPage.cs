@@ -17,6 +17,8 @@ namespace AppliLeCrocodile
             Image backgroundImage = new Image();
             backgroundImage.Source = "croco.png";
             backgroundImage.Aspect = Aspect.Fill;
+            backgroundImage.HorizontalOptions = LayoutOptions.Center;
+            backgroundImage.VerticalOptions = LayoutOptions.Start;
 
             grid.Children.Add(backgroundImage);
 
